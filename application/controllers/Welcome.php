@@ -42,6 +42,7 @@ class Welcome extends CI_Controller {
 		$dataHeader["content_trail"] = $this->load->view("content_trail", NULL, TRUE);
 		$dataHeader["slideshow"] = $this->load->view("slideshow", NULL, TRUE);
 		$dataHeader["right_sidebar"] = $this->load->view("right_sidebar", NULL, TRUE);
+        $dataHeader["bodyClasses"] = "homepage news";
 		$this->load->view("header", $dataHeader);
 		$this->load->view('start_page', $data);
 		$this->load->view("footer");

@@ -75,7 +75,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
     <link rel="canonical" href="index.html" />
     <link rel="stylesheet" type="text/css" media="all" href="/static/css/legal/ratingse0ac.css?v=58-103" />
 </head>
-<body class="it-it homepage news">
+<body class="it-it <?php echo $bodyClasses; ?>">
 <script>
     //<![CDATA[
     var dataLayer = [{
@@ -90,7 +90,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
         <div class="grid-container nav-header-content">
             <ul class="nav-list nav-left" id="nav-client-main-menu">
                 <li>
-                    <a id="nav-client-home" class="nav-item nav-home" href="http://eu.battle.net/" data-analytics="global-nav" data-analytics-placement="Nav - Battle.net Icon"></a>
+                    <a id="nav-client-home" class="nav-item nav-home" href="/" data-analytics="global-nav" data-analytics-placement="Nav - Battle.net Icon"></a>
                 </li>
                 <li>
                     <a id="nav-client-shop" class="nav-item nav-link needsclick" href="https://eu.battle.net/shop/" data-analytics="global-nav" data-analytics-placement="Nav - Shop">Negozio</a>
