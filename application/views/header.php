@@ -110,7 +110,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                                 <div class="user-profile">
                                     <div class="dropdown-section">
                                         <div class="nav-box">
-                                            <a class="nav-item nav-btn nav-btn-block nav-login-btn" href="indexd56b.html?login" data-analytics="global-nav" data-analytics-placement="Nav - Account - Log In">Connessione</a>
+                                            <a class="nav-item nav-btn nav-btn-block nav-login-btn" href="/Login" data-analytics="global-nav" data-analytics-placement="Nav - Account - Log In">Connessione</a>
                                         </div>
                                     </div>
                                     <div class="dropdown-section">
@@ -192,7 +192,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                 </li>
             </ul>
             <div class="user-plate">
-                <a href="indexd56b.html?login" class="card-character plate-logged-out" onclick="return Login.open('https://eu.battle.net/login/login.frag');">
+                <a href="/Login" class="card-character plate-logged-out" onclick="return Login.open('/Login');">
                     <span class="card-portrait"></span>
                     <span class="wow-login-key"></span>
                     <span class="login-msg"><strong>Connettiti</strong> per personalizzare il tuo sito!</span>
