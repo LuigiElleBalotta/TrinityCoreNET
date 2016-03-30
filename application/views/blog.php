@@ -1,18 +1,19 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" class="it-it">
 
-<!-- Mirrored from eu.battle.net/wow/it/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Feb 2016 10:52:31 GMT -->
+<!-- Mirrored from eu.battle.net/wow/it/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Feb 2016 10:54:53 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
     <meta http-equiv="imagetoolbar" content="false" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>World of Warcraft</title>
+    <title>Evento bonus: scontri tra mascotte – dal 30 dicembre al 4 gennaio - World of Warcraft</title>
     <link rel="shortcut icon" href="http://eu.battle.net/wow/static/images/meta/favicon.ico?v=58-103" />
     <link rel="search" type="application/opensearchdescription+xml" href="http://eu.battle.net/it-it/data/opensearch" title="Cerca su Battle.net" />
     <link rel="stylesheet" type="text/css" media="all" href="/static/local-common/css/common-game-sitee0ac.css?v=58-103" />
-    <link title="World of Warcraft® - Notizie" href="feed/news" type="application/atom+xml" rel="alternate"/>
+    <link title="World of Warcraft® - Notizie" href="../../feed/news" type="application/atom+xml" rel="alternate"/>
     <link rel="stylesheet" type="text/css" media="all" href="/static/css/wow0290.css?v=103" />
     <link rel="stylesheet" type="text/css" media="all" href="/static/css/nav-client/nav-client-desktop0290.css?v=103" />
     <link rel="stylesheet" type="text/css" media="all" href="/static/css/lightbox0290.css?v=103" />
@@ -33,7 +34,10 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
 //]]>
 </script>
 <![endif]-->
-    <meta name="description" content="Join thousands of mighty heroes in an online world of magic and limitless adventure. World of Warcraft is a role-playing game from Blizzard Entertainment for the PC and Mac." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="<?php echo $title; ?>" />
+    <meta name="twitter:description" content="<?php echo $summary; ?>" />
+    <meta name="twitter:image:src" content="//bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/fe/FE8PSHFCZJZ01438816169989.jpg" />
     <script type="text/javascript">
         //<![CDATA[
         var Core = Core || {},
@@ -57,7 +61,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
         var Flash = Flash || {};
         Flash.videoPlayer = 'http://media.blizzard.com/global-video-player/themes/wow/video-player.swf';
         Flash.videoBase = 'http://media.blizzard.com/wow/media/videos';
-        Flash.ratingImage = '../../../media.blizzard.com/global-video-player/ratings/wow/it-it.jpg';
+        Flash.ratingImage = '../../../../../media.blizzard.com/global-video-player/ratings/wow/it-it.jpg';
         Flash.expressInstall = 'http://media.blizzard.com/global-video-player/expressInstall.swf';
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-544112-16']);
@@ -70,21 +74,22 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
     <meta property="og:site_name" content="World of Warcraft" />
     <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://eu.battle.net/wow/it/" />
+    <meta property="og:url" content="http://eu.battle.net/wow/it/blog/19843702/evento-bonus-scontri-tra-mascotte-dal-30-dicembre-al-4-gennaio-30-12-2015" />
+    <meta property="og:image" content="//bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/fe/FE8PSHFCZJZ01438816169989.jpg" />
     <meta property="og:image" content="http://media.blizzard.com/battle.net/logos/og-wow.png" />
     <meta property="og:image" content="http://media.blizzard.com/battle.net/logos/og-blizzard.png" />
-    <meta property="og:title" content="World of Warcraft" />
-    <meta property="og:description" content="Join thousands of mighty heroes in an online world of magic and limitless adventure. World of Warcraft is a role-playing game from Blizzard Entertainment for the PC and Mac." />
-    <link rel="canonical" href="index.html" />
+    <meta property="og:title" content="<?php echo $title; ?>" />
+    <meta property="og:description" content="<?php echo $description; ?>" />
+    <link rel="canonical" href="<?php echo $description; ?>" />
     <link rel="stylesheet" type="text/css" media="all" href="/static/css/legal/ratingse0ac.css?v=58-103" />
 </head>
-<body class="it-it homepage news">
+<body class="it-it blog-article news">
 <script>
     //<![CDATA[
     var dataLayer = [{
         "authenticated": "0" }];
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
-        "../../../www.googletagmanager.com/gtm5445.html?id="+i+dl;f.parentNode.insertBefore(j,f);})
+        "../../../../../www.googletagmanager.com/gtm5445.html?id="+i+dl;f.parentNode.insertBefore(j,f);})
     (window,document,"script","dataLayer","GTM-M39SFZ");
     //]]>
 </script>
@@ -145,7 +150,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                                 <div class="user-profile">
                                     <div class="dropdown-section">
                                         <div class="nav-box">
-                                            <a class="nav-item nav-btn nav-btn-block nav-login-btn" href="indexd56b.html?login" data-analytics="global-nav" data-analytics-placement="Nav - Account - Log In">Connessione</a>
+                                            <a class="nav-item nav-btn nav-btn-block nav-login-btn" href="https://eu.battle.net/login/it/?ref=http://eu.battle.net/wow/it/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016&amp;app=com-wow" data-analytics="global-nav" data-analytics-placement="Nav - Account - Log In">Connessione</a>
                                         </div>
                                     </div>
                                     <div class="dropdown-section">
@@ -192,42 +197,42 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                 </div>
             </form>
         </div>
-        <h1 id="logo"><a href="index.html">World of Warcraft®</a></h1>
+        <h1 id="logo"><a href="/">World of Warcraft®</a></h1>
         <div class="header-plate">
             <ul class="menu" id="menu">
                 <li class="menu-home" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="index.html" class="menu-active">
+                    <a itemprop="url" href="../../index.html" class="menu-active">
                         <span itemprop="name">Home</span>
                     </a>
                 </li>
                 <li class="menu-game" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="game/index.html">
+                    <a itemprop="url" href="../../game/index.html">
                         <span itemprop="name">Gioco</span>
                     </a>
                 </li>
                 <li class="menu-community" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="community/index.html">
+                    <a itemprop="url" href="../../community/index.html">
                         <span itemprop="name">Comunità</span>
                     </a>
                 </li>
                 <li class="menu-media" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="media/index.html">
+                    <a itemprop="url" href="../../media/index.html">
                         <span itemprop="name">Media</span>
                     </a>
                 </li>
                 <li class="menu-forums" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="forum/index.html">
+                    <a itemprop="url" href="../../forum/index.html">
                         <span itemprop="name">Forum</span>
                     </a>
                 </li>
                 <li class="menu-services" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="shop/index.html">
+                    <a itemprop="url" href="../../shop/index.html">
                         <span itemprop="name">Negozio</span>
                     </a>
                 </li>
             </ul>
             <div class="user-plate">
-                <a href="indexd56b.html?login" class="card-character plate-logged-out" onclick="return Login.open('https://eu.battle.net/login/login.frag');">
+                <a href="https://eu.battle.net/login/it/?ref=http://eu.battle.net/wow/it/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016&amp;app=com-wow" class="card-character plate-logged-out" onclick="return Login.open('https://eu.battle.net/login/login.frag');">
                     <span class="card-portrait"></span>
                     <span class="wow-login-key"></span>
                     <span class="login-msg"><strong>Connettiti</strong> per personalizzare il tuo sito!</span>
@@ -239,389 +244,137 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
         <div class="content-top body-top">
             <div class="content-trail">
                 <ol class="ui-breadcrumb">
-                    <li class="last" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                        <a href="index.html" rel="np" itemprop="url">
+                    <li itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <a href="../../index.html" rel="np" class="breadcrumb-arrow" itemprop="url">
                             <span class="breadcrumb-text" itemprop="name">World of Warcraft</span>
+                        </a>
+                    </li>
+                    <li class="last" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <a href="evento-bonus-scontri-tra-mascotte-17-02-2016" rel="np" itemprop="url">
+                            <span class="breadcrumb-text" itemprop="name"><?php echo $description; ?></span>
                         </a>
                     </li>
                 </ol>
             </div>
-            <div class="content-bot clear">
-
-
-
-
-
-                <div id="slideshow" class="ui-slideshow">
-                    <div class="slideshow">
-
-                        <div class="slide" id="slide-0"
-                             style="background-image: url('/akamaihd_us/cms/carousel_header/KH9U552SXR721450710314836.jpg'); ">
-
-                        </div>
-
-                        <div class="slide" id="slide-1"
-                             style="background-image: url('/akamaihd_us/cms/carousel_header/GGOM7G7BN9A41446847480654.jpg'); display: none;">
-
-                        </div>
-                    </div>
-
-                    <div class="paging">
-                        <a href="javascript:;" class="prev" onclick="Slideshow.prev();"></a>
-                        <a href="javascript:;" class="next" onclick="Slideshow.next();"></a>
-                    </div>
-
-                    <div class="caption">
-                        <h3><a href="javascript:;" class="link" data-analytics="carousel" data-analytics-panel="slot:0 - id:19995929 || Il regalo giusto!">
-                                Il regalo giusto!
-                            </a></h3>
-
-                    </div>
-
-                    <div class="preview"></div>
-                    <div class="mask"></div>
-                </div>
-
-                <script type="text/javascript">
-                    //<![CDATA[
-                    $(function() {
-                        Slideshow.initialize('#slideshow', [
-                            {
-                                image: "//bnetcmsus-a.akamaihd.net/cms/carousel_header/KH9U552SXR721450710314836.jpg",
-                                desc: "",
-                                title: "Il regalo giusto!",
-                                url: "http://eu.battle.net/wow/it/blog/13814764",
-                                id: "19995929",
-                                duration: 7,
-                                page: "homepage"
-                            },
-                            {
-                                image: "//bnetcmsus-a.akamaihd.net/cms/carousel_header/GGOM7G7BN9A41446847480654.jpg",
-                                desc: "",
-                                title: "",
-                                url: "http://blizz.ly/1WBlvSe",
-                                id: "19956711",
-                                duration: 7,
-                                page: "homepage"
-                            }
-                        ]);
-
-                    });
-                    //]]>
-                </script>
-
-                <div class="right-sidebar">
-
-
-
-
-
-
+            <div class="content-bot clear"><div class="right-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
                     <div id="sidebar-marketing" class="sidebar-module">
                         <div class="bnet-offer">
                             <div class="bnet-offer-bg">
-                                <a href="http://warcraft.com/?utm_source=internal&amp;utm_medium=conditional&amp;utm_content=side_ad&amp;utm_campaign=wowtrial_2014" target="_blank" id="ad13150049" class="bnet-offer-image" data-analytics="ad-service-click"
-                                   data-analytics-panel="campaign:13150049 - image:13150030 || Trial-EU2014"
-                                   onclick="Marketing.trackAd('campaignId:13150049 - imgId:13150030', 'Trial-EU2014', 'wow', true);">
-                                    <img src="/akamaihd_us/cms/ad_300x250/2WF02VZOL6191393861563753.jpg" width="300" height="250" alt=""/>
+                                <a href="http://eu.battle.net/wow/shop/recruit-a-friend/" target="_blank" id="ad18966673" class="bnet-offer-image" data-analytics="ad-service-click"
+                                   data-analytics-panel="campaign:18966673 - image:18880912 || Raf3-1_EU"
+                                   onclick="Marketing.trackAd('campaignId:18966673 - imgId:18880912', 'Raf3-1_EU', 'wow', true);">
+                                    <img src="/akamaihd_us/cms/ad_300x250/K4VTA2Z0806W1430325574166.jpg" width="300" height="250" alt=""/>
                                 </a>
                             </div>
                             <script type="text/javascript">
                                 //<![CDATA[
-                                window.dataLayer.push({"analytics.eventPanel": "campaign:13150049 - image:13150030 || Trial-EU2014", "event": "adServiceImpression"});
-                                Marketing.trackAd('campaignId:13150049 - imgId:13150030', 'Trial-EU2014', 'wow');
+                                window.dataLayer.push({"analytics.eventPanel": "campaign:18966673 - image:18880912 || Raf3-1_EU", "event": "adServiceImpression"});
+                                Marketing.trackAd('campaignId:18966673 - imgId:18880912', 'Raf3-1_EU', 'wow');
                                 //]]>
                             </script>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div class="sidebar" id="sidebar">
                         <div class="sidebar-top">
                             <div class="sidebar-bot">
                                 <div class="sidebar-loading" id="sidebar-loading">
                                     Caricamento dei contenuti…
                                 </div>
-
-
-                                <script type="text/javascript">
-                                    //<![CDATA[
-                                    Core.loadDeferredScript('https://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&ActivityID=417046&rnd=' + (Math.random() * 1000000));
-                                    //]]>
-                                </script>
-
-
-
-
-                                <div class="sidebar-module " id="sidebar-social-media">
-                                    <div class="sidebar-title">
-
-
-                                        <h3 class="header-3 title-social-media" >
-                                            Resta sintonizzato
-
-
-
-                                        </h3>
-                                    </div>
-
-                                    <div class="sidebar-content">
-
-
-                                        <ul class="social-media">
-                                            <li class="atom-feed">
-                                                <a href="feed/news" target="_blank"></a>
-                                            </li>
-
-
-                                            <li class="facebook">
-                                                <a href="https://www.facebook.com/WorldofWarcraft.it" title="World of Warcraft su Facebook"></a>
-                                            </li>
-
-
-                                            <li class="twitter">
-                                                <a href="http://twitter.com/warcraft" title="World of Warcraft su Twitter"></a>
-                                            </li>
-
-
-                                            <li class="youtube">
-                                                <a href="https://www.youtube.com/WorldofWarcraftIT" title="World of Warcraft su Youtube"></a>
-                                            </li>
-
-
-                                            <li class="reddit">
-                                                <a href="http://www.reddit.com/r/wow" title="World of Warcraft on reddit"></a>
-                                            </li>
-
-
-                                            <span class="clear"><!-- --></span>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div id="fb-root"></div>
-
                                 <div id="dynamic-sidebar-target"></div>
                             </div>
                         </div>
                     </div>
-
                     <script type="text/javascript">
                         //<![CDATA[
                         $(function() {
                             Sidebar.sidebar([
-                                { "type": "expansion", "query": "" },
-                                { "type": "under-dev", "query": "" },
-                                { "type": "gear-store", "query": "" },
-                                { "type": "sotd", "query": "" },
-                                { "type": "blizzard-posts", "query": "" }
+                                { "type": "recent-articles", "query": "?id=19843702" }
                             ]);
                         });
                         //]]>
                     </script>
-
                 </div>
-                <div class="left-content" itemscope="itemscope" itemtype="http://schema.org/WebPageElement">
-                    <div class= "left-content-inner">
-
-                        <div class="featured-news-container">
-                            <ul class="featured-news">
-                                <?php
-                                $blogsArray = json_decode($blogs, true);
-                                $counter = 0;
-                                for($i = 0; $i < 3; $i++)
-                                {
-                                    if($counter <= count($blogsArray)) {
-                                        if ($blogsArray[$counter]["isPinned"] == 1) {
-                                            ?>
-                                            <li>
-                                                <div class="article-wrapper" >
-                                                    <a href="blog/index/<?php echo $blogsArray[$counter]["id"]."/".$blogsArray[$counter]["link_rewrite"]; ?>" class="featured-news-link"
-                                                       data-category="wow"
-                                                       data-action="Blog_Click-Throughs"
-                                                       data-label="home 0 - eu - 19990667 - 19992979"
-                                                       data-analytics="sticky-blog" data-analytics-panel="page:home - slot:0 - blog:19990667 - image:19992979 || Gli oggetti dell&#39;Edizione digitale deluxe di Warlords of Draenor tornano per un tempo limitato">
-                                                        <div class="article-image" style="background-image:url(/akamaihd_us/cms/blog_thumbnail/dx/DXGB9F3XA8TN1450200643393.jpg)">
-                                                            <div class="article-image-frame"></div>
-                                                        </div>
-                                                        <div class="article-content">
-                                                            <span class="article-title" title="<?php echo $blogsArray[$counter]["title"]; ?>"><?php echo $blogsArray[$counter]["title"]; ?></span>
-                                                            <span class="article-summary"><?php echo $blogsArray[$counter]["summary"]; ?></span>
-                                                        </div>
-                                                    </a>
-                                                    <div class="article-meta">
-                                                        <a href="blog/index/<?php echo $blogsArray[$counter]["id"]."/".$blogsArray[$counter]["link_rewrite"]; ?>#comments" class="comments-link"
-                                                           data-analytics="sticky-blog" data-analytics-panel="page:home - slot:0 - blog:19990667 - image:19992979 - comments:1 || <?php echo $blogsArray[$counter]["title"]; ?>">
-                                                            1</a>
-                                                        <span class="publish-date" title="<?php echo $blogsArray[$counter]["date"]; ?>"><?php echo str_replace("-", "/", $blogsArray[$counter]["amd"]); ?></span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <?php
-                                        }
-                                        $counter++;
-                                    }
-                                    else
-                                        $i = 3;
-                                }
-                                ?>
-                            </ul>
+                <div class="left-content">
+                    <div id="blog" class="article-wrapper" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+                        <h2 class="header-2" > <span itemprop="headline"><?php echo $title; ?></span>
+                        </h2>
+                        <div class="article-meta">
+                            <a class="article-author" href="../../searchdd2f?a=Kaivax&amp;f=article">
+                                <span class="author-icon"></span>
+                                <span itemprop="author">Kaivax</span>
+                            </a>
+<span class="publish-date" title="<?php echo $date; ?>">
+<?php echo str_replace("-", "/", $amd); ?>
+</span>
+                            <a href="#comments" class="comments-link">1</a>
                         </div>
-                        <span class="clear"><!-- --></span>
-                        <div id="blog-articles" class="blog-articles" itemscope="itemscope" itemtype="http://schema.org/Blog">
-                            <div class="article-wrapper">
-                                <a href="blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" itemprop="url">
-                                    <div class="article-image" style="background-image:url(/akamaihd_us/cms/blog_thumbnail/fe/FE8PSHFCZJZ01438816169989.jpg)">
-                                        <div class="article-image-frame"></div>
-                                    </div>
-                                    <div class="article-content" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
-                                        <h2 class="header-2" >
-                                            <span class="article-title" itemprop="headline">
-                                                Evento bonus: scontri tra mascotte
-                                            </span>
-                                        </h2>
-                                        <span class="clear"><!-- --></span>
-                                        <div class="article-summary" itemprop="description">
-                                            Non c&#39;è mai stato un momento migliore per andare là fuori a far salire di livello le vostre possenti mascotte!
-                                        </div>
-                                        <span class="clear"><!-- --></span>
-                                        <meta itemprop="datePublished" content="2016-02-17T08:00:00+01" />
-                                        <meta itemprop="dateModified" content="2016-02-17T08:00:00+01" />
-                                        <meta itemprop="inLanguage" content="it-IT" />
-                                        <meta itemprop="interactionCount" content="UserComments:1" />
-                                        <meta itemprop="thumbnailUrl" content="//bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/fe/FE8PSHFCZJZ01438816169989.jpg" />
-                                    </div>
-                                </a>
-                                <div class="article-meta">
-                                    <span class="publish-date" title="17 feb 2016 08:00 CET">
-				                        3 ore fa
-		                            </span>
-                                    <a href="blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016#comments" class="comments-link">1</a>
-                                </div>
-                                <span class="clear"><!-- --></span>
-                            </div>
-
-                            <?php
-                            for($i = 0; $i < count($blogsArray); $i++) {
+                        <meta itemprop="datePublished" content="<?php echo $date; ?>" />
+                        <meta itemprop="dateModified" content="<?php echo $last_modify; ?>" />
+                        <meta itemprop="inLanguage" content="it-IT" />
+                        <meta itemprop="interactionCount" content="UserComments:1" />
+                        <meta itemprop="thumbnailUrl" content="//bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/fe/FE8PSHFCZJZ01438816169989.jpg" />
+                        <div class="article-content">
+                            <div class="header-image"><img itemprop="image" alt="Evento bonus: scontri tra mascotte – dal 30 dicembre al 4 gennaio" src="/akamaihd_us/cms/blog_header/ag/AGYKIJG3BL4Y1438816190832.jpg" /></div>
+                            <div class="detail" itemprop="articleBody">
+                                <?php
+                                echo $content;
                                 ?>
-                                <div class="article-wrapper">
-                                    <a href="blog/index/<?php echo $blogsArray[$i]["id"]."/".$blogsArray[$i]["link_rewrite"]; ?>" itemprop="url">
-                                        <div class="article-image"
-                                             style="background-image:url(/akamaihd_us/cms/blog_thumbnail/fe/FE8PSHFCZJZ01438816169989.jpg)">
-                                            <div class="article-image-frame"></div>
-                                        </div>
-                                        <div class="article-content" itemprop="blogPost" itemscope="itemscope"
-                                             itemtype="http://schema.org/BlogPosting">
-                                            <h2 class="header-2">
-                                            <span class="article-title" itemprop="headline">
-                                                <?php echo $blogsArray[$i]["title"]; ?>
-                                            </span>
-                                            </h2>
-                                            <span class="clear"><!-- --></span>
-
-                                            <div class="article-summary" itemprop="description">
-                                                <?php echo $blogsArray[$i]["summary"]; ?>
-                                            </div>
-                                            <span class="clear"><!-- --></span>
-                                            <meta itemprop="datePublished" content="<?php echo $blogsArray[$i]["date"]; ?>"/>
-                                            <meta itemprop="dateModified" content="<?php echo $blogsArray[$i]["last_modify"]; ?>"/>
-                                            <meta itemprop="inLanguage" content="it-IT"/>
-                                            <meta itemprop="interactionCount" content="UserComments:1"/>
-                                            <meta itemprop="thumbnailUrl"
-                                                  content="//bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/fe/FE8PSHFCZJZ01438816169989.jpg"/>
-                                        </div>
-                                    </a>
-
-                                    <div class="article-meta">
-                                    <span class="publish-date" title="<?php echo $blogsArray[$i]["date"]; ?>">
-				                        <?php
-                                            $datenow = time();
-                                            $date = new DateTime($blogsArray[$i]["date"]);
-                                            $timestampCreation = $date->getTimestamp();
-                                            $diff = $datenow - $timestampCreation;
-                                            if($diff/60 > 1 && $diff/3600 < 1 )
-                                                echo floor(round($diff/60, PHP_ROUND_HALF_UP)) . " minuti fa.";
-                                            else
-                                                if($diff/3600 > 1 && $diff/86400 < 1)
-                                                    echo floor(round($diff/3600, PHP_ROUND_HALF_UP)) . " ore fa.";
-                                                else
-                                                    if($diff/86400 > 1 && $diff/604800 < 1)
-                                                        echo floor(round($diff/86400, PHP_ROUND_HALF_UP)) . " giorni fa.";
-                                                    else
-                                                        if($diff/604800 > 1 && $diff/2592000 < 1)
-                                                            echo floor(round($diff/604800, PHP_ROUND_HALF_UP)) . " settimane fa.";
-                                                        else
-                                                            if($diff/2592000 > 1 && $diff/31536000 < 1)
-                                                                echo floor(round($diff/604800, PHP_ROUND_HALF_UP)) . " mesi fa.";
-                                                            else
-                                                                if($diff/31536000 > 1)
-                                                                    echo floor(round($diff/604800, PHP_ROUND_HALF_UP)) . " anni fa.";
-                                                                else
-                                                                    echo "error calculating time diff";
-                                        ?>
-		                            </span>
-                                        <a href="blog/index/<?php echo $blogsArray[$i]["id"]."/".$blogsArray[$i]["link_rewrite"]; ?>#comments"
-                                           class="comments-link">1</a>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="community-share">
+                            <div class="share-wrapper">
+                                <div class="share-links">
+                                    <a class="facebook"
+                                       href="https://www.facebook.com/sharer.php?u=<?php echo base_url()."blog/index/".$id."/".$link_rewrite; ?>"
+                                       onclick="Core.trackEvent('wow- SNS', 'Sharing - Facebook', 'blog 19843702 - it-it'); window.open(this.href,'','height=450,width=550').focus(); return false;"
+                                       title="Facebook"></a>
+                                    <a class="twitter"
+                                       href="http://twitter.com/share?<?php echo base_url()."blog/index/".$id."/".$link_rewrite; ?>"
+                                       onclick="Core.trackEvent('wow- SNS', 'Sharing - Twitter', 'blog 19843702 - it-it'); window.open(this.href,'','height=450,width=550').focus(); return false;"
+                                       title="Twitter"></a>
+                                    <a class="reddit"
+                                       href="http://www.reddit.com/submit?url=<?php echo base_url()."blog/index/".$id."/".$link_rewrite; ?>"
+                                       onclick="Core.trackEvent('wow- SNS', 'Sharing - Reddit', 'blog 19843702 - it-it'); window.open(this.href,'','height=auto,width=auto').focus(); return false;"
+                                       title="Reddit"></a>
                                     <span class="clear"><!-- --></span>
                                 </div>
-                                <?php
-                            }
-                            ?>
-
-
-
-                        <div class="blog-load-more">
-                            <a class="load-more" id="load-more" href="javascript:;">Espandi</a>
+                                <span class="share-title">Condividi:</span>
+                            </div>
+                            <div class="like-wrapper">
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo base_url()."blog/index/".$id."/".$link_rewrite; ?>" data-lang="it" data-text="<?php echo $title; ?>" data-hashtags="wow">Tweet</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="../../../../../platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                            </div>
+                            <script type="text/javascript">
+                                //<![CDATA[
+                                Core.appendFrame("https://www.facebook.com/plugins/like.php?href=<?php echo base_url()."blog/index/".$id."/".$link_rewrite; ?>&amp;layout=button_count&amp;show_faces=false&amp;width=200&amp;height=20&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;locale=it_IT", 200, 20, $('.like-wrapper'), "facebook-like");
+                                //]]>
+                            </script>
                             <span class="clear"><!-- --></span>
                         </div>
-
+                        <div class="keyword-list">
+                        </div>
+                    </div>
+                    <div id="comments" class="bnet-comments ">
+                        <h2 class="subheader-2" >Carico i commenti…</h2>
+                        <h2 class="hide" >Si è verificato un errore nel caricare i commenti.</h2>
+                        <div class="comments-loading"></div>
+                        <script type="text/javascript">
+                            //<![CDATA[
+                            $(function() {
+                                Comments.initialize('eu.it_it.blog.<?php echo $id; ?>', '7476590b05777e6983daad8f78e90674', '0');
+                            });
+                            //]]>
+                        </script>
                     </div>
                 </div>
-
                 <span class="clear"><!-- --></span>
-
                 <script type="text/javascript">
                     //<![CDATA[
-                    $(function(){
-
-                        Blog.init({
-                            loadMore: true,
-                            loadMorePath: "/wow/it/blog/infinite",
-                            loadMoreArticleTarget: "#blog-articles",
-                            loadMoreArticleType: "blog",
-                            loadMoreArticleLimit: 11
-                        });
-
+                    $(function() {
+                        Blog.init();
                     });
                     //]]>
-                </script>
-            </div>
+                </script></div>
         </div>
     </div>
     <div class="nav-footer-wrapper">
@@ -661,72 +414,72 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                                                         <div class="region region-languages " data-region="us">
                                                             <ul class="region-ul">
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/en-us/" data-target="us" data-language="en-us">English (US)</a>
+                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/en-us/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="us" data-language="en-us">English (US)</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/es-mx/" data-target="us" data-language="es-mx">Español (AL)</a>
+                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/es-mx/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="us" data-language="es-mx">Español (AL)</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/pt-br/" data-target="us" data-language="pt-br">Português (AL)</a>
+                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/pt-br/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="us" data-language="pt-br">Português (AL)</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/ja-jp/" data-target="us" data-language="ja-jp">日本</a>
+                                                                    <a class="nav-item select-language" href="http://us.battle.net/wow/ja-jp/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="us" data-language="ja-jp">日本</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div class="region region-languages active current" data-region="eu">
                                                             <ul class="region-ul">
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/de-de/" data-target="eu" data-language="de-de">Deutsch</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/de-de/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="de-de">Deutsch</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/en-gb/" data-target="eu" data-language="en-gb">English (EU)</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/en-gb/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="en-gb">English (EU)</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/es-es/" data-target="eu" data-language="es-es">Español (EU)</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/es-es/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="es-es">Español (EU)</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/fr-fr/" data-target="eu" data-language="fr-fr">Français</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/fr-fr/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="fr-fr">Français</a>
                                                                 </li>
                                                                 <li class="active current">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/it-it/" data-target="eu" data-language="it-it">Italiano</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/it-it/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="it-it">Italiano</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/pl-pl/" data-target="eu" data-language="pl-pl">Polski</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/pl-pl/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="pl-pl">Polski</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/pt-br/" data-target="eu" data-language="pt-br">Português (AL)</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/pt-br/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="pt-br">Português (AL)</a>
                                                                 </li>
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/ru-ru/" data-target="eu" data-language="ru-ru">Русский</a>
+                                                                    <a class="nav-item select-language" href="http://eu.battle.net/wow/ru-ru/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="eu" data-language="ru-ru">Русский</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div class="region region-languages " data-region="kr">
                                                             <ul class="region-ul">
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://kr.battle.net/wow/ko-kr/" data-target="kr" data-language="ko-kr">한국어</a>
+                                                                    <a class="nav-item select-language" href="http://kr.battle.net/wow/ko-kr/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="kr" data-language="ko-kr">한국어</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div class="region region-languages " data-region="tw">
                                                             <ul class="region-ul">
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://tw.battle.net/wow/zh-tw/" data-target="tw" data-language="zh-tw">繁體中文</a>
+                                                                    <a class="nav-item select-language" href="http://tw.battle.net/wow/zh-tw/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="tw" data-language="zh-tw">繁體中文</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div class="region region-languages " data-region="cn">
                                                             <ul class="region-ul">
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://www.battlenet.com.cn/wow/" data-target="cn" data-language="zh-cn">简体中文</a>
+                                                                    <a class="nav-item select-language" href="http://www.battlenet.com.cn/wow/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="cn" data-language="zh-cn">简体中文</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div class="region region-languages " data-region="sea">
                                                             <ul class="region-ul">
                                                                 <li class="">
-                                                                    <a class="nav-item select-language" href="http://sea.battle.net/wow/en-us/" data-target="sea" data-language="en-us">English (US)</a>
+                                                                    <a class="nav-item select-language" href="http://sea.battle.net/wow/en-us/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016" data-target="sea" data-language="en-us">English (US)</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -930,9 +683,9 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
     //<![CDATA[
     (function() {
         var ga = document.createElement('script');
-        var src = "../../../ssl.google-analytics.com/ga.js";
+        var src = "../../../../../ssl.google-analytics.com/ga.js";
         if ('http:' == document.location.protocol) {
-            src = "../../../www.google-analytics.com/ga.js";
+            src = "../../../../../www.google-analytics.com/ga.js";
         }
         ga.type = 'text/javascript';
         ga.setAttribute('async', 'true');
@@ -955,5 +708,5 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
 </script>
 </body>
 
-<!-- Mirrored from eu.battle.net/wow/it/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Feb 2016 10:52:46 GMT -->
+<!-- Mirrored from eu.battle.net/wow/it/blog/19843702/evento-bonus-scontri-tra-mascotte-17-02-2016 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Feb 2016 10:54:54 GMT -->
 </html>
