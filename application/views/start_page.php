@@ -7,41 +7,37 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <ul class="featured-news">
                 <?php
                 $blogsArray = json_decode($blogs, true);
-                $counter = 0;
-                for($i = 0; $i < 3; $i++)
+                $featuredNewsFound = 0;
+                for($i = 0; $featuredNewsFound < 3 /*to find*/; $i++)
                 {
-                    if($counter <= count($blogsArray)) {
-                        if ($blogsArray[$counter]["isPinned"] == 1) {
-                            ?>
-                            <li>
-                                <div class="article-wrapper" >
-                                    <a href="blog/index/<?php echo $blogsArray[$counter]["id"]."/".$blogsArray[$counter]["link_rewrite"]; ?>" class="featured-news-link"
-                                       data-category="wow"
-                                       data-action="Blog_Click-Throughs"
-                                       data-label="home 0 - eu - 19990667 - 19992979"
-                                       data-analytics="sticky-blog" data-analytics-panel="page:home - slot:0 - blog:19990667 - image:19992979 || Gli oggetti dell&#39;Edizione digitale deluxe di Warlords of Draenor tornano per un tempo limitato">
-                                        <div class="article-image" style="background-image:url(/akamaihd_us/cms/blog_thumbnail/dx/DXGB9F3XA8TN1450200643393.jpg)">
-                                            <div class="article-image-frame"></div>
-                                        </div>
-                                        <div class="article-content">
-                                            <span class="article-title" title="<?php echo $blogsArray[$counter]["title"]; ?>"><?php echo $blogsArray[$counter]["title"]; ?></span>
-                                            <span class="article-summary"><?php echo $blogsArray[$counter]["summary"]; ?></span>
-                                        </div>
-                                    </a>
-                                    <div class="article-meta">
-                                        <a href="blog/index/<?php echo $blogsArray[$counter]["id"]."/".$blogsArray[$counter]["link_rewrite"]; ?>#comments" class="comments-link"
-                                           data-analytics="sticky-blog" data-analytics-panel="page:home - slot:0 - blog:19990667 - image:19992979 - comments:1 || <?php echo $blogsArray[$counter]["title"]; ?>">
-                                            1</a>
-                                        <span class="publish-date" title="<?php echo $blogsArray[$counter]["date"]; ?>"><?php echo str_replace("-", "/", $blogsArray[$counter]["amd"]); ?></span>
+                    if ($blogsArray[$i]["isPinned"] == 1) {
+                        $featuredNewsFound++;
+                        ?>
+                        <li>
+                            <div class="article-wrapper" >
+                                <a href="blog/index/<?php echo $blogsArray[$i]["id"]."/".$blogsArray[$i]["link_rewrite"]; ?>" class="featured-news-link"
+                                   data-category="wow"
+                                   data-action="Blog_Click-Throughs"
+                                   data-label="home 0 - eu - 19990667 - 19992979"
+                                   data-analytics="sticky-blog" data-analytics-panel="page:home - slot:0 - blog:19990667 - image:19992979 || Gli oggetti dell&#39;Edizione digitale deluxe di Warlords of Draenor tornano per un tempo limitato">
+                                    <div class="article-image" style="background-image:url(/akamaihd_us/cms/blog_thumbnail/dx/DXGB9F3XA8TN1450200643393.jpg)">
+                                        <div class="article-image-frame"></div>
                                     </div>
+                                    <div class="article-content">
+                                        <span class="article-title" title="<?php echo $blogsArray[$i]["title"]; ?>"><?php echo $blogsArray[$i]["title"]; ?></span>
+                                        <span class="article-summary"><?php echo $blogsArray[$i]["summary"]; ?></span>
+                                    </div>
+                                </a>
+                                <div class="article-meta">
+                                    <a href="blog/index/<?php echo $blogsArray[$i]["id"]."/".$blogsArray[$i]["link_rewrite"]; ?>#comments" class="comments-link"
+                                       data-analytics="sticky-blog" data-analytics-panel="page:home - slot:0 - blog:19990667 - image:19992979 - comments:1 || <?php echo $blogsArray[$i]["title"]; ?>">
+                                        1</a>
+                                    <span class="publish-date" title="<?php echo $blogsArray[$i]["date"]; ?>"><?php echo str_replace("-", "/", $blogsArray[$i]["amd"]); ?></span>
                                 </div>
-                            </li>
-                            <?php
-                        }
-                        $counter++;
+                            </div>
+                        </li>
+                        <?php
                     }
-                    else
-                        $i = 3;
                 }
                 ?>
             </ul>

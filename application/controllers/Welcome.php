@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$query = $this->db->query("SELECT id, title, summary, date, last_modify, link_rewrite, isPinned FROM blog;");
+		$query = $this->db->query("SELECT id, title, summary, date, last_modify, link_rewrite, isPinned FROM blog ORDER BY date DESC;");
 		$blogsArray = array();
 		$counter = 0;
 		foreach($query->result() as $row)
