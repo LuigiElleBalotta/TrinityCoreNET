@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/* layout */
+.talentcalc-tree-wrapper { float: left; width: 228px; margin-right: 25px; position: relative; }
+.talentcalc-tree-wrapper.tree-last { margin-right: 0 !important; }
+.talentcalc-tree-wrapper.tree-specialization .talentcalc-tree-header .icon .frame { background-position: 0 -50px; }
+.talentcalc-pet .talentcalc-tree-wrapper { margin-right: 0 !important; }
+
+/* choose a spec text */
+.talentcalc-choosetext { font-size: 22px; text-align: center; margin-bottom: 25px; }
+
+/* tree header */
+.talentcalc-tree-header { height: 40px; margin-top: 4px; margin-bottom: 8px; }
+.talentcalc-tree-header .points, .talentcalc-tree-header .name { float: left; height: 32px; line-height: 32px; }
+.talentcalc-tree-header .icon { float: left; margin-right: 12px; }
+.talentcalc-tree-header .icon-frame-treeheader { display: block; width: 32px; height: 32px; position: relative;  }
+.talentcalc-tree-header .icon-frame-treeheader img { display: block; width: 26px; height: 26px; padding: 3px 0 0 3px; }
+.talentcalc-tree-header .icon-frame-treeheader .frame { position: absolute; left: -9px; top: -9px; width: 50px; height: 50px; background: url("../../images/tool/talent-calculator/tree-icon-frame.png") left top no-repeat; }
+.talentcalc-tree-header .points { font-size: 16px; color: white; margin-right: 8px; }
+.talentcalc-tree-header .name { font-size: 16px; width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.talentcalc-tree-header .roles { display: block; position: absolute; left: 3px; top: 19px; width: 32px; height: 16px; }
+
+/* tree */
+.talentcalc-tree { position: relative; background: black left top no-repeat; border: 1px solid black; }
+.talentcalc-tree, .talentcalc-tree-overview { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.talentcalc-tree-wrapper.tree-specialization .talentcalc-tree,
+.talentcalc-tree-wrapper.tree-specialization .talentcalc-tree-overview { border: 1px solid #ffd200; }
+
+/* tree button */
+.talentcalc-tree-button { position: absolute; left: 0; top: 2px; }
+.talentcalc-tree-button button span span { width: 174px; }
+
+/* tree overview */
+.talentcalc-tree-overview { position: absolute; left: 0; top: 52px; border: 1px solid black; background: rgba(0, 0, 0, 0.9); z-index: 1; }
+.talentcalc-tree-overview .icon-wrapper { position: absolute; width: 1px; height: 1px; left: 50%; top: 0; }
+.talentcalc-tree-overview .icon-wrapper .icon { position: absolute; left: -28px; top: 30px; }
+.talentcalc-tree-overview .icon-wrapper .icon,
+.talentcalc-tree-overview .icon-wrapper .texture { width: 56px; height: 56px; -moz-border-radius: 28px; -webkit-border-radius: 28px; border-radius: 28px; }
+.talentcalc-tree-overview .icon-wrapper .texture { display: block; background: center center no-repeat; }
+.talentcalc-tree-overview .icon-wrapper .frame { position: absolute; left: -4px; top: -4px; width: 64px; height: 64px; background: url("../../images/tool/talent-calculator/tree-overview-icon-frame.png") no-repeat; }
+.talentcalc-tree-overview ul.spells { position: absolute; left: 20px; top: 100px; }
+.talentcalc-tree-overview ul.spells li { line-height: 22px; padding: 3px 0; color: #F5EBD1; cursor: help; }
+.talentcalc-tree-overview ul.spells li.is-ability { line-height: 48px; font-weight: bold; }
+.talentcalc-tree-overview ul.spells .icon, .talentcalc-tree-overview ul.spells .name { float: left; height: 22px; }
+.talentcalc-tree-overview ul.spells .icon { margin-right: 5px; }
+.talentcalc-tree-overview ul.spells li.is-ability .icon { margin-right: 2px; }
+.talentcalc-tree-overview ul.spells li.is-ability .icon, .talentcalc-tree-overview ul.spells li.is-ability .name { height: 48px; }
+.talentcalc-tree-overview ul.spells .icon-frame-ability { float: left; position: relative; width: 43px; height: 48px; }
+.talentcalc-tree-overview ul.spells .icon-frame-ability img { display: block; width: 28px; height: 28px; padding: 10px 0 0 5px; }
+.talentcalc-tree-overview ul.spells .icon-frame-ability .frame { position: absolute; left: -5px; top: 0; width: 48px; height: 48px; background: url("../../images/tool/talent-calculator/tree-overview-icon-ability-frame.png") no-repeat; }
+.talentcalc-tree-overview ul.spells .name { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 160px; }
+.talentcalc-tree-overview .description { position: absolute; left: 20px; top: 300px; color: #F5EBD1; font-size: 11px; width: 188px; height: 75px; overflow: hidden; text-overflow: ellipsis; }
+
+.talentcalc-tree-wrapper.tree-nonspecialization .talentcalc-tree-overview ul.spells li,
+.talentcalc-tree-wrapper.tree-nonspecialization .talentcalc-tree-overview .description { color: #8d8d8d; }
+.talentcalc-tree-wrapper.tree-nonspecialization .talentcalc-tree-overview ul.spells li .icon .icon-frame-ability .frame { background-position: -48px 0; }
+
+/* cells */
+.talentcalc-cells-wrapper { position: absolute; left: 8px; top: 8px; }
+
+/* cell */
+.talentcalc-cell { position: absolute; width: 53px; height: 53px; }
+
+	/* icon */
+	.talentcalc-cell .icon { position: absolute; left: 8px; top: 8px; width: 36px; height: 36px; border: 1px solid #545557; }
+	.talentcalc-cell .icon .texture { display: block; width: 36px; height: 36px; background: no-repeat; }
+	.talentcalc-cell .icon .ability { position: absolute; left: -9px; top: -9px; width: 54px; height: 54px; background: url("../../images/tool/talent-calculator/icon-frame-ability.png") no-repeat -54px 0; }
+	.talentcalc-cell .icon .frame { position: absolute; left: -6px; top: -5px; width: 47px; height: 46px; background: url("../../images/tool/talent-calculator/icon-frame.png") no-repeat; }
+	.talentcalc-cell.talent-partial .icon .texture,
+	.talentcalc-cell.talent-full .icon .texture { display: none; }
+	.talentcalc-cell.talent-partial .icon .ability,
+	.talentcalc-cell.talent-full .icon .ability { background-position: 0 0; }
+	.talentcalc-cell.talent-partial .icon { border-color: #17c815; }
+	.talentcalc-cell.talent-partial .icon .frame { background-position: -47px top; }
+	.talentcalc-cell.talent-full .icon { border-color: #c7a200; } 
+	.talentcalc-cell.talent-full .icon .frame { background-position: -94px top; }
+	
+	/* points */
+	.talentcalc-cell .points { position: absolute; left: 37px; top: 34px; width: 14px; height: 15px; line-height: 14px; display: none; font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; border: 1px solid #545557; text-align: center; background: black; }
+	.talentcalc-cell .points .frame { position: absolute; left: -4px; top: -4px; width: 22px; height: 22px; background: url("../../images/tool/talent-calculator/points-frame.png") no-repeat; }
+	.talentcalc-cell.talent-partial .points { display: block; border-color: #17c815; color: #6fff5b; }
+	.talentcalc-cell.talent-partial .points .frame { }
+	.talentcalc-cell.talent-full .points { display: block; border-color: #c7a200; color: #ffd200; }
+	.talentcalc-cell.talent-full .points .frame { background-position: -22px top;  }
+	
+	/* arrow */
+	.talentcalc-cell .arrow { position: absolute; }
+	.talentcalc-cell .arrow ins { position: absolute; top: 0; width: 37px; height: 100%; background: url("../../images/tool/talent-calculator/arrow-down.png") no-repeat; }
+	.talentcalc-cell .arrow em { position: absolute; left: 0; top: -20px; width: 100%; height: 20px; background: url("../../images/tool/talent-calculator/arrow-corner.png") no-repeat; }
+	
+	.talentcalc-cell .arrow-down { background: url("../../images/tool/talent-calculator/arrow-down.png") 13px bottom no-repeat; }
+	.talentcalc-cell.talent-arrow .arrow-down { background-position: -37px bottom; }
+	
+	.talentcalc-cell .arrow-left { background: url("../../images/tool/talent-calculator/arrow-horiz.png") left 12px no-repeat; }
+	.talentcalc-cell.talent-arrow .arrow-left { background-position: left -38px; }
+	
+	.talentcalc-cell .arrow-right { background: url("../../images/tool/talent-calculator/arrow-horiz.png") right 12px no-repeat; }
+	.talentcalc-cell.talent-arrow .arrow-right { background-position: right -38px; }
+	
+	.talentcalc-cell .arrow-left-down ins { left: 0; background-position: 13px bottom; }
+	.talentcalc-cell.talent-arrow .arrow-left-down ins { background-position: -37px bottom; }
+	.talentcalc-cell .arrow-left-down em { background-position: left 12px; }
+	.talentcalc-cell.talent-arrow .arrow-left-down em { background-position: left -38px; }
+	
+	.talentcalc-cell .arrow-right-down ins { right: 0; background-position: 11px bottom; }
+	.talentcalc-cell.talent-arrow .arrow-right-down ins { background-position: -39px bottom; }
+	.talentcalc-cell .arrow-right-down em { background-position: right 12px; }
+	.talentcalc-cell.talent-arrow .arrow-right-down em { background-position: right -38px; }
+
+	/* interact area */
+	.talentcalc-cell a.interact { position: absolute; left: 7px; top: 7px; width: 40px; height: 40px; cursor: default; }
+	.talentcalc-cell a.interact .hover { display: block; width: 36px; height: 36px; margin: 2px 0 0 2px; }
+	.talentcalc-cell a.interact:hover .hover { background-color: rgba(255, 255, 255, 0.2); }
+	.talentcalc-cell.talent-partial a.interact,
+	.talentcalc-cell.talent-full a.interact { cursor: pointer; }
+	.talentcalc-locked .talentcalc-cell a.interact { cursor: default; }
+
+.talentcalc-top { margin-bottom: 20px; clear: both; padding: 0 0 5px 0; }
+.talentcalc-bottom { margin-top: 20px; clear: both; padding: 10px 0; border-top: 1px solid #2b190e; }
+.talentcalc-top .talentcalc-info .buttons{ float: right; padding-top: 15px; }
+.talentcalc-top .export,
+.talentcalc-top .calcmode,
+.talentcalc-top .reset { margin: 0 10px; }
+.talentcalc-top .export { height: 30px; line-height: 29px; }
+.talentcalc-top .classlist{ margin-right: 20px; height: 50px; line-height: 50px; font-size: 50px; }
+
+.talentcalc-top .reset .icon { display: inline-block; width: 15px; height: 15px; padding: 0; vertical-align: middle; background: url("../../images/tool/talent-calculator/icons.gif") -400px -1px no-repeat; margin: 0; }
+	
+/* info */
+.talentcalc-info { color: #855b47; }
+.talentcalc-info div { display: inline-block; margin-right: 30px; }
+.talentcalc-info .value { color: #e9bd7f; font-family: Arial, sans-serif; font-weight: normal; }
+.talentcalc-info span ins { color: #855b47; padding-left: 3px; font-weight: normal; text-decoration: none; }
+.talentcalc-top .export a,
+.talentcalc-top .calcmode a,
+.talentcalc-info .print a { background: url("../../images/tool/talent-calculator/icons.gif") 0 -1px no-repeat; padding-left: 20px; }
+.talentcalc-top .export a { background-position: -200px -26px; }
+.talentcalc-info .print a { background-position: -400px -26px; }
+.talentcalc-info .third-party { height: 21px; padding-top: 5px; }
+.talentcalc-bottom .beastmastery { color: #855b47; float: left; }
+.talentcalc-bottom .beastmastery input,
+.talentcalc-bottom .beastmastery .icon-frame { vertical-align: middle; }
+.talentcalc-bottom .beastmastery .icon-frame { margin-right: 3px; }
+
+.talentcalc-info .classlist{ padding-right: 20px; border-right: 1px solid #2b190e; }
+
+/* popup */
+.talentcalc-popup label { display: block; margin-bottom: 2px; font-weight: bold; }
+.talentcalc-popup .input { width: 98%; }
+.talentcalc-popup .notice { color: #A4704E; margin-top: 5px; }
+
+/* MoP calculator */
+.talent-calculator { }
+.talent-calculator-header { padding: 15px 0 25px 0; }
+.talent-calculator-header .header { font: normal 32px "Palatino Linotype", "Georgia", "Times", serif; }
+.talent-calculator .top,
+.talent-calculator .bottom { width: 100%; height: 20px; position: absolute; left: 0; }
+.talent-calculator .help-tip { color: #855b47; }
+.talent-calculator .talent-calculator-inner .help-tip{ margin-bottom: 15px; }
+.talent-calculator .help-tip .header { margin-bottom: 5px; }
+
+.talent-calculator .requiredlevel{ float: right; }
+.talent-calculator .requiredlevel .value{ color: #e9bd7f; }
+
+.talent-calculator-inner { position: relative; padding: 0 0 150px 0; }
+.talent-calculator .top { top: -15px; }
+.talent-calculator .bottom { bottom: -15px; }
+
+.talent-calculator .cell { display: block; margin: 1px; border: 1px solid #000; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.talent-calculator .cell .icon-frame { vertical-align: middle; margin-right: 5px; }
+.talent-calculator .cell .name { vertical-align: middle; display: inline-block; line-height: 150%; }
+.talent-calculator .cell .name .level { display: block; }
+.talent-calculator .cell:hover { border-color: #b67000; -moz-box-shadow: 0 0 8px #b67000 inset; -webkit-box-shadow: 0 0 8px #b67000 inset; box-shadow: 0 0 8px #b67000 inset; }
+.talent-calculator .cell.cell-selected { color: #fff; background: #5b2200; border-color: #ce5209; -moz-box-shadow: 0 0 8px #ce5209 inset; -webkit-box-shadow: 0 0 8px #ce5209 inset; box-shadow: 0 0 8px #ce5209 inset; }
+.talent-calculator .cell.cell-selected:hover { background: #732b00; border-color: #f2752c; -moz-box-shadow: 0 0 8px #f2752c inset; -webkit-box-shadow: 0 0 8px #f2752c inset; box-shadow: 0 0 8px #f2752c inset; }
+.talent-calculator .cell.cell-disabled { opacity: .25; }
+.talent-calculator .cell.cell-disabled:hover { background: #141414; border-color: #b6b6b6; -moz-box-shadow: 0 0 8px #b6b6b6 inset; -webkit-box-shadow: 0 0 8px #b6b6b6 inset; box-shadow: 0 0 8px #b6b6b6 inset; }
+
+.talent-calculator .pet-cell { display: block; margin: 1px; border: 1px solid #000; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.talent-calculator .pet-cell .icon-frame { vertical-align: middle; margin-right: 5px; }
+.talent-calculator .pet-cell .name { vertical-align: middle; display: inline-block; line-height: 210%; }
+.talent-calculator .pet-cell .name .level { display: block; }
+.talent-calculator .pet-cell:hover { border-color: #b67000; -moz-box-shadow: 0 0 8px #b67000 inset; -webkit-box-shadow: 0 0 8px #b67000 inset; box-shadow: 0 0 8px #b67000 inset; }
+.talent-calculator .pet-cell.pet-cell-selected { color: #fff; background: #5b2200; border-color: #ce5209; -moz-box-shadow: 0 0 8px #ce5209 inset; -webkit-box-shadow: 0 0 8px #ce5209 inset; box-shadow: 0 0 8px #ce5209 inset; }
+.talent-calculator .pet-cell.pet-cell-selected:hover { background: #732b00; border-color: #f2752c; -moz-box-shadow: 0 0 8px #f2752c inset; -webkit-box-shadow: 0 0 8px #f2752c inset; box-shadow: 0 0 8px #f2752c inset; }
+.talent-calculator .pet-cell.pet-cell-disabled { opacity: .25; }
+.talent-calculator .pet-cell.pet-cell-disabled:hover { background: #141414; border-color: #b6b6b6; -moz-box-shadow: 0 0 8px #b6b6b6 inset; -webkit-box-shadow: 0 0 8px #b6b6b6 inset; box-shadow: 0 0 8px #b6b6b6 inset; }
+
+.talent-calculator .specs{ clear: both; margin: 0px -25px 10px -25px; }
+.talent-calculator .specs .spec-selector{ margin: 0px; padding: 25px 20px; border-top: 1px solid #331e11; border-bottom: 1px solid #331e11; background: url("../../images/tool/selector-bg.png"); background-size: auto 100%; background-repeat: repeat-x; }
+
+.talent-calculator .specs .thirds .spec{ width: 32%; }
+.talent-calculator .specs .thirds .spec.even{ margin: 0px 9px;}
+
+.talent-calculator .specs .fourths .spec{ width: 24%; margin: 0px 6px; }
+.talent-calculator .specs .fourths .spec.first{ margin-left: 0px; }
+.talent-calculator .specs .fourths .spec.last{ margin-right: 0px; }
+
+.talent-calculator .specs .spec{ display: block; position: relative; float: left; }
+.talent-calculator .specs .spec .spec-tab{ background: #000; border: 1px solid #251d13; -moz-box-shadow: 0 0 4px #000; -webkit-box-shadow: 0 0 4px #000; box-shadow: 0 0 4px #000; }
+.talent-calculator .specs .spec .spec-tab a{ padding: 2px; }
+.talent-calculator .specs .spec .spec-desc { padding-top: 5px; }
+
+.talent-calculator .specs .spec:not(.spec-selected) .spec-tab{ opacity: 0.3; }
+.talent-calculator .specs .spec:not(.spec-selected) .spec-desc{ opacity: 0.3; }
+
+.talent-calculator .specs .spec:not(.spec-selected):hover{ cursor: pointer; }
+.talent-calculator .specs .spec:not(.spec-selected):hover .spec-tab{ opacity: 1.0; }
+.talent-calculator .specs .spec:not(.spec-selected):hover .spec-tab a{ color: #fff; border-color: #b67000; -moz-box-shadow: 0 0 8px #b67000 inset; -webkit-box-shadow: 0 0 8px #b67000 inset; box-shadow: 0 0 8px #b67000 inset; }
+.talent-calculator .specs .spec:not(.spec-selected):hover .spec-desc{ opacity: 1.0; }
+
+.talent-calculator .pet-specs { margin-top:20px }
+.talent-calculator .pet-specs { float: right; width: 616px; }
+.talent-calculator .pet-specs .pet-spec { display: block; position: relative; background: #000; margin-bottom: 10px; border: 1px solid #251d13; -moz-box-shadow: 0 0 4px #000; -webkit-box-shadow: 0 0 4px #000; box-shadow: 0 0 4px #000; }
+.talent-calculator .pet-specs .pet-spec .pet-cell { padding: 7px 10px 5px 10px; position: relative; }
+.talent-calculator .pet-specs .pet-spec .pet-cell .name { color: #ff9c00; font-size: 16px; padding-left: 25px; background: url("../../images/game/mist-of-pandaria/talent-calculator/arrows.png") 0 8px no-repeat; height:37px }
+.talent-calculator .pet-specs .pet-spec .pet-cell .desc { color: #d0ae82; padding: 5px 55px 5px 0; display: block; line-height: 125%; margin: 0px; }
+.talent-calculator .pet-specs .pet-spec .pet-cell .icon-frame { position: absolute; margin: 0; top: 5px; right: 5px; overflow: visible; }
+.talent-calculator .pet-specs .pet-spec .pet-cell.cell-selected .name { color: #fff; }
+.talent-calculator .pet-specs .pet-spec .pet-cell:hover .name { color: #fff; }
+
+.talent-calculator .pet-specs .pet-spells { display: block; }
+.talent-calculator .pet-specs .pet-spec.pet-spec-selected { border-color: #491d03; }
+.talent-calculator .pet-specs .pet-spec.pet-spec-selected .pet-cell {  }
+.talent-calculator .pet-specs .pet-spec.pet-spec-selected .pet-cell .name { background-position: 0 -80px; }
+.talent-calculator .pet-specs .pet-spec.pet-spec-selected .pet-cell .icon-frame { display: block; }
+.talent-calculator .pet-specs .role { width: 16px; height: 16px; display: block; position: absolute; bottom: -5px; background: transparent url("../../images/icons/roles.png") no-repeat; border-radius: 3px; right: -5px;}
+.talent-calculator .pet-specs .role.dps { }
+.talent-calculator .pet-specs .role.healing { background-position: -16px 0; }
+.talent-calculator .pet-specs .role.tank { background-position: -32px 0; }
+
+.talent-calculator .spells-container { display: block; float: left; width: 300px; position: relative;  margin-bottom: 10px; }
+.talent-calculator .spells { background: #000; border: 1px solid #251d13; -moz-box-shadow: 0 0 4px #000; -webkit-box-shadow: 0 0 4px #000; box-shadow: 0 0 4px #000; }
+.talent-calculator .spells .filters { color: #897862; font-weight: normal; padding: 5px; border-bottom: 1px solid #491d03; }
+.talent-calculator .spells .filters a { margin: 0 3px; }
+.talent-calculator .spells .filters a.filter-active { font-weight: bold; color: #fff; }
+.talent-calculator .spells table { width: 100%; }
+.talent-calculator .spells table tr { cursor: help; }
+.talent-calculator .spells table td { padding: 3px 5px; }
+.talent-calculator .spells table td span span { color: #F5EBD1; }
+.talent-calculator .spells table .item-link { white-space: normal; }
+.talent-calculator .spells table .row1 { background: #1b150e; }
+.talent-calculator .spells table .col-level { width: 35px; text-align: center; }
+
+.talent-calculator .pet-spells { display: none; }
+.talent-calculator .pet-spells .scroller { height: 180px; overflow-y: auto; overflow-x: hidden; margin: 1px; }
+.talent-calculator .pet-spells .filters { color: #897862; font-weight: normal; padding: 5px; border-bottom: 1px solid #491d03; }
+.talent-calculator .pet-spells .filters a { margin: 0 3px; }
+.talent-calculator .pet-spells .filters a.filter-active { font-weight: bold; color: #fff; }
+.talent-calculator .pet-spells table { width: 100%; }
+.talent-calculator .pet-spells table tr { cursor: help; }
+.talent-calculator .pet-spells table td { padding: 3px 5px; }
+.talent-calculator .pet-spells table td span span { color: #F5EBD1; }
+.talent-calculator .pet-spells table .item-link { white-space: normal; }
+.talent-calculator .pet-spells table .row1 { background: #1b150e; }
+.talent-calculator .pet-spells table .col-level { width: 35px; text-align: center; }
+
+.talent-calculator .talents { float: right; width: 616px; }
+.talent-calculator .talents .required-level { float: right; color: #855b47; font-size: 14px; /* margin-top: 6px;*/ }
+.talent-calculator .talents .required-level span { color: #cda66f; }
+.talent-calculator .talents .tier { border: 1px solid #221d19; margin-bottom: 10px; height: 52px; background: #030200; display: block; clear: both; -moz-box-shadow: 0 0 4px #000; -webkit-box-shadow: 0 0 4px #000; box-shadow: 0 0 4px #000; }
+.talent-calculator .talents .tier li { float: left; border-left: 1px solid #221d19; }
+.talent-calculator .talents .tier li.unlocks { border: 0; width: 50px; text-align: center; color: #f6b758; font: normal 20px/52px "Palatino Linotype", "Georgia", "Times", serif; }
+.talent-calculator .talents .tier li.talent { width: 187px; overflow: hidden; }
+.talent-calculator .talents .cell { padding: 4px; }
+.talent-calculator .talents .cell .name { width: 125px; text-overflow: ellipsis; overflow: hidden; }
+
+.talent-calculator .sharing { padding-top: 10px; }
+.talent-calculator .sharing .community-share {float: right; margin-right: 5px;}
+.talent-calculator .sharing .link-build-wrapper { float: right; margin-left: 10px; height: 20px; display: inline-block; vertical-align: middle; }
+.talent-calculator .sharing .link-build { background: url("../../images/tool/talent-calculator/icons.gif") -200px -26px no-repeat; padding-left: 20px; }
+
+/*glyphs*/
+.talentcalc-glyphs { margin-top:30px;}
+.talentcalc-glyphs .header  { margin-bottom:15px}
+.talentcalc-glyphs ul { clear:both; background-color:#030200; border: 1px solid #221D19; box-shadow: 0 0 4px #000000; margin-bottom: 10px; height:40px; }
+.talentcalc-glyphs ul .close { background: url("../../images/icons/cross-small.gif") no-repeat scroll center top transparent; position: absolute; display: none; right: 2px; top: 14px;}
+.talentcalc-glyphs li { display:block; float:left; width: 180px; height: 22px; line-height: 22px; position: relative;}
+.talentcalc-glyphs li a { padding:9px;  }
+.talentcalc-glyphs .glyph-title { width: 66px; padding:8px 0 0 8px; color:#855b34 }
+.talentcalc-glyphs .glyph { border-left: 1px solid #221D19; height: 22px; line-height: 22px; }
+.talentcalc-glyphs .glyph .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; width: 130px;}
+
+.talentcalc-glyphs li.glyph-chosen:hover .close { display: block;}
+
+
+
+.talentcalc-glyphselector { width: 580px; top: 600px; left: 342px; position: absolute; z-index:1}
+.talentcalc-glyphselector .scroller { height: 451px; overflow: auto; background: #381a0f; }
+.talentcalc-glyphselector .modal-brown .arrow {  }
+.talentcalc-glyphselector ul li { clear: both; white-space: nowrap; overflow: hidden; }
+.talentcalc-glyphselector ul li:nth-child(odd) { background: #30160c; }
+.talentcalc-glyphselector ul li a { display: block; padding: 5px; line-height: 20px; height: 20px; color: #fef092; clear: both; }
+.talentcalc-glyphselector ul li a:hover { background: #261109; }
+.talentcalc-glyphselector ul li .icon-frame { float: left; margin-right: 5px; }
+.talentcalc-glyphselector ul li .description { font-size: 11px; display: block; width: 70%; float: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.talentcalc-glyphselector ul li .name { display: block; width: 25%; color: #fff; float: left; font-weight: bold; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;  }
+
+/* spell tooltips */
+.ui-tooltip .tooltip-content .tc-tooltip { min-width: 200px; }
+.talents h3 { font-size: 16px; font-weight: normal; } /* title of the tooltip */
+.talents h4 { font-size: 14px; font-weight: normal; } /* subtitle of the tooltip */

@@ -1,0 +1,308 @@
+.wiki.directory .navigation li a {border-color:#643402;}
+.wiki.directory .navigation li a.nav-active{ border-color:#472502; }
+.game-lore-index #content .content-top {background: url(../../images/game/lore/landing/bg-lore-home-top.jpg) 0 0 no-repeat }
+
+.section-title { margin: 25px 0; }
+.main-header-desc { margin: 0 0 50px 0; width: 50%; color: #a4704e }
+
+.latest-box {width:443px; margin-bottom:17px;}
+.latest-box-title {border-bottom:2px solid #483021; padding-bottom:17px;}
+.latest-box-title span {color:#f3ecc7; font:normal 17px Palatino Linotype, Sans-serif; letter-spacing:2px; text-transform:uppercase;}
+
+.latest-box-content {padding-top:28px;}
+.latest-box-content .link-block {display:block; padding-bottom:40px;}
+.latest-box-content .link-block .list-thumb {width:140px; height:110px; background-position:50% 50%; background-repeat:no-repeat; display:block; float:left; margin-top:5px; border:1px solid #302116; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; box-shadow: 0 0 6px #000; -moz-box-shadow: 0 0 6px #000; -webkit-box-shadow: 0 0 6px #000;}
+.latest-box-content .link-block .title-desc {display:block; float:left; width:270px; margin-left:27px;}
+.latest-box-content .link-block .title-desc .title {font-size:15px; display: block; }
+.latest-box-content .link-block .title-desc .add-info {display:block; font-size:11px; font-style:italic; color:#f0e29a;}
+.latest-box-content .link-block .title-desc .desc {color:#b79855; display:block; font-size:12px; line-height:18px; margin-top:6px;}
+.latest-box-content a.locked-story .title-desc .title, .latest-box-content a.locked-story .title-desc .add-info, .latest-box-content a.locked-story .title-desc .desc {color:#594627 !important;}
+.latest-box-content a:hover .list-thumb {border:1px solid #cd9000;}
+.latest-box-content a:hover .title-desc .title, .latest-box-content a:hover .title-desc .add-info, .latest-box-content a:hover .title-desc .desc {color:#fff !important;}
+.latest-box-content a.locked-story:hover .list-thumb {border:1px solid #302116 !important;}
+.latest-box-content a.locked-story:hover .title-desc .title, .latest-box-content a.locked-story:hover .title-desc .add-info, .latest-box-content a.locked-story:hover .title-desc .desc {color:#594627 !important; cursor:default !important;}
+.latest-box-content a.locked-story:hover .list-thumb {cursor:default !important;}
+
+/* Background Swapping */
+#page-savage-world  #content .content-top { background: url(../../images/game/lore/landing/savage-world-bg.jpg) no-repeat; }
+#page-destination-pandaria  #content .content-top { background: url(../../images/game/lore/landing/destination-pandaria-bg.jpg) no-repeat; }
+#page-comic  #content .content-top { background: url(../../images/game/lore/landing/comic-bg.jpg) no-repeat; }
+#page-leader-story  #content .content-top { background: url(../../images/game/lore/landing/leader-story-bg.jpg) no-repeat; }
+#page-manga #content .content-top { background: url(../../images/game/lore/landing/manga-bg.jpg) no-repeat; }
+#page-novel #content .content-top { background: url(../../images/game/lore/landing/novel-bg.jpg) no-repeat; }
+#page-short-story #content .content-top { background: url(../../images/game/lore/landing/short-story-bg.jpg) no-repeat; }
+
+#latest-story-so-far  {position:relative;}
+#latest-story-so-far .chapter-list {position:absolute; top:97px; left:166px; width:270px;}
+#latest-story-so-far .chapter-list ul li {padding-left:11px; background:url(../../images/icons/bullet3_dot.html) 1px 55% no-repeat;}
+#latest-story-so-far .chapter-list ul li a {padding:0; line-height:18px; font-size:11px;}
+
+#leader-story .latest-box-content .clear-row {clear:both;}
+#leader-story .latest-box-content a {display:block; float:left; width:221px; padding-bottom:23px;}
+#leader-story .latest-box-content a .list-thumb {width:60px; height:60px;}
+#leader-story .latest-box-content a.locked-story .list-thumb {background-image:url('../../images/game/lore/landing/thumb/leader-locked.jpg') !important;}
+#leader-story .latest-box-content a .title-desc {margin-left:14px; width:145px;}
+#leader-story .latest-box-content a .title-desc .title {font-size:13px; line-height:14px; margin-top:4px;}
+#leader-story .latest-box-content a .title-desc .desc {margin-top:4px; font-size:11px; line-height:12px;}
+#leader-story .latest-box-content a .title-desc .add-info {margin-top:2px;}
+#leader-story .latest-box-content a .title-desc .horde {color:#d32f2f;}
+#leader-story .latest-box-content a .title-desc .alliance {color:#1867a4;}
+
+
+#all-lore-story {margin-top:33px;}
+#all-lore-story .all-lore-story-title {width:943px; height:51px; background: url(../../images/game/lore/landing/bg-story-list-title.jpg) 0 0 no-repeat; }
+#all-lore-story .all-lore-story-title span {font-size:14px; text-transform:uppercase; color:#efe3d2; display:inline-block; line-height:51px; padding-left:20px;}
+#all-lore-story .all-lore-story-content {width:943px; background: url(../../images/game/lore/landing/bg-story-list-box-body.jpg) repeat-y;}
+#all-lore-story .all-lore-story-content .wrapper {width:943px; background: url(../../images/game/lore/landing/bg-story-list-box-top.jpg) 0 0 no-repeat;}
+#all-lore-story .all-lore-story-content .wrapper .content-box {width:943px; background: url(../../images/game/lore/landing/bg-story-list-box-bottom.jpg) 0 100% no-repeat; padding:6px 0 40px 0;}
+#all-lore-story .all-lore-story-content .story-list-box {float:left;}
+#all-lore-story .all-lore-story-content .story-list-box.short-story {width:330px; margin-left:20px;}
+#all-lore-story .all-lore-story-content .story-list-box.story-so-far {width:339px;}
+#all-lore-story .all-lore-story-content .story-list-box.leader-story {width:240px;}
+#all-lore-story .all-lore-story-content .story-list-box ul li {padding-left:11px; background:url(../../images/icons/bullet3_dot.html) 1px 55% no-repeat; line-height:20px;}
+#all-lore-story .all-lore-story-content .story-list-box a {font-size:11px;}
+#all-lore-story .all-lore-story-content .story-list-box .story-category {color:#f0e29a; text-transform:uppercase; font-size:12px; line-height:48px;}
+
+
+
+/* For KR font styles */
+.ko-kr .latest-box-title span {font:normal 17px Malgun Gothic, Dotum, Serif; letter-spacing:1px;}
+.ko-kr .latest-box-content .link-block .title-desc .add-info {font-style:normal;}
+.ko-kr #all-lore-story .all-lore-story-title span, .ko-kr #all-lore-story .all-lore-story-content .story-list-box .story-category, .ko-kr .latest-box-content .link-block .title-desc .title {font-family:Malgun Gothic, Dotum, Serif;}
+
+/* Wiki adapted styles */
+.wiki.directory .groups .group .group-column { width: 680px; }
+.wiki.directory .groups .group .group-column h3 { overflow: hidden; height: 100%; } 
+.wiki.directory .groups .group .group-column .group-header { display: block; float: left; padding-top: 3px; }
+.wiki.directory .groups .group .group-column .group-display { float: right; width: 62px; }
+.wiki.directory .groups .group .group-column .group-display .icon { cursor: pointer; display: block; width: 31px; height: 25px; float: left; background: url("../../images/icons/display-format.png") no-repeat; }
+.wiki.directory .groups .group .group-column .group-display .icon.lore-grid { background-position: 0px -75px; }
+.wiki.directory .groups .group .group-column .group-display .icon.lore-grid:hover { background-position: 0px -100px; }
+.wiki.directory .groups .group .group-column .group-display .icon.lore-list { background-position: 0px 0px; }
+.wiki.directory .groups .group .group-column .group-display .icon.lore-list:hover { background-position: 0px -25px; }
+.wiki.directory .groups .group .group-column.expanded .group-display .icon.lore-grid { background-position: 0px -125px; }
+.wiki.directory .groups .group .group-column.compact .group-display .icon.lore-list { background-position: 0px -50px; }
+.wiki.directory .groups .group .group-column .group-content { border-top: 1px solid #432615; padding-bottom: 20px; overflow: hidden; }
+.wiki.directory .groups .group .group-column .lore-children { margin: 0; }
+.wiki.directory .groups .group .group-column .lore-children ul { padding: 0; margin: 0; }
+
+/* General expanded view  */
+.wiki.directory .groups .group .group-column.expanded .lore-image { overflow: hidden; box-shadow: 0 0 6px #000;-moz-box-shadow: 0 0 6px #000;-webkit-box-shadow: 0 0 6px #000;}
+.wiki.directory .groups .group .group-column.expanded .lore-image > a,
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-image,
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-image,
+.wiki.directory .groups #story-so-far.group .group-column.expanded .lore-image,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-image,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-image,
+.wiki.directory .groups .group .group-column.expanded .lore-children .lore-image { cursor: pointer; background-position: 50% 50%; background-repeat: no-repeat; display: block; border: 1px solid #302116; border-radius: 3px; box-shadow: 0 0 6px #000;-moz-box-shadow: 0 0 6px #000;-webkit-box-shadow: 0 0 6px #000; }
+.wiki.directory .groups .group .group-column.expanded .lore-image:hover > a,
+.wiki.directory .groups .group .group-column.expanded .lore-children .lore-image:hover  { border-color: #FFB100; }
+.wiki.directory .groups .group .group-column.expanded .list-title,
+.wiki.directory .groups .group .group-column.expanded .comp-text,
+.wiki.directory .groups .group .group-column.expanded .lore-children-view,
+.wiki.directory .groups .group .group-column.expanded .compact-headers { display: none; }
+.wiki.directory .groups .group .group-column.expanded .expanded-headers { padding: 13px 25px 0 25px; color: #fff; font-weight: normal; font-size: 13px; clear: both; }
+.wiki.directory .groups .group .group-column.expanded .exp-text { display: inline; }
+.wiki.directory .groups .group .group-column.expanded .lore-info .lore-title { color: #fff6c4; }
+.wiki.directory .groups .group .group-column.expanded .lore-info .lore-published { color: #715847; }
+.wiki.directory .groups .group .group-column.expanded .lore-info .lore-creators { color: #cda081; }
+.wiki.directory .groups .group .group-column.expanded .lore-info .lore-purchase a { display: inline-block; clear: both; padding-right: 13px; background: url("../../images/icons/goto-fansite.gif") no-repeat 100% 5px; }
+.wiki.directory .groups .group .group-column.expanded .lore-info .lore-purchase a:hover { background-position: right -16px; }
+
+
+/* Expanded comic  */
+.wiki.directory .groups #comic.group .group-column.expanded .parent .list-title { display: inline; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info { height: 100%; padding: 15px 10px 15px 25px; clear: both; margin-bottom: 10px; overflow: hidden; border-bottom: 1px solid #382215; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .parent { overflow: hidden; margin: 0 0 35px 0; clear: both; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .parent .lore-item { float: left; line-height: 1.7em; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .parent .lore-title { font-size: 13px; color: #fff; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-image { float: left; margin: 0; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-image { clear: both; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-image a { height: 205px; width: 140px; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .parent .lore-published { text-align: left; display: block; font-style: italic; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .parent .lore-creators { text-align: left; display: block; font-style: italic; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children { width: 470px; float: left; margin-left: 15px; padding: 0; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li { width: 230px; font-size: 11px; margin: 0 0 20px 0; float: left; padding: 0; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li:nth-child(odd){ clear: both; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-item { width: 170px; float: left; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-item.altcover { width: 150px; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-image { clear: none; float: left; margin-right: 5px; height: 51px; width: 33px; display: inline-block; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-title { display: inline-block; width: 150px;}
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-published { display: block; font-style: italic; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-creators { text-align: left; display: block; font-style: italic; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-published:before { content: "("; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .lore-children li .lore-published:after { content: ")"; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .parent .lore-purchase { float: right; margin-right: 15px; padding: 10px; text-align: right; border-radius: 3px; background-color: #31190d; }
+.wiki.directory .groups #comic.group .group-column.expanded .lore-info .parent .lore-purchase a { width: 150px; margin: 0 5px; display: block; }
+
+/* Expanded manga */
+.wiki.directory .groups #manga.group .group-column.expanded  .expanded-headers { border-top: 1px solid #432615; }
+.wiki.directory .groups #manga.group .group-column.expanded .group-content { border-top: none; }
+.wiki.directory .groups #novel.group .group-column.expanded .group-content { height: 100%; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info { padding: 3px 10px 15px 3px; width: 295px; float: left; margin: 10px 0 5px 25px; overflow: hidden; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info:nth-child(odd),
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info:nth-child(even){ clear: both; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .lore-image,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .lore-image { float: left; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .lore-image a,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .lore-image a { height: 145px; width: 88px; display: inline-block; float: left; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .parent,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .parent{ float: right; width: 190px; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .parent .lore-title,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .parent .lore-title  { display: block; font-size: 13px; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .parent .lore-published, 
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .parent .lore-creators,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .parent .lore-published, 
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .parent .lore-creators { display: block; font-style: italic; font-size: 11px; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .parent .lore-published:before,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .parent .lore-published:before { content: "("; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .parent .lore-published:after,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .parent .lore-published:after { content: ")"; }
+.wiki.directory .groups #manga.group .group-column.expanded .lore-info .lore-purchase,
+.wiki.directory .groups #novel.group .group-column.expanded .lore-info .lore-purchase { margin-top: 7px; padding-top: 7px; font-size: 11px; border-top: 1px solid #392419; }
+
+
+/* Expanded shorts */
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info,
+.wiki.directory .groups #story-so-far.group .group-column.expanded .lore-info,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info { clear: both; overflow: hidden; }
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .lore-image,
+.wiki.directory .groups #story-so-far.group .group-column.expanded .lore-info .lore-image,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .lore-image,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .lore-image { background-position: center center; margin:2px 0; height: 95px; width: 130px; float: left; display: block; }
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .lore-desc,
+.wiki.directory .groups #story-so-far.group .group-column.expanded .lore-info .lore-desc,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .lore-desc,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .lore-desc  { margin: 0; color: #A4704E; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .lore-creators,
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .lore-creators,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .lore-creators,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .lore-creators { font-size: 11px; font-style: italic; display: block; }
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .lore-item,
+.wiki.directory .groups #story-so-far.group .group-column.expanded .lore-info .lore-item,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .lore-item,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .lore-item { margin-left: 15px; padding-left: 0; float: left; width: 480px;}
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .lore-title,
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .lore-title,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .lore-title,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .lore-title { font-size: 13px; }
+
+
+/* Expanded leader shorts  */
+.wiki.directory .groups #leader-story.group .group-column.expanded .group-content { padding: 10px 0; height:100%;}
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info  { padding: 0 0 0 25px; float: left; width: 280px; margin: 0 15px 15px 0; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info:nth-child(even) { clear: both; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .lore-item { margin-left: 15px; width: 180px; padding-left: 0; float: left; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent .lore-title .subtitle { display: block; font-size: 11px; color: #A4704E; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent .lore-image { float: left; display: block; height: 65px; width:65px; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent:hover .subtitle,
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .parent:hover .lore-title,
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent:hover .lore-title,
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .parent:hover .lore-creators,
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent:hover .lore-creators,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .parent:hover .lore-creators,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .parent:hover .lore-creators,
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .parent:hover .lore-desc,
+.wiki.directory .groups #story-so-far.group .group-column.expanded .lore-info .parent:hover .lore-desc,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .parent:hover .lore-desc,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .parent:hover .lore-desc { color: #fff; }
+.wiki.directory .groups #short-story.group .group-column.expanded .lore-info .parent:hover .lore-image,
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent:hover .lore-image,
+.wiki.directory .groups #story-so-far.group .group-column.expanded .lore-info .parent:hover .lore-image,
+.wiki.directory .groups #savage-world.group .group-column.expanded .lore-info .parent:hover .lore-image,
+.wiki.directory .groups #destination-pandaria.group .group-column.expanded .lore-info .parent:hover .lore-image { border-color: #FFB100; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent .locked-story .lore-image { border-color: #302116 ; cursor: default; }
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent .locked-story .lore-title,
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent .locked-story .lore-creators,
+.wiki.directory .groups #leader-story.group .group-column.expanded .lore-info .parent .locked-story .subtitle,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-info .parent .locked-story .lore-title,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-info .parent .locked-story .lore-creators,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-info .parent .locked-story .subtitle,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-info .parent .locked-story .comp-text { color: #594627 ; cursor: default; }
+
+/* General compact/List view */
+.wiki.directory .groups .group .group-column.compact .expanded-headers,
+.wiki.directory .groups .group .group-column.compact .lore-image,
+.wiki.directory .groups .group .group-column.compact .exp-text,
+.wiki.directory .groups .group .group-column.compact .lore-info .lore-desc { display: none; }
+.wiki.directory .groups .group .group-column.compact .compact-headers { border-bottom: 1px solid #382215; display: block; overflow: hidden; padding: 8px 0px; color: #ab6335; font-size: 14px; margin: 0 25px 5px 25px; }
+.wiki.directory .groups .group .group-column.compact .compact-headers li { display: inline-block; margin: 0; padding: 0; }
+.wiki.directory .groups .group .group-column.compact .compact-headers li.lore-purchase { padding-left: 50px; width: 200px; }
+.wiki.directory .groups .group .group-column.compact .lore-children-view { clear:both; font-size: 0px; display: block; line-height: 0; height: 10px; width: 10px; float: left; background: url('../../images/icons/expand-toggle.gif') no-repeat 0 0; margin: 13px 0px 0px 9px; cursor: pointer; }
+.wiki.directory .groups .group .group-column.compact .lore-children-view:hover { background-position: 0 -10px; }
+.wiki.directory .groups .group .group-column.compact .lore-children-view.show-children { background-position: 0 -20px; }
+.wiki.directory .groups .group .group-column.compact .lore-children-view.show-children:hover { background-position: 0 -30px; }
+.wiki.directory .groups .group .group-column.compact .lore-creators { margin-left: 3px; }
+.wiki.directory .groups .group .group-column.compact .lore-published,
+.wiki.directory .groups .group .group-column.compact .lore-creators { display: inline-block; vertical-align: left; }
+.wiki.directory .groups .group .group-column.compact .lore-item { width: 360px; display: inline-block; float: left; }
+.wiki.directory .groups .group .group-column.compact .lore-purchase{ width: 230px; text-align: left; }
+.wiki.directory .groups .group .group-column.compact .lore-info { padding: 3px 25px; color: #d8bd84; }
+.wiki.directory .groups .group .group-column.compact .lore-info li { margin: 0; padding: 6px 0; overflow: hidden; }
+.wiki.directory .groups .group .group-column.compact .lore-info li .lore-published,
+.wiki.directory .groups .group .group-column.compact .lore-info li .lore-creators { padding-right: 4px; display: inline; color: #b79855; font-size: 11px; font-style: italic; }
+.wiki.directory .groups .group .group-column.compact .lore-info .lore-title { display: block; color: #fff6c4; }
+.wiki.directory .groups .group .group-column.compact .lore-info .parent .comp-text { color: #b79855; }
+.wiki.directory .groups .group .group-column.compact .lore-info .parent { overflow: hidden; }
+.wiki.directory .groups .group .group-column.compact .lore-children { display: none; overflow: hidden; padding: 0; margin: 0; color: #9a7e64; font-size: 11px; }
+.wiki.directory .groups .group .group-column.compact .lore-children .lore-title { color: #cf9b76; }
+.wiki.directory .groups .group .group-column.compact .lore-children li .lore-published,
+.wiki.directory .groups .group .group-column.compact .lore-children li .lore-creators { color: #916443; }
+.wiki.directory .groups .group .group-column.compact .lore-info .lore-purchase { display: inline-block; float: left; }
+.wiki.directory .groups .group .group-column.compact .lore-info .lore-purchase a { display: inline-block; margin: 0 15px; padding-right: 13px; background: url("../../images/icons/goto-fansite.gif") no-repeat 100% 5px; }
+.wiki.directory .groups .group .group-column.compact .lore-info .lore-purchase a:hover { background-position: right -16px; }
+
+/* Compact shorts */
+.wiki.directory .groups #short-story.group .group-column.compact .lore-info .lore-item,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-info .lore-item,
+.wiki.directory .groups #savage-world.group .group-column.compact .lore-info .lore-item,
+.wiki.directory .groups #destination-pandaria.group .group-column.compact .lore-info .lore-item { width: auto; }
+.wiki.directory .groups #short-story.group .group-column.compact .lore-title,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-title,
+.wiki.directory .groups #savage-world.group .group-column.compact .lore-title,
+.wiki.directory .groups #destination-pandaria.group .group-column.compact .lore-title { width: 435px; display: inline-block; }
+.wiki.directory .groups #short-story.group .group-column.compact .lore-info .lore-creators,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-info .lore-creators,
+.wiki.directory .groups #savage-world.group .group-column.compact .lore-info .lore-creators,
+.wiki.directory .groups #destination-pandaria.group .group-column.compact .lore-info .lore-creators  { font-size: 12px; margin: 0; }
+.wiki.directory .groups #short-story.group .group-column.compact .lore-info li,
+.wiki.directory .groups #leader-story.group .group-column.compact .lore-info li,
+.wiki.directory .groups #story-so-far.group .group-column.compact .lore-info li,
+.wiki.directory .groups #savage-world.group .group-column.compact .lore-info li,
+.wiki.directory .groups #destination-pandaria.group .group-column.compact .lore-info li { padding: 3px 0; }
+.wiki.directory .groups #short-story.group .group-column .lore-info .lore-title,
+.wiki.directory .groups #leader-story.group .group-column .lore-info .lore-title,
+.wiki.directory .groups #story-so-far.group .group-column .lore-info .lore-title,
+.wiki.directory .groups #savage-world.group .group-column .lore-info .lore-title,
+.wiki.directory .groups #destination-pandaria.group .group-column .lore-info .lore-title { color: inherit; }
+.wiki.directory .groups #short-story.group .group-column.compact .compact-headers .lore-item,
+.wiki.directory .groups #leader-story.group .group-column.compact .compact-headers  .lore-item,
+.wiki.directory .groups #savage-world.group .group-column.compact .compact-headers  .lore-item,
+.wiki.directory .groups #destination-pandaria.group .group-column.compact .compact-headers  .lore-item { width: 440px; }
+
+/* Story so far */
+.wiki.directory .groups #story-so-far.group .group-column .group-content { height: 100%; }
+.wiki.directory .groups #story-so-far.group .group-column .lore-creator { display: none; }
+.wiki.directory .groups #story-so-far.group .group-column .compact-headers { width: 630px; }
+
+/* Destination: Pandaria */
+#destination-pandaria .lore-image { background: rgba(255,255,255,0.1); border-radius: 4px; height: 95px; float: left; margin: 5px 20px 10px 0; width: 130px; }
+#destination-pandaria .lore-title { color: #ffb100; display: block;}
+#destination-pandaria .lore-desc { color: #b17d5b; }
+#destination-pandaria .lore-info .parent a:hover .lore-title { color: #fff; }
+#destination-pandaria .lore-info .parent a:hover .lore-desc { color: #fff; }
+#destination-pandaria .lilis-travel-journal-1-thumb { background: url(../../images/game/lore/destination-pandaria/lilis-journal-1-thumb.html) no-repeat; }
+#destination-pandaria .lilis-travel-journal-2-thumb { background: url(../../images/game/lore/destination-pandaria/lilis-journal-2-thumb.html) no-repeat; }
+#destination-pandaria .lilis-travel-journal-3-thumb { background: url(../../images/game/lore/destination-pandaria/lilis-journal-3-thumb.html) no-repeat; }
+#destination-pandaria .lilis-travel-journal-4-thumb { background: url(../../images/game/lore/destination-pandaria/lilis-journal-4-thumb.html) no-repeat; }
+#destination-pandaria .lilis-travel-journal-pearl-of-pandaria-thumb { background: url(../../images/game/lore/destination-pandaria/pearl-pandaria.html) no-repeat; }
+#destination-pandaria .quest-for-pandaria-part-1-thumb { background: url(../../images/game/lore/destination-pandaria/quest-for-pandaria-part-1-thumb.html) no-repeat; }
+
+/* Savage World */
+#savage-world .lore-image { background: rgba(255,255,255,0.1); border-radius: 4px; height: 95px; float: left; margin: 5px 20px 10px 0; width: 130px; }
+#savage-world .lore-title { color: #ffb100; display: block;}
+#savage-world .lore-desc { color: #b17d5b; }
+#savage-world .lore-info .parent a:hover .lore-title { color: #fff; }
+#savage-world .lore-info .parent a:hover .lore-desc { color: #fff; }

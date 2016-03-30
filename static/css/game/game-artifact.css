@@ -1,0 +1,77 @@
+/* Artifacts Landing page */
+
+/*
+ * Included inline in @artifactsIndexMasthead
+ */
+
+#content .content-top {
+	background: url(../../images/game/artifact/artifacts-index-top.jpg) 0 0 no-repeat
+}
+
+#content .content-bot {
+	padding: 0 25px 80px 25px
+}
+
+.artifacts-masthead .section-title {
+	margin: 25px 0;
+	margin-top: 35px;
+}
+
+.artifacts-masthead .main-header-desc {
+	margin: 0 0 50px 0;
+	width: 50%;
+	color: #a4704e
+}
+
+.artifacts-main-content .flag-card {
+	width: 459px;
+	height: 183px;
+	margin-bottom: 25px;
+	box-shadow: 0 0 6px #000;
+	-moz-box-shadow: 0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	background-color: #21130a;
+	border: solid 1px #382a1d;
+	border-radius: 3px;
+	float: left;
+}
+
+.artifacts-main-content .flag-card .flag-card-info {
+	float: left;
+	width: 263px;
+	height: 183px;
+	margin-left: 10px;
+}
+
+.artifacts-main-content .flag-card .flag-card-title {
+	color: #ffb100;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+	margin-top: 30px;
+}
+
+.artifacts-main-content .flag-card .flag-card-buttons {
+	display: block;
+	margin: 30px 0px 0 0;
+	padding: 0 10px 0px 0;
+}
+
+.artifacts-main-content .flag-card .flag-card-icon {
+	float: left;
+	height: 183px;
+	width: 186px;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.artifacts-main-content .flag-card .container {
+	width: 459px;
+	height: 183px;
+	display: block;
+	background: url("../../images/game/artifact/artifact-index-card.jpg")
+}
+
+/* Artifacts Landing page */

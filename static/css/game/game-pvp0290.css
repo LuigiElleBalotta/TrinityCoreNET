@@ -1,0 +1,539 @@
+@charset "utf-8";
+
+.ui-button {color:#ffa800;}
+.ui-button:hover {color:#fff;}
+
+.pvp-guide.type-rewards .wiki .info { width: auto; padding: 0; }
+.pvp-guide.type-rewards .sidebar { display: none; }
+.pvp-guide.type-rewards .wiki .title { margin: 0; }
+
+.pvp-guide span.caption { color: #ffb100; font-weight: bold; }
+
+.pvp-guide.type-player-vs-player #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-landing-top.jpg') 0 0 no-repeat; }
+.pvp-guide.type-battlegrounds #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-top.jpg') 0 0 no-repeat; }
+.pvp-guide.type-arenas #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-arenas-top.jpg') 0 0 no-repeat; }
+.pvp-guide.type-world-pvp #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-world-pvp-top.jpg') 0 0 no-repeat; }
+.pvp-guide.type-rewards #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-rewards-top.jpg') 0 0 no-repeat; }
+
+.pvp-guide .top-nav { background: url("../../images/game/pvp/layout/bg-menu.png") 0 0 no-repeat; width: 965px; height: 101px; margin: 0 auto 23px auto;}
+.pvp-guide .top-nav a { display:block; float:left; height:84px; position:relative;}
+.pvp-guide .top-nav a.btn-player-vs-player { width: 199px; }
+.pvp-guide .top-nav a.btn-rewards { width: 189px; }
+.pvp-guide .top-nav a.btn-battlegrounds,
+.pvp-guide .top-nav a.btn-arenas,
+.pvp-guide .top-nav a.btn-world-pvp { width: 187px; }
+
+.pvp-guide .top-nav a:hover, 
+.pvp-guide .top-nav a.selected { background-image: url("../../images/game/pvp/layout/bg-menu.png"); background-repeat: no-repeat; }
+.pvp-guide .top-nav a span { font-size: 15px; line-height: 17px; position: absolute; bottom: 17px; left: 11px; width: 165px; }
+.pvp-guide .top-nav a.btn-player-vs-player span { left: 23px; }
+.pvp-guide .top-nav a em { font-style: normal; }
+.pvp-guide .top-nav a.selected span { color: #fff; }
+.pvp-guide .top-nav a.btn-player-vs-player:hover { background-position:0 -101px; }
+.pvp-guide .top-nav a.btn-battlegrounds:hover { background-position:-199px -101px; }
+.pvp-guide .top-nav a.btn-arenas:hover { background-position:-386px -101px;}
+.pvp-guide .top-nav a.btn-world-pvp:hover { background-position:-573px -101px;}
+.pvp-guide .top-nav a.btn-rewards:hover { background-position:-760px -101px;}
+.pvp-guide .top-nav a.btn-player-vs-player.selected { background-position:0 -202px;}
+.pvp-guide .top-nav a.btn-battlegrounds.selected { background-position:-199px -202px;}
+.pvp-guide .top-nav a.btn-arenas.selected { background-position:-386px -202px;}
+.pvp-guide .top-nav a.btn-world-pvp.selected { background-position:-573px -202px;}
+.pvp-guide .top-nav a.btn-rewards.selected { background-position:-760px -202px;}
+
+.pvp-guide .intro { width:100%; padding: 40px 30px;}
+.pvp-guide .intro .title { width: 450px; color:#efe3d2; font:normal 52px/61px Palatino Linotype, Sans-serif; letter-spacing:-2px; margin:3px 0 40px 0; text-shadow: 0 0 5px #241209; }
+.pvp-guide .intro .text {  width:430px; color:#b79855; font-size:16px; line-height:30px;}
+
+/* Image Wrap */
+.pvp-guide .image-wrapper { position: absolute; z-index: 0; margin-top: -40px; }
+.pvp-guide.type-battlegrounds .image-wrapper { margin-left: 420px; }
+.pvp-guide.type-arenas .image-wrapper { margin-left: 400px; }
+.pvp-guide.type-world-pvp .image-wrapper { margin-left: 400px; }
+.pvp-guide .pvp-section { padding: 0px 30px 0px 30px; overflow: hidden; }
+.pvp-guide .pvp-section h3.title { color:#efe3d2; font: normal 23px/23px "palatino linotype", sans-serif; margin-bottom: 15px; padding-top: 30px; }
+.pvp-guide .pvp-video .media-thumbnail { height:230px; width: 430px; display: block; }
+.pvp-guide .pvp-video .media-thumbnail:hover { background-position: 0px 235px; }
+
+.pvp-guide .sub-section { width: 440px; margin: 5px 0 25px 0; float: left; }
+.pvp-guide .sub-section .text { line-height: 26px; position: relative; z-index: 2; }
+.pvp-guide .sub-section .title { color: #efe3d2; font: normal 14px arial, sans-serif; padding: 18px 0 18px 50px; text-transform: uppercase; position: relative; z-index: 2; background: url('../../images/game/pvp/layout/icons.png') no-repeat -10px 0; }
+
+.pvp-guide .box-section { overflow: hidden; margin: 35px 0; color: #b79855; padding: 20px 0px 20px 13px; background: #211309 url("../../images/wiki/box-bg.jpg") 0 0 no-repeat; border-radius: 4px; box-shadow: #0d0703 0 0 10px;  }
+.pvp-guide .box-section.left-column .content { padding-right: 500px; }
+.pvp-guide .box-section .content,
+.pvp-guide .box-section .additional { margin-left: 90px; }
+.pvp-guide .box-section .text { line-height: 26px; }
+.pvp-guide .box-section .title { color: #efe3d2; font: bold 18px arial, sans-serif; padding: 10px 0; text-transform: uppercase; display: inline-block ; position: relative; z-index: 2;  }
+.pvp-guide .box-section .sub-title,
+.pvp-guide .footer-section .sub-title { color: #efe3d2; font: normal 12px arial, sans-serif; padding: 10px 0; text-transform: uppercase; }
+.pvp-guide .box-section ul { width: 100%; margin-top: 15px;}
+.pvp-guide .box-section ul li { padding: 4px 0; }
+.pvp-guide .box-section ul li .req-level { float: right; }
+.pvp-guide .box-section .icon { display: block; width: 80px; height: 72px; background: url('../../images/game/pvp/layout/icons.png') no-repeat -6px -1139px; float: left; }
+
+.pvp-guide .box-sectionNoImages { overflow: hidden; margin: 35px 0; color: #b79855; padding: 20px 0px 20px 13px; background: #211309 url("../../images/wiki/box-bg.jpg") 0 0 no-repeat; border-radius: 4px; box-shadow: #0d0703 0 0 10px;  }
+.pvp-guide .box-sectionNoImages.left-column .content { padding-right: 0px; }
+.pvp-guide .box-sectionNoImages .content,
+.pvp-guide .box-sectionNoImages .additional { margin-left: 90px; }
+.pvp-guide .box-sectionNoImages .content { width: 800px; }
+.pvp-guide .box-sectionNoImages .content table { vertical-align: top;}
+.pvp-guide .box-sectionNoImages .content table td.left { vertical-align: top; width: 412px; padding-right: 25px; }
+.pvp-guide .box-sectionNoImages .content table td.right { vertical-align: top; padding-left: 25px; border-left: 1px solid rgb(50, 29, 8); }
+.pvp-guide .box-sectionNoImages .text { line-height: 26px; }
+.pvp-guide .box-sectionNoImages .title { color: #efe3d2; font: bold 18px arial, sans-serif; padding: 10px 0; text-transform: uppercase; display: inline-block ; position: relative; z-index: 2;  }
+.pvp-guide .box-sectionNoImages .sub-title,
+.pvp-guide .box-sectionNoImages table tr td ul { width: 340px; margin-top: 15px;}
+.pvp-guide .box-sectionNoImages table tr td ul li { padding: 4px 0; }
+.pvp-guide .box-sectionNoImages table tr td ul li .req-level { float: right; }
+.pvp-guide .box-sectionNoImages .icon { display: block; width: 80px; height: 72px; background: url('../../images/game/pvp/layout/icons.png') no-repeat -6px -1139px; float: left; }
+
+
+.pvp-guide .footer-section { overflow: hidden; margin: 35px 0; color: #b79855; padding: 20px; background: #211309 url("../../images/wiki/box-bg.jpg") 0 0 no-repeat; border-radius: 4px; box-shadow: #0d0703 0 0 10px; }
+
+.pvp-guide .media-frame .view { margin-top: -16px; display: block; height: 40px; width: 60px; position: absolute; background: url("../../images/layout/lightbox/ui.png") -80px -158px no-repeat;}
+.pvp-guide .media-frame .thumbnail:hover .view { background-position: -80px -209px; }
+
+.pvp-guide .wiki-section { box-shadow: #0d0703 0 0 10px; overflow: hidden; background: #211309 url("../../images/wiki/box-bg.jpg") 0 0 no-repeat; border-radius: 4px; box-shadow: #0d0703 0 0 10px; margin-bottom: 30px;}
+.pvp-guide .wiki-section .title { padding: 15px 25px; color: #f9e3d5; text-transform: uppercase; font-weight: normal; font-size: 14px; border-bottom: 1px solid #0a0603; }
+.pvp-guide .wiki-section .content { border-top: 1px solid #432615; padding: 15px 25px; }
+
+.pvp-guide.type-battlegrounds .bg-info-panel { width: 415px; position: absolute; right: 40px; top: 185px; margin: 35px 0; color: #b79855; background: #211309 url("../../images/wiki/box-bg.jpg") 0 0 no-repeat; border-radius: 4px; box-shadow: #0d0703 0 0 10px;  }
+.pvp-guide.type-battlegrounds .bg-info-panel .arrow-deco { position: absolute; background: url("../../images/game/pvp/layout/box-arrow-deco.png") 0 0 no-repeat ; margin-top: -58px; margin-left: -36px; height: 104px; width: 227px; }
+.pvp-guide.type-battlegrounds .bg-info-panel .title { margin: 20px; font-size: 23px; color: #efe3d2; font-family: 'palatino linotype', serif; font-weight: normal; }
+	/* Language Specific Adjustments */
+	.ko-kr .pvp-guide.type-battlegrounds .bg-info-panel .title { margin: 30px 20px 20px 20px; font-size: 23px; color: #efe3d2; font-family: 'palatino linotype', serif; font-weight: normal; }
+	.zh-cn .pvp-guide.type-battlegrounds .bg-info-panel .title { margin: 30px 20px 20px 20px; font-size: 23px; color: #efe3d2; font-family: 'palatino linotype', serif; font-weight: normal; }
+	.zh-tw .pvp-guide.type-battlegrounds .bg-info-panel .title { margin: 30px 20px 20px 20px; font-size: 23px; color: #efe3d2; font-family: 'palatino linotype', serif; font-weight: normal; }
+
+.pvp-guide.type-battlegrounds .bg-info-panel .info { margin: 20px;  }
+.pvp-guide.type-battlegrounds .bg-info-panel .info li { margin-bottom: 10px; overflow: hidden; }
+.pvp-guide.type-battlegrounds .bg-info-panel .info label { font-weight: bold; width: 130px; display: inline-block; float: left; }
+.pvp-guide.type-battlegrounds .bg-info-panel .info .text { font-size: 11px; color: #98562a; display: inline-block; float: left; width: 240px; }
+.pvp-guide.type-battlegrounds .bg-info-panel .screen-wrapper { margin: 20px; }
+.pvp-guide.type-battlegrounds .pvp-section { overflow: hidden; }
+.pvp-guide.type-battlegrounds .pvp-section h3.title { margin-bottom: 28px; }
+.pvp-guide.type-battlegrounds .pvp-section .text { line-height: 25px; }
+.pvp-guide .bg-info-panel .pvp-video { margin: 45px 20px 0 20px; }
+.pvp-guide .bg-info-panel .pvp-video .media-thumbnail { height:225px; width: 355px; display: block; background-position: center top}
+.pvp-guide .bg-info-panel .pvp-video .media-thumbnail:hover { background-position: center 225px; }
+
+/* Type-Specific Tweaks */
+.pvp-guide.type-player-vs-player .why-pvp { margin-top: 70px; }
+.pvp-guide.type-player-vs-player .pvp-video { float: left; margin: 10px 20px 15px 0;}
+.pvp-guide.type-player-vs-player .checked-up { background: url('../../images/game/pvp/backgrounds/bg-pvp-landing-paladin.jpg') no-repeat right 0px; min-height: 554px; padding-top: 150px; margin-top: -150px; }
+.pvp-guide.type-player-vs-player .checked-up .footer-section .block { width: 45%; margin-right: 40px; }
+.pvp-guide.type-player-vs-player .quest-for-glory .title { background-position: -10px -83px; }
+.pvp-guide.type-player-vs-player .armed-and-dangerous .title { background-position: -10px -164px; }
+.pvp-guide.type-player-vs-player .type .title { background-position: -10px -247px; }
+.pvp-guide.type-player-vs-player .suit-up .title { background-position: -10px -330px; }
+.pvp-guide.type-player-vs-player .checked-up .footer-section .block { clear: none; }
+.pvp-guide.type-player-vs-player .checked-up .footer-section .block .text { float: none; width: 100%; }
+.pvp-guide .sub-section.rush-of-battle { margin-top: 30px; float: left; }
+.pvp-guide .sub-section.armed-and-dangerous,
+.pvp-guide .sub-section.gear  { margin-left: 35px; }
+.pvp-guide .sub-section.deployment { float: right; min-height: 470px;}
+
+.pvp-guide.type-battlegrounds .capture-the-flag .image-wrapper { width: 505px; height: 298px; background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-capture-the-flag.png') right top no-repeat;}
+.pvp-guide.type-battlegrounds .resource-race .image-wrapper { width: 505px; height: 356px; background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-resource-race.png') right top no-repeat; }
+.pvp-guide.type-battlegrounds .additional { padding-right: 510px; }
+.pvp-guide.type-battlegrounds .warfare { position: relative; z-index: 2;  }
+.pvp-guide.type-battlegrounds .warfare .image-wrapper { width: 505px; height: 356px; background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-warfare.png') right top no-repeat;}
+.pvp-guide.type-battlegrounds .deployment .image-wrapper { position: absolute; width: 782px; height: 614px; margin-top: -102px; margin-left: -524px; background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deployment.jpg') 0 0 no-repeat; }
+.pvp-guide.type-battlegrounds .deployment .text span { display: inline-block; position: relative; margin-top: -20px; top: 8px; height: 25px; width: 25px; background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-dice.jpg') no-repeat; }
+.pvp-guide.type-battlegrounds .deployment .icon { background-position: -10px -412px; }
+.pvp-guide.type-battlegrounds .capture-the-flag .icon { background-position: -6px -1221px; }
+.pvp-guide.type-battlegrounds .warfare .icon { background-position: -6px -1302px; }
+.pvp-guide.type-battlegrounds .req-level { font-size: 10px; color: #71401f; }
+.pvp-guide.type-battlegrounds .link-arrow { display: inline-block; background: url("../../images/icons/flyout-arrows.gif") no-repeat 100% -123px; width: 15px; height: 10px; margin: 0px 0px 0px 3px; top: 1px; position: relative; }
+
+.pvp-guide.type-arenas .box-section.general .image-wrapper { z-index: 0; width: 640px; height: 567px; margin-top: -18px; right: 36px; position: absolute; background: url('../../images/game/pvp/backgrounds/bg-pvp-arena.jpg') right top no-repeat; }
+.pvp-guide.type-arenas .box-section.general .text { z-index: 1; position: relative; display: block; }
+	.zh-cn .pvp-guide.type-arenas .box-section.general .text { padding-bottom: 90px; }
+	.zh-tw .pvp-guide.type-arenas .box-section.general .text { padding-bottom: 90px; }
+
+.pvp-guide.type-arenas .box-section.general .screenshots { margin-top: 40px; }
+.pvp-guide.type-arenas .box-section.general .queue-access { overflow: hidden; border-bottom:1px solid #462d0b; padding: 20px 0px 20px 0px; margin-bottom: 10px; }
+.pvp-guide.type-arenas .box-section.general .world-access  { margin-top: 0; margin-bottom: 30px; overflow: hidden; }
+.pvp-guide.type-arenas .box-section.general .world-access li { float:left; margin-right: 50px; color:#b79855; }
+.pvp-guide.type-arenas .box-section.general .world-access li .zone { display: block; font-size: 11px; color:#98562a;}
+.pvp-guide.type-arenas .prepared .title { background-position: -10px -494px; }
+.pvp-guide.type-arenas .gear .title { background-position: -10px -576px; }
+.pvp-guide.type-arenas .general .icon { background-position: -6px -1386px; }
+
+.pvp-guide.type-world-pvp .box-section.dueling .image-wrapper { width: 521px; height: 383px; margin-top: -46px; background: url('../../images/game/pvp/backgrounds/bg-pvp-world-pvp-dueling.png') right top no-repeat; }
+	.zh-cn .pvp-guide.type-world-pvp .box-section.dueling { height: 300px; }
+	.zh-tw .pvp-guide.type-world-pvp .box-section.dueling { height: 300px; }
+.pvp-guide.type-world-pvp .box-section.world-boss .image-wrapper { width: 523px; height: 680px; margin-top: -10px; background: url('../../images/game/pvp/backgrounds/bg-pvp-world-pvp-interest-in-conflict.png') right top no-repeat; }
+.pvp-guide.type-world-pvp .box-section.world-boss .additional ul li { width: 331px; margin-bottom: 10px;}
+.pvp-guide.type-world-pvp .box-section.world-boss .additional ul li span.tooltip { border-bottom: 1px dotted #565656; color: #F5EBD1; }
+.pvp-guide.type-world-pvp .box-section.world-boss .additional ul li span.zone { display: inline; font-size: 11px; color: #98562a; float: right; font-size: 11px; color:#98562a;}
+.pvp-guide.type-world-pvp .box-section.world-boss .additional ul li span.tooltip:hover { cursor: help; }
+.pvp-guide.type-world-pvp .box-section.world-boss .additional ul li:last-child { padding-bottom: 20px;}
+
+.pvp-guide.type-world-pvp .box-section.factions ul { margin-top: 30px; }
+.pvp-guide.type-world-pvp .box-section.factions ul li  { margin-bottom: 10px; width: 331px;}
+.pvp-guide.type-world-pvp .box-section.factions ul li a { color: #ffb100; }
+.pvp-guide.type-world-pvp .box-section.factions ul li .zone { float:right; font-size: 11px; color:#98562a; line-height: 26px; }
+.pvp-guide.type-world-pvp .box-section.factions .screenshots { float: left; margin-top: 10px; margin-left: 35px; }
+.pvp-guide.type-world-pvp .box-section.factions .screenshots img { height: 234px; width: 395px; }
+.pvp-guide.type-world-pvp .box-section.factions .screenshots .media-frame { margin-bottom: 15px; }
+.pvp-guide.type-world-pvp .box-section.factions .screenshots .media-frame .view { margin-left: 345px; }
+.pvp-guide.type-world-pvp .box-section.factions .float-left { width: 430px; }
+.pvp-guide.type-world-pvp .rel-faction { padding-left: 20px; display: block; line-height: 22px; }
+.pvp-guide.type-world-pvp .rel-faction.horde { background: url(../../images/icons/horde.png) no-repeat left 2px; }
+.pvp-guide.type-world-pvp .rel-faction.alliance { background: url(../../images/icons/alliance.png) no-repeat left 2px; }
+.pvp-guide.type-world-pvp .dueling .icon { background-position: -6px -1468px; }
+.pvp-guide.type-world-pvp .world-boss .icon { background-position: -6px -1550px; }
+.pvp-guide.type-world-pvp .factions .icon { background-position: -6px -1632px; }
+
+.pvp-guide.type-rewards .pvp-section {float: left;}
+.pvp-guide.type-rewards .currency { padding-bottom: 320px;  }
+.pvp-guide.type-rewards .currency .text { border-bottom: 1px solid #462d0b; padding-bottom: 20px; }
+.pvp-guide.type-rewards .currency .points { z-index: 2; display: inline-block; position: relative; height: 25px; }
+.pvp-guide.type-rewards .currency .points.honor { background: url('../../images/game/pvp/backgrounds/bg-pvp-rewards-honor.jpg') no-repeat; }
+.pvp-guide.type-rewards .currency .points.conquest { background: url('../../images/game/pvp/backgrounds/bg-pvp-rewards-conquest.jpg') no-repeat; }
+.pvp-guide.type-rewards .currency .image-wrapper { position: absolute; margin-top: -110px; left: 10px;  width: 551px; height: 461px; background: url('../../images/game/pvp/backgrounds/bg-pvp-rewards-shiny.jpg') right top no-repeat; }
+.pvp-guide.type-rewards .points { padding: 5px 0 5px 32px; text-transform: uppercase; float: left; margin: 5px 15px 25px 0; min-width: 25%; max-width: 35%; }
+.pvp-guide.type-rewards .wiki-section { position: relative; z-index: 4; margin: 90px 20px 30px 20px; float: left; width: 450px; padding-bottom: 20px; }
+.pvp-guide.type-rewards .wiki-section.cost  { position: relative; z-index: 4; margin: 20px 0px 30px 20px; float: left; width: 950px; padding-bottom: 20px;  }
+.pvp-guide.type-rewards .wiki-section.cost .title { color: #efe3d2; font: bold 18px arial, sans-serif; padding-bottom: 18px; padding-top: 25px;  }
+.pvp-guide.type-rewards .wiki-section .text { color:#b79855; margin: 15px 0; }
+.pvp-guide.type-rewards .wiki-section .text table td { vertical-align: top; padding: 6px 0px 6px 0px;}
+.pvp-guide.type-rewards .wiki-section .text td.category { color: #efe3d2; font: 14px arial, sans-serif; padding-bottom: 8px; text-transform: uppercase; width: 300px; }
+.pvp-guide.type-rewards .wiki-section .text td.costs { font-size: 12px; color: #98562a; text-align: right; width: 90px;  }
+.pvp-guide.type-rewards .wiki-section .text td.currency { font-size: 12px; color: #98562a; text-align: right; width: 42px;}
+.pvp-guide.type-rewards .wiki-section .text .honor { background: url("../../images/icons/currency/honor-1-small.gif") no-repeat; display: inline-block; height: 16px; margin-left: 5px; padding: 0px 0px 0px 0px; vertical-align: bottom; width: 16px; }
+.pvp-guide.type-rewards .wiki-section .text .conquest { background: url("../../images/icons/currency/conquest-1-small.gif") no-repeat; display: inline-block; height: 16px; vertical-align: bottom; width: 16px; }
+.pvp-guide.type-rewards .wiki-section .media-frame .thumbnail img { width: 380px; height: 220px; }
+.pvp-guide.type-rewards .wiki-section .media-frame .small-thumbnail img{ width: 165px; height: 90px;  }
+.pvp-guide.type-rewards .wiki-section .thumbnail.legends,
+.pvp-guide.type-rewards .wiki-section .thumbnail.champions { float: left; margin-top: 10px; }
+.pvp-guide.type-rewards .wiki-section .media-frame .small-thumbnail  .view { margin-left: 115px; }
+.pvp-guide.type-rewards .wiki-section .media-frame .thumbnail  .view { margin-left: 330px; }
+.pvp-guide.type-rewards .wiki-section .media-frame .small-thumbnail:hover .view,
+.pvp-guide.type-rewards .wiki-section .media-frame .thumbnail:hover .view  { background-position: -80px -209px; }
+.pvp-guide.type-rewards .wiki-section .thumbnail.champions { margin-right: 20px; }
+.pvp-guide.type-rewards .wiki-section .thumbnail .caption { display: block; font-size: 11px; color: #98562a; padding-left: 5px; margin-top: 8px; }
+
+.pvp-guide.type-rewards .currency .title { background-position: -10px -658px; }
+.pvp-guide.type-rewards .dressed-for-success .title { background-position: -10px -740px; }
+.pvp-guide.type-rewards .achievements .title { background-position: -10px -824px; }
+.pvp-guide.type-rewards .pvp-section.gear-achievements { width: 933px; min-height: 600px; padding-top: 120px; margin-top: -140px; background: url('../../images/game/pvp/backgrounds/bg-pvp-rewards-armors.jpg')right top no-repeat; background-position: 162px 38px;}
+
+.toggle { display: block; height: 10px; width: 10px; background-color: red; display: inline; display: inline-block; margin-left: 5px; }
+
+
+/* Individual Battlegrounds */
+/* ------------------------ */
+
+.pvp-guide.type-battlegrounds .battleground-footer { background: #211309 url("../../images/wiki/box-bg.jpg") 0 0 no-repeat; border-radius: 4px; box-shadow: #0d0703 0 0 10px; color: #b79855; margin: 30px 30px 100px 30px; min-height: 230px; padding: 30px; position: relative; width: 874px; z-index: 1; }
+.pvp-guide.type-battlegrounds .battleground-footer h4.title { color: #efe3d2; font: bold 18px arial, sans-serif; margin-bottom: 18px; text-transform: uppercase; display: inline-block;  }
+.pvp-guide.type-battlegrounds .battleground-footer h5.type-title { font-weight: bold; margin-bottom: 8px; }
+.pvp-guide.type-battlegrounds .battleground-footer .content { float: left; margin-right: 20px; z-index: 1;}
+.pvp-guide.type-battlegrounds .battleground-footer .content li { padding-bottom: 6px; width: 170px; }
+.pvp-guide.type-battlegrounds .battleground-footer .image-wrapper { width: 380px; height: 381px; margin-left: 524px; margin-top: -30px; background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deploy.png') right top no-repeat; z-index: 0;}
+
+/* Buff Icons */
+.pvp-guide .footer-section .block { clear: both; min-height: 80px;}
+.pvp-guide .footer-section .block .icon  { display: block; float: left; width: 85px; height: 75px; background: url('../../images/game/pvp/layout/icons.png') no-repeat ; }
+.pvp-guide .footer-section .block .text { width: 305px; float: right; }
+.pvp-guide .footer-section .restoration .icon{ background-position: -6px -1708px; }
+.pvp-guide .footer-section .berserking .icon { background-position: -6px -1791px; }
+.pvp-guide .footer-section .speed .icon { background-position: -6px -1874px; }
+.pvp-guide .footer-section .sub-title { padding-bottom: 0; }
+
+/* Alterac Valley */
+.pvp-guide.type-battlegrounds.alterac-valley #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-top.jpg') 0 0 no-repeat; }
+.pvp-guide.alterac-valley .intro {background-position: 0px 100px; height: 700px; overflow: visible; }
+.pvp-guide.alterac-valley .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.alterac-valley .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.alterac-valley .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-mount.jpg') no-repeat; background-position: 0px 100px; display: inline; height: 700px; margin: 0px; margin-top: 30px;padding: 0px; position: absolute; right: 6px; width: 986px; z-index: 0;}
+.pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: 0px 10px; display: inline; height: 650px; margin: 0px; margin-top: 250px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+.pvp-guide.alterac-valley .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2273px; }
+.pvp-guide.alterac-valley .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -3284px; }
+.pvp-guide.alterac-valley .sub-section.graveyards .title { background-position: -10px -1074px; }
+.pvp-guide.alterac-valley .pvp-quests {background: url('../../images/game/pvp/backgrounds/dropdpown-box.jpg') no-repeat ;background-color: #21130a; width: 935px; height: 1100px; margin-left: 25px; margin-top: 80px;  border-radius: 4px;
+box-shadow: #0d0703 0 0 10px;}
+.pvp-guide.alterac-valley .sub-section.unique3 { width: 400px;float: left;}
+.pvp-guide.alterac-valley .sub-section.unique3 .title { margin-top: 0px; background-position: -8px -3223px; }
+.pvp-guide.alterac-valley .sub-section.unique3 span { color: #b39265;}
+.pvp-guide.alterac-valley .feature-image4 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-quest-right.jpg') no-repeat; background-position: -10px 10px; display: inline; height: 750px; margin: 382px;margin-top: 50px; padding: 0px; position: absolute; left: 6px; width: 600px; z-index: 0;}
+.pvp-guide.alterac-valley .sub-section.unique4 { color: #b39265;}
+	/* Language Specific Adjustments */
+	.de-de .pvp-guide.alterac-valley .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-mount.jpg') no-repeat; background-position: 0px 120px; display: inline; height: 700px; margin: 0px; margin-top: 30px;padding: 0px; position: absolute; right: 6px; width: 986px; z-index: 0;}
+	.de-de .pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: -0px 40px; display: inline; height: 650px; margin: 0px; margin-top: 250px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.es-es .pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: -0px 70px; display: inline; height: 650px; margin: 0px; margin-top: 250px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.fr-fr .pvp-guide.alterac-valley .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-mount.jpg') no-repeat; background-position: 0px 130px; display: inline; height: 700px; margin: 0px; margin-top: 30px;padding: 0px; position: absolute; right: 6px; width: 986px; z-index: 0;}
+	.fr-fr .pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: -0px 60px; display: inline; height: 650px; margin: 0px; margin-top: 250px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.ru-ru .pvp-guide.alterac-valley .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-mount.jpg') no-repeat; background-position: 0px 130px; display: inline; height: 700px; margin: 0px; margin-top: 30px;padding: 0px; position: absolute; right: 6px; width: 986px; z-index: 0;}
+	.ru-ru .pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: -0px 70px; display: inline; height: 650px; margin: 0px; margin-top: 250px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.ru-ru .pvp-guide.alterac-valley .intro {background-position: 0px 100px; height: 760px; overflow: visible; }
+	.ko-kr .pvp-guide.alterac-valley .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-mount.jpg') no-repeat; background-position: 0px 70px; display: inline; height: 700px; margin: 0px; margin-top: 30px;padding: 0px; position: absolute; right: 6px; width: 986px; z-index: 0;}
+	.ko-kr .pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: 0px 0px; display: inline; height: 650px; margin: 0px; margin-top: 180px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.zh-cn .pvp-guide.alterac-valley .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-mount.jpg') no-repeat; background-position: 0px 40px; display: inline; height: 700px; margin: 0px; margin-top: 30px;padding: 0px; position: absolute; right: 6px; width: 986px; z-index: 0;}
+	.zh-cn .pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: 0px 0px; display: inline; height: 650px; margin: 0px; margin-top: 180px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.zh-tw .pvp-guide.alterac-valley .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-mount.jpg') no-repeat; background-position: 0px 40px; display: inline; height: 700px; margin: 0px; margin-top: 30px;padding: 0px; position: absolute; right: 6px; width: 986px; z-index: 0;}
+	.zh-tw .pvp-guide.alterac-valley .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-alterac-valley-general.jpg') no-repeat; background-position: 0px 0px; display: inline; height: 650px; margin: 0px; margin-top: 180px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+
+/* Arathi Basin */
+.pvp-guide.type-battlegrounds.arathi-basin #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-arathi-basin-top.jpg') 0 0 no-repeat; }
+.pvp-guide.arathi-basin .intro { /*background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-arathi-image.png') bottom no-repeat;  background-position: 0px 100px; */ height: 850px; overflow: visible; }
+.pvp-guide.arathi-basin .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.arathi-basin .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.arathi-basin .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-arathi-basin-buff.jpg') no-repeat; background-position: -50px 130px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+.pvp-guide.arathi-basin .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2442px; }
+.pvp-guide.arathi-basin .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -2524px; }
+.pvp-guide.arathi-basin .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.fr-fr .pvp-guide.arathi-basin .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-arathi-basin-buff.jpg') no-repeat; background-position: -50px 160px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+
+/* Ashran */
+.pvp-guide.type-battlegrounds.ashran #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-ashran-top.jpg') 0 0 no-repeat; }
+.pvp-guide.ashran .intro { height: 700px; overflow: visible; }
+.pvp-guide.ashran .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden; }
+.pvp-guide.ashran .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.ashran .sub-section.unique1 .title { margin-top: 30px; background-position: -10px -2772px; }
+.pvp-guide.ashran .sub-section.unique2 .title { margin-top: 75px; background-position: -10px -1949px; }
+
+/* Battle for Gilneas */
+.pvp-guide.type-battlegrounds.battle-for-gilneas #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-battle-for-gilneas-top.jpg') 0 0 no-repeat; }
+.pvp-guide.battle-for-gilneas .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-battle-for-gilneas-boat.png') bottom no-repeat;  background-position: 0px 230px; height: 850px; overflow: visible; }
+.pvp-guide.battle-for-gilneas .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.battle-for-gilneas .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.battle-for-gilneas .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-battle-for-gilneas-house.png') no-repeat; background-position: 0px 50px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+.pvp-guide.battle-for-gilneas .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2442px; }
+.pvp-guide.battle-for-gilneas .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -2524px; }
+.pvp-guide.battle-for-gilneas .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.ko-kr .pvp-guide.battle-for-gilneas .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-battle-for-gilneas-house.png') no-repeat; background-position: 0px 0px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-cn .pvp-guide.battle-for-gilneas .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-battle-for-gilneas-house.png') no-repeat; background-position: 0px 0px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-tw .pvp-guide.battle-for-gilneas .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-battle-for-gilneas-house.png') no-repeat; background-position: 0px 0px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+
+/* Deepwind Gorge */
+.pvp-guide.type-battlegrounds.deepwind-gorge #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-gorge-top.jpg') 0 0 no-repeat; }
+.pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 550px; height: 1000px; overflow: visible; }
+.pvp-guide.deepwind-gorge .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.deepwind-gorge .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.deepwind-gorge .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-gorge-mine.jpg') no-repeat; background-position: -115px 130px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+.pvp-guide.deepwind-gorge .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -987px }
+.pvp-guide.deepwind-gorge .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -906px; }
+.pvp-guide.deepwind-gorge .sub-section.graveyards .title { background-position: -10px -1074px; }
+.pvp-guide.deepwind-gorge .bg-info-panel .screen-list .thumbnail-large,
+.pvp-guide.deepwind-gorge .bg-info-panel .screen-display { height: 248px; }
+.pvp-guide.deepwind-gorge .bg-info-panel .screen-display .screenshot-nav { margin-top: 80px; }
+	/* Language Specific Adjustments */
+	.pt-br .pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 585px; height: 1000px; overflow: visible; }
+	.es-es .pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 575px; height: 1000px; overflow: visible; }
+	.fr-fr .pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 670px; height: 1080px; overflow: visible; }
+	.pt-pt .pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 585px; height: 1000px; overflow: visible; }
+	.ru-ru .pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 670px; height: 1080px; overflow: visible; }
+	.zh-cn .pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 450px; height: 1000px; overflow: visible; }
+	.zh-tw .pvp-guide.deepwind-gorge .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-deepwind-cart.png') bottom no-repeat;  background-position: 0px 450px; height: 1000px; overflow: visible; }
+
+/* Eye of the Storm */
+.pvp-guide.type-battlegrounds.eye-of-the-storm #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-eye-of-the-storm-top.jpg') 0 0 no-repeat; }
+.pvp-guide.eye-of-the-storm .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-eye-of-the-storm-flora.html') bottom no-repeat;  background-position: 0px 100px; height: 700px; overflow: visible; }
+.pvp-guide.eye-of-the-storm .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.eye-of-the-storm .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.eye-of-the-storm .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-eye-of-the-storm-flag.jpg') no-repeat; background-position: -120px 110px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+.pvp-guide.eye-of-the-storm .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2277px; }
+.pvp-guide.eye-of-the-storm .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -3166px; }
+.pvp-guide.eye-of-the-storm .sub-section.unique3 .title { margin-top: 0px; background-position: -10px -2358px; }
+.pvp-guide.eye-of-the-storm .sub-section.unique4 .title { margin-top: 0px; background-position: -10px -3092px; }
+	/* Language Specific Adjustments */
+	.fr-fr .pvp-guide.eye-of-the-storm .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-eye-of-the-storm-flag.jpg') no-repeat; background-position: -120px 150px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.it-it .pvp-guide.eye-of-the-storm .intro { height: 730px; overflow: visible; }
+	.ko-kr .pvp-guide.eye-of-the-storm .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-eye-of-the-storm-flag.jpg') no-repeat; background-position: -120px 90px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+
+/* Isle of Conquest */
+.pvp-guide.type-battlegrounds.isle-of-conquest #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-isle-of-conquest-top.jpg') 0 0 no-repeat; }
+.pvp-guide.isle-of-conquest .intro {background-position: 0px 100px; height: 850px; overflow: visible; }
+.pvp-guide.isle-of-conquest .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.isle-of-conquest .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.isle-of-conquest .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-isle-of-conquest-alarm.jpg') no-repeat; background-position: -60px 120px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+.pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 150px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+.pvp-guide.isle-of-conquest .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -3468px; }
+.pvp-guide.isle-of-conquest .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -3760px; }
+.pvp-guide.isle-of-conquest .sub-section.graveyards .title { background-position: -10px -1074px; }
+.pvp-guide.isle-of-conquest .pvp-quests1 { margin-top:40px; margin-left: 30px; margin-right: 30px; margin-bottom: 20px; background: url('../../images/game/pvp/backgrounds/dropdpown-box-objectives.jpg') no-repeat ;background-color: #21130a; border-radius: 4px;box-shadow: #0d0703 0 0 10px;position: relative; z-index: 1; }
+.pvp-guide.isle-of-conquest .pvp-quests2 { margin-top:10px; margin-left: 30px; margin-right: 30px; margin-bottom: 20px; background: url('../../images/game/pvp/backgrounds/dropdpown-box-siege.jpg') no-repeat ;background-color: #21130a; border-radius: 4px; box-shadow: #0d0703 0 0 10px;position: relative; z-index: 1; }
+.pvp-guide.isle-of-conquest .heading { font-size: 14px; color:#ffb100; padding-top: 18px ; padding-bottom:20px; padding-left: 55px; margin-left: 20px;cursor: pointer;}
+.pvp-guide.isle-of-conquest .heading:hover { color:#efe3d2}
+[data-trigger="accordion-toggle"] .icon-toggle { background:  url('../../images/game/pvp/layout/icons.png') no-repeat -15px -3878px; display: inline-block;height: 14px; width: 14px; position: absolute; right: 40px;top: 22px;}
+[data-trigger="accordion-toggle"].is-toggled .icon-toggle { background:  url('../../images/game/pvp/layout/icons.png') -30px -3878px;}
+.pvp-guide.isle-of-conquest .dropdown-icon-objectives {background: url('../../images/game/pvp/layout/icons.png') no-repeat -6px -3281px; width: 50px;height: 55px; display: inline-block; position: absolute; top: 0px;left: 20px}
+.pvp-guide.isle-of-conquest .dropdown-icon-siege{background: url('../../images/game/pvp/layout/icons.png') no-repeat -6px -3814px; width: 50px;height: 55px; display: inline-block; position: absolute; top: 0px;left: 20px}
+.pvp-guide.isle-of-conquest .body-text { display: none; padding-bottom:21px; ; padding-right: 30px;padding-top: 20px ;padding-left: 40px; line-height: 25px;}
+.pvp-guide.isle-of-conquest .obj-text1 {  width: 400px;}
+.pvp-guide.isle-of-conquest .obj-text2 { width: 400px; /*margin-top:-360px;*/ margin-bottom: 41px; padding-left: 440px;}
+	/* Language Specific Adjustments */
+	.es-mx .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 200px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+	.de-de .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 180px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+	.es-es .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 200px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+	.fr-fr .pvp-guide.isle-of-conquest .intro {background-position: 0px 100px; height: 900px; overflow: visible; }
+	.fr-fr .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 270px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+	.it-it .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 200px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+	.ru-ru .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 190px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+	.ko-kr .pvp-guide.isle-of-conquest .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-isle-of-conquest-alarm.jpg') no-repeat; background-position: -60px 110px; background-size: 700px 438px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-cn .pvp-guide.isle-of-conquest .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-isle-of-conquest-alarm.jpg') no-repeat; background-position: -60px 110px; background-size: 700px 438px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-cn .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 100px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+	.zh-tw .pvp-guide.isle-of-conquest .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-isle-of-conquest-alarm.jpg') no-repeat; background-position: -60px 110px; background-size: 700px 438px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-tw .pvp-guide.isle-of-conquest .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-Isle-of-conquest-bombs.png') no-repeat; background-position: -140px 100px; display: inline; height: 700px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;} 
+
+/* Silvershard Mines */
+.pvp-guide.type-battlegrounds.silvershard-mines #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-silvershard-mines-top.jpg') 0 0 no-repeat; }
+.pvp-guide.silvershard-mines .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-silvershard-mines-cave.png') bottom no-repeat;  background-position: 0px 220px; height: 700px; overflow: visible; }
+.pvp-guide.silvershard-mines .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.silvershard-mines .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.silvershard-mines .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-silvershard-mines-monkey.jpg') no-repeat; background-position: 5px 80px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+.pvp-guide.silvershard-mines .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -1949px; }
+.pvp-guide.silvershard-mines .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -2029px; }
+.pvp-guide.silvershard-mines .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.ko-kr .pvp-guide.silvershard-mines .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-silvershard-mines-monkey.jpg') no-repeat; background-position: 5px 40px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-cn .pvp-guide.silvershard-mines .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-silvershard-mines-monkey.jpg') no-repeat; background-position: 5px 30px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-tw .pvp-guide.silvershard-mines .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-silvershard-mines-monkey.jpg') no-repeat; background-position: 5px 30px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+
+/* Strand of the Ancients */
+.pvp-guide.type-battlegrounds.strand-of-the-ancients #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-top.jpg') 0 0 no-repeat; }
+.pvp-guide.strand-of-the-ancients .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-flora.png') bottom no-repeat;  background-position: 0px 300px; height: 850px; overflow: visible; }
+.pvp-guide.strand-of-the-ancients .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.strand-of-the-ancients .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.strand-of-the-ancients .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-relic.jpg') no-repeat; background-position: -40px 230px; display: inline; height: 600px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+.pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 500px; display: inline; height: 1250px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+.pvp-guide.strand-of-the-ancients .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2602px; }
+.pvp-guide.strand-of-the-ancients .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -2684px; }
+.pvp-guide.strand-of-the-ancients .sub-section.unique3 .title { margin-top: 0px; background-position: -10px -2852px; }
+.pvp-guide.strand-of-the-ancients .sub-section.unique4 .title { margin-top: 0px; background-position: -10px -2772px; }
+.pvp-guide.strand-of-the-ancients .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.de-de .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 620px; display: inline; height: 1350px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.es-es .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 620px; display: inline; height: 1350px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.fr-fr .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 620px; display: inline; height: 1350px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.it-it .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 620px; display: inline; height: 1350px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.ru-ru .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 620px; display: inline; height: 1350px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.ko-kr .pvp-guide.strand-of-the-ancients .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-relic.jpg') no-repeat; background-position: -40px 200px; display: inline; height: 600px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.ko-kr .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 430px; display: inline; height: 1250px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.zh-cn .pvp-guide.strand-of-the-ancients .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-relic.jpg') no-repeat; background-position: -40px 200px; display: inline; height: 600px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-cn .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 350px; display: inline; height: 1250px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.zh-tw .pvp-guide.strand-of-the-ancients .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-relic.jpg') no-repeat; background-position: -40px 200px; display: inline; height: 600px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 550px; z-index: 0;}
+	.zh-tw .pvp-guide.strand-of-the-ancients .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-strand-of-the-ancients-demolisher.jpg') no-repeat; background-position: 0px 350px; display: inline; height: 1250px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+
+/* Temple of Kotmogu */
+.pvp-guide.type-battlegrounds.temple-of-kotmogu #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-top.jpg') 0 0 no-repeat; }
+.pvp-guide.temple-of-kotmogu .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-trees.png') bottom no-repeat;  background-position: 0px 380px; height: 700px; overflow: visible; }
+.pvp-guide.temple-of-kotmogu .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.temple-of-kotmogu .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.temple-of-kotmogu .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-powerball.png') no-repeat; background-position: -30px 100px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 650px; z-index: 0;}
+.pvp-guide.temple-of-kotmogu .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2193px; }
+.pvp-guide.temple-of-kotmogu .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -2108px; }
+.pvp-guide.temple-of-kotmogu .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.de-de .pvp-guide.temple-of-kotmogu .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-powerball.png') no-repeat; background-position: -30px 145px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 650px; z-index: 0;}
+	.es-es .pvp-guide.temple-of-kotmogu .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-powerball.png') no-repeat; background-position: -30px 160px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 650px; z-index: 0;}
+	.fr-fr .pvp-guide.temple-of-kotmogu .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-powerball.png') no-repeat; background-position: -30px 160px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 650px; z-index: 0;}
+	.zh-cn .pvp-guide.temple-of-kotmogu .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-powerball.png') no-repeat; background-position: -30px 50px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 650px; z-index: 0;}
+	.zh-tw .pvp-guide.temple-of-kotmogu .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-temple-of-kotmogu-powerball.png') no-repeat; background-position: -30px 50px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 650px; z-index: 0;}
+
+/* Tol Barad */
+.pvp-guide.type-battlegrounds.tol-barad #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-top.jpg') 0 0 no-repeat; }
+.pvp-guide.tol-barad .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-fort.png') bottom no-repeat;  background-position: 0px 320px; height: 850px; overflow: visible; }
+.pvp-guide.tol-barad .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden; }
+.pvp-guide.tol-barad .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.tol-barad .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-ballista.jpg') no-repeat; background-position: -100px 130px; display: inline; height: 650px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 600px; z-index: 0;}
+.pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 430px; display: inline; height: 996px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+.pvp-guide.tol-barad .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -3469px; }
+.pvp-guide.tol-barad .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -3163px; }
+.pvp-guide.tol-barad .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.es-mx .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 530px; display: inline; height: 1196px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.de-de .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 530px; display: inline; height: 1196px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.es-es .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 530px; display: inline; height: 1196px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.fr-fr .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 530px; display: inline; height: 1196px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.it-it .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 500px; display: inline; height: 1196px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.ru-ru .pvp-guide.tol-barad .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-fort.png') bottom no-repeat;  background-position: 0px 320px; height: 900px; overflow: visible; }
+	.ru-ru .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 530px; display: inline; height: 1196px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.ko-kr .pvp-guide.tol-barad .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-ballista.jpg') no-repeat; background-position: -100px 80px; display: inline; height: 650px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 600px; z-index: 0;}
+	.ko-kr .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 305px; display: inline; height: 996px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.zh-cn .pvp-guide.tol-barad .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-ballista.jpg') no-repeat; background-position: -50px 90px; background-size: 700px 538px; display: inline; height: 650px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 600px; z-index: 0;}
+	.zh-cn .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 230px; display: inline; height: 996px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+	.zh-tw .pvp-guide.tol-barad .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-ballista.jpg') no-repeat; background-position: -50px 90px; background-size: 700px 538px; display: inline; height: 650px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 600px; z-index: 0;}
+	.zh-tw .pvp-guide.tol-barad .feature-image2 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-tol-barad-siege.jpg') no-repeat; background-position: 0px 230px; display: inline; height: 996px; margin: 0px; padding: 0px; position: absolute; left: 6px; width: 750px; z-index: 0;}
+
+/* Twin Peaks */
+.pvp-guide.type-battlegrounds.twin-peaks #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-twin-peaks-top.jpg') 0 0 no-repeat; }
+.pvp-guide.twin-peaks .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-twin-peaks-warmachines.png') bottom no-repeat;  background-position: 0px 250px; height: 700px; overflow: visible; }
+.pvp-guide.twin-peaks .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.twin-peaks .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.twin-peaks .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-twin-peaks-flag.jpg') no-repeat; background-position: 0px 140px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+.pvp-guide.twin-peaks .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2274px; }
+.pvp-guide.twin-peaks .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -2354px; }
+.pvp-guide.twin-peaks .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.ko-kr .pvp-guide.twin-peaks .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-twin-peaks-flag.jpg') no-repeat; background-position: 0px 160px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+	.zh-cn .pvp-guide.twin-peaks .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-twin-peaks-flag.jpg') no-repeat; background-position: 0px 140px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+	.zh-tw .pvp-guide.twin-peaks .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-twin-peaks-flag.jpg') no-repeat; background-position: 0px 140px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+
+/* Warsong Gulch */
+.pvp-guide.type-battlegrounds.warsong-gulch #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-warsong-gulch-top.jpg') 0 0 no-repeat; }
+.pvp-guide.warsong-gulch .intro { height: 850px; overflow: visible; }
+.pvp-guide.warsong-gulch .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.warsong-gulch .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.warsong-gulch .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-warsong-gulch-flag.jpg') no-repeat; background-position: 0px 100px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+.pvp-guide.warsong-gulch .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -2274px; }
+.pvp-guide.warsong-gulch .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -2354px; }
+.pvp-guide.warsong-gulch .sub-section.graveyards .title { background-position: -10px -1074px; }
+	/* Language Specific Adjustments */
+	.it-it .pvp-guide.warsong-gulch .intro { height: 890px; overflow: visible; }
+	.ru-ru .pvp-guide.warsong-gulch .intro { height: 910px; overflow: visible; }
+	.ko-kr .pvp-guide.warsong-gulch .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-warsong-gulch-flag.jpg') no-repeat; background-position: 125px 90px; background-size: 700px 408px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+	.zh-cn .pvp-guide.warsong-gulch .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-warsong-gulch-flag.jpg') no-repeat; background-position: 125px 90px; background-size: 700px 408px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+	.zh-tw .pvp-guide.warsong-gulch .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-warsong-gulch-flag.jpg') no-repeat; background-position: 125px 90px; background-size: 700px 408px; display: inline; height: 800px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 825px; z-index: 0;}
+
+/* Wintergrasp */
+.pvp-guide.type-battlegrounds.wintergrasp #content .content-top { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-top.jpg') 0 0 no-repeat; }
+.pvp-guide.wintergrasp .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-window.html') bottom no-repeat;  background-position: 0px 220px; height: 850px; overflow: visible; }
+.pvp-guide.wintergrasp .background-wrapper.overview { margin-top: -90px; padding-bottom: 40px; overflow: hidden;  }
+.pvp-guide.wintergrasp .pvp-section { float:left; position: relative; width: 430px; z-index: 1; }
+.pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 170px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+.pvp-guide.wintergrasp .sub-section.unique1 .title { margin-top: 0px; background-position: -10px -3341px; }
+.pvp-guide.wintergrasp .sub-section.unique2 .title { margin-top: 80px; background-position: -10px -3469px; }
+.pvp-guide.wintergrasp .sub-section.unique3 .title { margin-top: 0px; background-position: -10px -3163px; }
+.pvp-guide.wintergrasp .sub-section.unique4 .title { margin-top: 0px; background-position: -10px -3400px; }
+.pvp-guide.wintergrasp .footer-section .block {  min-height: 75px; padding-left: 87px; margin-top: 20px;}
+.pvp-guide.wintergrasp .footer-section .icon { background: url('../../images/game/pvp/layout/icons.png') 0 0 no-repeat; background-position: -6px -3520px; width:75px;height: 75px; float: left; margin-left: -80px; }
+.pvp-guide.wintergrasp .footer-section .icon1 {background-position: -6px -3520px ; }
+.pvp-guide.wintergrasp .footer-section .icon2 {background-position: -6px -3595px;  }
+.pvp-guide.wintergrasp .footer-section .icon3 {background-position: -6px -3676px; }
+.pvp-guide.wintergrasp .vehicle span { display: block; color: #98562a; font-size: 11px; text-transform: none; margin-top:3px;}
+.pvp-guide.wintergrasp .footer-section .head-title {color: white; font: bold 18px arial, sans-serif; text-transform: uppercase; }
+	/* Language Specific Adjustments */
+	.de-de .pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 230px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+	.es-es .pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 230px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+	.fr-fr .pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 230px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+	.it-it .pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 230px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+	.ru-ru .pvp-guide.wintergrasp .intro { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-window.html') bottom no-repeat;  background-position: 0px 220px; height: 900px; overflow: visible; }
+	.ru-ru .pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 230px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+	.zh-cn .pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 100px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+	.zh-tw .pvp-guide.wintergrasp .feature-image1 { background: url('../../images/game/pvp/backgrounds/bg-pvp-battlegrounds-wintergrasp-cata.jpg') no-repeat; background-position: -110px 100px; display: inline; height: 850px; margin: 0px; padding: 0px; position: absolute; right: 6px; width: 680px; z-index: 0;}
+
+/* ------------------------ */
+
+/* Screenshot Viewer*/
+.screen-wrapper { float: left; margin: 0 35px 35px 0;  }
+.screen-wrapper:nth-child(even) { margin-right: 0; }
+.screen-wrapper  .caption { display: inline-block; margin-top: 12px; }
+.screen-display { overflow: hidden; position: relative; border-radius: 5px; border:1px solid #4B2A17; height: 223px; width: 372px;  }
+.screen-display .screen-list { position: relative; overflow: hidden; }
+.screen-display .screen-list .thumbnail-large { float: left; display: block;  height: 223px; width: 372px; position: relative;  }
+.screen-display .screen-list .thumbnail-large img { border-radius: 4px; }
+.screenshot-nav { cursor:pointer; z-index: 5; background-image: url(../../images/media/sprite.png); position:absolute; background-repeat: no-repeat; height: 85px; width: 56px; display: block; margin-top: 70px; }
+.screenshot-nav.prev { background-position: -104px -436px;  float: left;  }
+.screenshot-nav.next { background-position: -155px -436px;  margin-left: 316px;  }
+.screenshot-nav.prev:hover { background-position: -261px -436px;  float: left;  }
+.screenshot-nav.next:hover { background-position: -312px -436px;  float: right;  }
+
+/* BG Screenshot thumbnails should be a slightly different size to account for the aspect ratio of map images */
+.pvp-guide.type-battlegrounds .screen-display { overflow: hidden; position: relative; border-radius: 5px; border:1px solid #4B2A17; height: 248px; width: 372px;  }
+.pvp-guide.type-battlegrounds .screen-list .thumbnail-large { float: left; display: block;  height: 248px; width: 372px; position: relative;  }
+

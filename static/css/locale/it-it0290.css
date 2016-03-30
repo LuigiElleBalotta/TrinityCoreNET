@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*mists of pandaria*/
+#header .mists-pre-purchase a { background-image: url(../../images/game/mist-of-pandaria/locale/it-it/buynow-minisite-it.png); }
+.pandaria .back-to-community a {  }
+/*#header .back-to-community a { background-image: url("../../images/game/mist-of-pandaria/locale/it-it/back-to-community.png"); width: 217px; margin-right: -15px; }*/
+.pandaria #menu,
+.pandaria-sub #menu,
+.pandaria #menu li a:hover,
+.pandaria-sub #menu li a:hover,
+.pandaria-sub-media #menu li a:hover,
+.pandaria #menu li a.menu-active,
+.pandaria-sub #menu li a.menu-active,
+.pandaria-sub-media #menu,
+.pandaria-sub-media #menu li a.menu-active { background-image:url("../../images/game/mist-of-pandaria/locale/it-it/bg-navi.jpg") }
+.pandaria .bottom .monk { background-image: url("../../images/game/mist-of-pandaria/locale/it-it/bg-main-feature.png") }
+.pandaria .bottom .pandaren { background-image:url("../../images/game/mist-of-pandaria/locale/it-it/bg-main-feature.png") }
+.pandaria .bottom .talent-calculator { background-image:url("../../images/game/mist-of-pandaria/locale/it-it/bg-main-feature.png") }
+.pandaria-sub.the-jade-forest .content-bot { height:1750px !important }
+.frame-wrapper.the-jade-forest .frame-contents { height:745px }
+.frame-wrapper.vallery-of-the-four-winds .frame-contents { height:460px }
+
+.ie6 #header .back-to-community a { background-image: url("../../images/game/mist-of-pandaria/locale/it-it/back-to-community.gif"); width: 217px; margin-right: -15px; }
+.ie6 .pandaria .bottom .monk,
+.ie6 .pandaria .bottom .pandaren, .pandaria .bottom .pandaren,
+.ie6 .pandaria .bottom .talent-calculator { background-image:url("../../images/game/mist-of-pandaria/locale/it-it/bg-main-feature.gif") }
+
+/*Facebook Tab WoW Starter Edition*/
+.facebook-wow-starter-edition .wrapper{ background: url('../../images/social/facebook/facebook-wow-starter-edition/it-it/background.html') top left no-repeat; }
+.facebook-wow-starter-edition .inner .buttons-container .options-buttons a{ font-size: 15px; }
+
+/* MoP CE */
+.collectors-edition #content .content-top { background: url("../../images/shop/collectors-edition/bg-top-pegi.jpg") no-repeat 0 0; }
+
+/* MoP Digital Deluxe */
+#mop-digital-deluxe .pre-purchase-header { background: url("../../images/mop/digital-deluxe-header-bg-it-it.jpg") no-repeat; }
+
+/* Mobile Armory */
+.services-iphone #content .faq .feature-box .market-link { margin:20px }
+
+/* Facebook Choose Your Path Tab */
+.facebook-choose-your-path .displayer .logo { background-image: url('../../images/social/facebook/choose-your-path/it-it/patch-logo-5-4-small.png'); }
+.facebook-choose-your-path .container .displayer .content .mop-content .patch-logo { background-image: url('../../images/social/facebook/choose-your-path/it-it/patch-logo-5-4-small.png'); }
+.facebook-choose-your-path .container .displayer .content .starter-content .starter-logo { background-image: url('../../images/social/facebook/choose-your-path/it-it/starter-logo.png'); }
+.facebook-choose-your-path .container .displayer .content  .direction-left { background-image: url('../../images/social/facebook/choose-your-path/it-it/back-left.png'); }
+.facebook-choose-your-path .container .displayer .content  .direction-right { background-image: url('../../images/social/facebook/choose-your-path/it-it/back-right.png'); }
+.facebook-choose-your-path .container .displayer .content .title { background-image: url('../../images/social/facebook/choose-your-path/it-it/bg-title.png'); }
+.facebook-choose-your-path .container .displayer .content .mop-content .descrip { background-image: url('../../images/social/facebook/choose-your-path/it-it/content-mop-text.png'); }
+.facebook-choose-your-path .container .displayer .content .starter-content .descrip { background-image: url('../../images/social/facebook/choose-your-path/it-it/content-starter-text.png'); }
+.facebook-choose-your-path .container .displayer .content .mop-content .button { background-image: url('../../images/social/facebook/choose-your-path/it-it/buttons-sprite.png'); }
+.facebook-choose-your-path .container .displayer .content .starter-content .top-button { background-image: url('../../images/social/facebook/choose-your-path/it-it/buttons-sprite.png'); }
+.facebook-choose-your-path .container .displayer .content .starter-content .top-button:hover { background-image: url('../../images/social/facebook/choose-your-path/it-it/buttons-sprite.png'); }
+.facebook-choose-your-path .container .displayer .content .starter-content .bottom-button { background-image: url('../../images/social/facebook/choose-your-path/it-it/content-starter-buyit.png'); }
+.facebook-choose-your-path .container .displayer .content .captions { background-image: url('../../images/social/facebook/choose-your-path/it-it/bg-captions.png'); }
+/* Guide Pet Battles */
+.pet-battles .how-to li h2 span{ background-image: url("../../images/game/guide/pet-battles/steps-titles/steps-titles-it.png"); }
+.thumbs .level { background-image: url("../../images/game/guide/pet-battles/gallery/it-it/slide-sprite.html"); }
+
+/* VAS Pages */
+.race-change .button-apply .price,
+.faction-change .button-apply .price,
+.character-transfer .button-apply .price { font-size: 15px; width: 100%; text-align: center; font-weight: bold; line-height: 15px; margin-top: -6px; }
+.faction-change .button-apply .price del,
+.race-change .button-apply .price del,
+.character-transfer .button-apply .price del { color: #ffdc8c; font-size: 10px; font-weight: normal; }
+.faction-change .button-apply .no-promo,
+.race-change .button-apply .no-promo,
+.character-transfer .button-apply .no-promo { font-size: 13px; font-weight: normal; line-height: 15px; margin-top: -6px; }
+.character-transfer .page-titles h2 { font-size: 42px; }

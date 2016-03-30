@@ -20,6 +20,24 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$query = $this->db->query("SELECT id, title, summary, date, last_modify, link_rewrite, isPinned FROM blog;");
+		$blogsArray = array();
+		$counter = 0;
+		foreach($query->result() as $row)
+		{
+			$blogsArray[$counter]["id"] = $row->id;
+			$blogsArray[$counter]["title"] = $row->title;
+			$blogsArray[$counter]["summary"] = $row->summary;
+			$blogsArray[$counter]["date"] = $row->date;
+			$blogsArray[$counter]["last_modify"] = $row->last_modify;
+			$blogsArray[$counter]["link_rewrite"] = $row->link_rewrite;
+			$blogsArray[$counter]["isPinned"] = $row->isPinned;
+			$tmp_arr_date = explode(" ", $row->date);
+			$blogsArray[$counter]["amd"] = $tmp_arr_date[0];
+			$counter++;
+		}
+		$data["blogs"] = json_encode($blogsArray);
+		$this->load->view('start_page', $data);
+
 	}
 }

@@ -1,0 +1,46 @@
+
+#content .content-top { background: url("../../images/tool/bg-calc.jpg") no-repeat scroll 0 0 transparent; }
+.wiki.directory .title { padding: 35px 25px; }
+
+.calculator .selector { text-align: center; padding: 15px 0; border-top: 1px solid #331e11; border-bottom: 1px solid #331e11; background: url("../../images/tool/selector-bg.png") 0 0 repeat; }
+.calculator .icon-selector a { display: inline-block; opacity: .3; }
+#calculator.initial .icon-selector a { opacity: 1; }
+.calculator .icon-selector a:hover,
+.calculator .icon-selector a.tab-active { opacity: 1; }
+.calculator .icon-selector a.tab-active .icon-frame, .calculator .icon-selector a:hover .icon-frame { border-color: #FFD200; }
+.calculator .icon-selector a .icon-frame { vertical-align: top; }
+.calculator .icon-selector a.tab-active .icon-frame .glare { width: 56px; height: 56px; display: block; background: url("../../images/tool/talent-calculator/icon-glare.png") 0 0 no-repeat; }
+.calculator .pet-family a.tab-active .icon-frame { position: relative; }
+.calculator .pet-family a.tab-active .icon-frame .glare { width: 32px; height: 32px; background-position: -56px 0; position: absolute; top: 1px; left: 1px; }
+
+.calculator .container { padding: 25px; position: relative; }
+.calculator .container .pets { position: absolute; width: 300px; top: 50px; right: 0; }
+.calculator .container .pets a { margin-top: 5px; }
+
+.pet-calculator { min-height: 500px; width: 575px; margin: 0 auto; position: relative; }
+.talent-calculator { min-height: 500px; margin: 0 auto; position: relative; }
+.talent-calculator.loading { background: url("../../images/loaders/canvas-loader.gif") 50% 50% no-repeat; }
+
+.pet-family { padding: 10px; border: 1px solid #3a1606; margin-bottom: 10px; position: relative;
+	background: #29150c url("../../images/tool/pet-bg.gif") 0 0 repeat-x;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	-moz-box-shadow: 0 0 10px #241209; -webkit-box-shadow: 0 0 10px #241209; box-shadow: 0 0 10px #241209; }
+.pet-family h3 { color: #71401f; font-weight: normal; font-size: 14px; }
+.pet-family h3 .icon-frame { vertical-align: middle; }
+.pet-family .arrow { width: 14px; height: 29px; display: none; position: absolute; left: -14px; top: 48px; background: url("../../images/tool/pet-bg-arrow.gif") 0 0 no-repeat; }
+.pet-family.tree-active,
+#calculator-container.initial .pet-family { border-color: #6b1d07; background: #3c0c07 url("../../images/tool/pet-bg-active.gif") 0 0 repeat-x; }
+#calculator.initial .pet-family h3 { color: #EFC9A0; }
+.pet-family.tree-active h3 { color: white; font-weight: bold; }
+.pet-family.tree-active .arrow { display: block; }
+
+.select-class { width: 400px; margin: 50px auto; border-top-color: #70432a; top: -30px; }
+.select-class .arrow-top { left: 175px; }
+.select-pet { position: absolute; top: 120px; left: -65px; width: 280px; border-right-color: #70432a; }
+.select-pet .modal-inner { line-height: 70px; }
+.select-pet .arrow-right { top: 45px; }
+#select-class.modal-brown .modal-inner,
+#select-pet.modal-brown .modal-inner{ font-size: 23px; padding: 30px; text-align: center; color: #EFE3D2; }
+
+.ie .calculator .container .pets a { margin-top: 3px; }
+.ie .pet-family { padding: 8px; }

@@ -4,6 +4,10 @@ application/cache/*
 !application/cache/index.html
 !application/cache/.htaccess
 
+application/config/database.php
+application/config/config.php
+/BNET_FILES/
+
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess

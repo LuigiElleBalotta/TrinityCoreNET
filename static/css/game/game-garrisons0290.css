@@ -1,0 +1,146 @@
+/* Garrisons landing page */
+.game-garrisons #content .content-top { background: url(../../images/game/garrisons/bg-top.jpg) no-repeat 100% 0; }
+.game-garrisons #content .content-bot { background: none; padding-bottom: 0; }
+
+.game-garrisons .intro { padding: 21px 30px 46px; width: 440px; }
+.game-garrisons .intro .title { color: #efe3d2; font: normal 52px "Palatino Linotype", Palatino, Georgia, Times, serif; margin-bottom: 11px; }
+.game-garrisons .intro-primary > p { color: #b79855; font-size: 16px; line-height: 28px; margin: 0; }
+.game-garrisons .intro-secondary > p { font-size: 13px; line-height: 28px; margin: 28px 0 0; }
+
+.garrisons-section { overflow: hidden; padding: 0 30px 45px; }
+.garrisons-section .title { color: #efe3d2; font: normal 23px/23px "Palatino Linotype", Palatino, Georgia, Times, serif; margin: 0 0 15px; padding: 30px 0 0; }
+.garrisons-section .text { font-size: 13px; line-height: 28px; }
+.garrisons-subsection { float: left; margin: 5px 0 25px; width: 440px; }
+.garrisons-subsection .title { color: #efe3d2; font: normal 14px Arial, sans-serif; margin: 0; padding: 18px 0 18px 50px; position: relative; text-transform: uppercase; z-index: 2; }
+.garrisons-subsection .text { line-height: 26px; margin: 10px 0 0; position: relative; }
+
+.garrisons-subsection .title:before { background: url(../../images/game/garrisons/icons.png) no-repeat -3px 0; content: ""; height: 42px; left: 0; position: absolute; top: 4px; width: 42px; }
+.mission-specialists .title:before { background-position: -54px 0; }
+.architects .title:before { background-position: -109px 0; }
+.leaders .title:before { background-position: -162px 0; }
+.invasions .title:before { background-position: -216px 0; }
+.missions .title:before { background-position: -270px 0; }
+.united-front .title:before { background-position: -324px 0; }
+.outposts .title:before { background-position: -378px 0; }
+.blueprints .title:before { background-position: -432px 0; }
+.resources .title:before { background-position: -486px 0; }
+
+.architects,
+.leaders,
+.united-front,
+.resources { clear: both; }
+.missions { clear: left; }
+.mission-specialists,
+.outposts { margin-left: 35px; }
+.architects,
+.leaders { margin-left: 475px; }
+.mission-specialists { background: url(../../images/game/garrisons/follower-mission-ui.jpg) no-repeat 0 146px; padding-bottom: 421px; }
+.items { background: url(../../images/game/garrisons/blueprints.jpg) no-repeat 100% 0; margin-top: -270px; padding: 270px 30px 79px; }
+.your-troops { background: url(../../images/game/garrisons/followers.jpg) no-repeat 0 100%; position: relative; }
+.your-troops .caption { bottom: 77px; color: #98562a; font-size: 11px; font-style: italic; left: 30px; line-height: 20px; padding: 0 42px; position: absolute; text-align: center; width: 356px; }
+
+.wiki .panel-your-foothold { min-height: 457px; padding: 0; position: relative; }
+.wiki .panel-buildings { background: #211309; padding: 0; position: relative; }
+
+.buildings-nav { background: #180e07; -webkit-box-shadow: inset 0 0 7px rgba(0,0,0,0.5); -moz-box-shadow: inset 0 0 7px rgba(0,0,0,0.5); box-shadow: inset 0 0 7px rgba(0,0,0,0.5); left: 18px; position: absolute; top: 18px; width: 287px; }
+.buildings-content { background: url(../../images/game/garrisons/buildings-none.jpg) no-repeat 100% 0; min-height: 556px; }
+.building-category + .building-category { padding-top: 1px; }
+.building-list { display: none; padding: 15px 0 18px; }
+.building-list.is-open { display: block; }
+.building-category-title { background: url(../../images/game/garrisons/accordion-buttons.jpg) no-repeat 0 0; color: #ffb100; cursor: pointer; display: block; font-weight: normal; padding: 14px 18px; }
+.building-category-title:hover { color: #fff; }
+.building-category-title.is-toggled { background-position: 0 -46px; color: #fff; font-weight: bold; }
+.building { color: #ffb100; cursor: pointer; display: block; line-height: 30px; padding-left: 30px; }
+.building:hover { color: #fff; }
+.building.is-selected { color: #fff; font-weight: bold; }
+
+.building-card { display: none; padding: 320px 18px 18px 323px; text-align: center; }
+.building-level { display: none; -webkit-font-smoothing: subpixel-antialiased; height: 100%; position: absolute; width: 100%; } /* -webkit-font-smoothing fixes text flicker for opacity transitions in Safari */
+.building-card.is-selected,
+.building-level.is-selected { display: block; }
+.building-card > p,
+.building-level > p { clear: both; font-size: 12px; line-height: 26px; margin: 0; padding: 0 20px 0 23px; text-align: center; }
+.building-level > p { background: #211309; padding: 0 145px; } /* Specifying a background here is also necessary to prevent text flicker in Safari */
+
+/*  Preset */
+.building-card.fishing-shack { background: url(../../images/game/garrisons/buildings-fishing-hut.jpg) no-repeat 100% 0; }
+.building-card.herb-garden { background: url(../../images/game/garrisons/buildings-herb-garden.jpg) no-repeat 100% 0; }
+.building-card.lunar-excavation-frostwall-mine { background: url(../../images/game/garrisons/buildings-mine.jpg) no-repeat 100% 0; }
+.building-card.menagerie { background: url(../../images/game/garrisons/buildings-pet-menagerie.jpg) no-repeat 100% 0; }
+
+/*  Large */
+.building-card.barracks { background: url(../../images/game/garrisons/buildings-barracks.jpg) no-repeat 100% 0; }
+.building-card.dwarven-bunker-war-mill { background: url(../../images/game/garrisons/buildings-armory.jpg) no-repeat 100% 0; }
+.building-card.mage-tower-spirit-lodge { background: url(../../images/game/garrisons/buildings-mage-tower.jpg) no-repeat 100% 0; }
+.building-card.stables { background: url(../../images/game/garrisons/buildings-stable.jpg) no-repeat 100% 0; }
+.building-card.gnomish-gearworks-goblin-workshop { background: url(../../images/game/garrisons/buildings-workshop.jpg) no-repeat 100% 0; }
+
+/*  Medium */
+.building-card.barn { background: url(../../images/game/garrisons/buildings-barn.jpg) no-repeat 100% 0; }
+.building-card.inn { background: url(../../images/game/garrisons/buildings-inn.jpg) no-repeat 100% 0; }
+.building-card.lumber-mill { background: url(../../images/game/garrisons/buildings-lumber-mill.jpg) no-repeat 100% 0; }
+.building-card.gladiators-sanctum { background: url(../../images/game/garrisons/buildings-gladiator.jpg) no-repeat 100% 0; }
+.building-card.trading-post { background: url(../../images/game/garrisons/buildings-trading-post.jpg) no-repeat 100% 0; }
+
+/*  Small */
+.building-card.alchemy-lab { background: url(../../images/game/garrisons/buildings-alchemy.jpg) no-repeat 100% 0; }
+.building-card.enchanters-study { background: url(../../images/game/garrisons/buildings-enchanting.jpg) no-repeat 100% 0; }
+.building-card.engineering-works { background: url(../../images/game/garrisons/buildings-engineering.jpg) no-repeat 100% 0; }
+.building-card.gem-boutique { background: url(../../images/game/garrisons/buildings-jewelcrafting.jpg) no-repeat 100% 0; }
+.building-card.salvage-yard { background: url(../../images/game/garrisons/buildings-salvage.jpg) no-repeat 100% 0; }
+.building-card.scribes-quarters { background: url(../../images/game/garrisons/buildings-inscription.jpg) no-repeat 100% 0; }
+.building-card.storehouse { background: url(../../images/game/garrisons/buildings-storage.jpg) no-repeat 100% 0; }
+.building-card.tailoring-emporium { background: url(../../images/game/garrisons/buildings-tailoring.jpg) no-repeat 100% 0; }
+.building-card.the-forge { background: url(../../images/game/garrisons/buildings-blacksmithing.jpg) no-repeat 100% 0; }
+.building-card.the-tannery { background: url(../../images/game/garrisons/buildings-leatherworking.jpg) no-repeat 100% 0; }
+
+.media-frame-thin { border: 1px solid #4b2a17; border-radius: 4px; cursor: pointer; float: left; overflow: hidden; position: relative; }
+.media-frame-thin > img { display: block; }
+.media-frame-thin:after { background: rgba(0,0,0,0.6) url(../../images/game/garrisons/magnifier.png) no-repeat 50% 50%; bottom: 0; content: ""; left: 0; opacity: 0; position: absolute; right: 0; top: 0; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+.media-frame-thin:hover:after { opacity: 1; }
+.panel-your-foothold .media-frame-thin { margin: 20px 0 25px 76px; }
+.panel-your-foothold .media-frame-thin + .media-frame-thin { margin-left: 20px; }
+
+.deco-plate { background: url(../../images/game/garrisons/faction-deco-boxes.png) no-repeat 0 0; float: left; padding: 19px 0 18px; text-align: center; width: 282px; }
+.deco-plate-horde { background-position: 0 -77px; }
+.deco-plate > h4 { color: #f0dacc; font: normal 16px/20px "Palatino Linotype", Palatino, Georgia, Times, serif; }
+.deco-plate > h5 { color: #b79855; font: italic 14px/20px "Palatino Linotype", Palatino, Georgia, Times, serif; }
+.panel-your-foothold .deco-plate { margin: 0 0 29px 126px; }
+.panel-your-foothold .deco-plate-horde { margin-left: 118px; }
+.panel-buildings .deco-plate { margin: 0 0 34px 8px; }
+.panel-buildings .deco-plate-horde { margin-left: 18px; }
+
+.carousel-nav { background: #4d1405; -webkit-box-shadow: 0 0 2px 12px rgba(144,42,10,0); -moz-box-shadow: 0 0 2px 12px rgba(144,42,10,0); box-shadow: 0 0 2px 12px rgba(144,42,10,0); cursor: pointer; height: 89px; position: absolute; top: 100px; -webkit-transition: background 0.2s, border-color 0.2s, box-shadow ease 0.4s; -moz-transition: background 0.2s, border-color 0.2s, box-shadow ease 0.4s; transition: background 0.2s, border-color 0.2s, box-shadow ease 0.4s; width: 57px; z-index: 3; }
+.carousel-nav:hover { background: #8e2c0a; }
+.carousel-nav:after { border-color: transparent #ffc600 transparent transparent; border-style: solid; border-width: 17px 17px 17px 0; content: ""; left: 17px; margin-top: -17px; position: absolute; top: 50%; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+.carousel-nav:active { -webkit-box-shadow: 0 0 0 0 rgba(142,44,10,0.8); -moz-box-shadow: 0 0 0 0 rgba(142,44,10,0.8); box-shadow: 0 0 0 0 rgba(142,44,10,0.8); top: 101px; -webkit-transition: box-shadow 0; -moz-transition: box-shadow 0; transition: box-shadow 0; }
+.carousel-nav:hover:after { border-color: transparent #fff transparent transparent; }
+.carousel-nav.prev { border-radius: 0 6px 6px 0; left: 0; }
+.carousel-nav.next { border-radius: 6px 0 0 6px; right: 0; }
+.carousel-nav.next:after { border-color: transparent transparent transparent #ffc600; border-width: 17px 0 17px 17px; left: auto; right: 17px; }
+.carousel-nav.next:hover:after { border-color: transparent transparent transparent #fff; }
+
+.screen-display { border: 1px solid #4b2a17; border-radius: 5px; float: right; height: 294px; margin: 27px 0 0; overflow: hidden; position: relative; width: 458px; }
+.screen-display .screen-list { position: relative; }
+.screen-display .thumbnail-large { background: #1a0f08; float: left; height: 294px; position: relative; width: 458px; }
+.screen-display .thumbnail-large > img { bottom: 0; left: 0; margin: auto; max-width: 100%; position: absolute; right: 0; top: 0; }
+
+.screenshot-nav { background: url(../../images/media/sprite.png) no-repeat 0 0; cursor: pointer; display: block; height: 85px; margin: 108px 0 0; position: absolute; width: 56px; z-index: 5; }
+.screenshot-nav.prev { background-position: -104px -436px; float: left; }
+.screenshot-nav.next { background-position: -155px -436px; margin-left: 402px; }
+.screenshot-nav.prev:hover { background-position: -261px -436px; float: left; }
+.screenshot-nav.next:hover { background-position: -312px -436px; float: right; }
+
+.fade-in-from-left { -webkit-animation: fadeInFromLeft 0.5s; animation: fadeInFromLeft 0.5s; display: block; opacity: 1; z-index: 2; }
+.fade-in-from-right { -webkit-animation: fadeInFromRight 0.5s; animation: fadeInFromRight 0.5s; display: block; opacity: 1; z-index: 2; }
+.fade-out-to-left { -webkit-animation: fadeOutToLeft 0.2s; animation: fadeOutToLeft 0.2s; display: block; opacity: 0; z-index: 1; }
+.fade-out-to-right { -webkit-animation: fadeOutToRight 0.2s; animation: fadeOutToRight 0.2s; display: block; opacity: 0; z-index: 1; }
+
+@-webkit-keyframes fadeInFromRight { from { opacity: 0; right: -20px; } to { opacity: 1; right: 0; } }
+@keyframes         fadeInFromRight { from { opacity: 0; right: -20px; } to { opacity: 1; right: 0; } }
+@-webkit-keyframes fadeInFromLeft  { from { opacity: 0; left: -20px; }  to { opacity: 1; left: 0; } }
+@keyframes         fadeInFromLeft  { from { opacity: 0; left: -20px; }  to { opacity: 1; left: 0; } }
+@-webkit-keyframes fadeOutToRight  { from { opacity: 1; right: 0; }     to { opacity: 0; right: -10px; } }
+@keyframes         fadeOutToRight  { from { opacity: 1; right: 0; }     to { opacity: 0; right: -10px; } }
+@-webkit-keyframes fadeOutToLeft   { from { opacity: 1; left: 0; }      to { opacity: 0; left: -10px; } }
+@keyframes         fadeOutToLeft   { from { opacity: 1; left: 0; }      to { opacity: 0; left: -10px; } }

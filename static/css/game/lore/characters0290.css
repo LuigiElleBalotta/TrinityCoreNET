@@ -1,0 +1,294 @@
+/* Character index */
+.lore-character-index #content .content-top { background:url('../../../images/game/lore/characters/bg-index.jpg') 0 0 no-repeat; }
+.info { height: 177px; }
+.wiki h4 { border-bottom: 2px solid #552B12; color: #efc9a0; font-size: 20px; font-weight: normal; margin-bottom: 10px; padding-bottom: 10px; position: relative; z-index: 2; margin: 0 25px 40px; }
+.wiki .content { padding: 45px 31px; }
+#character-spotlight { margin-bottom: 70px; }
+.wiki .title { margin-bottom: 0; }
+.wiki .info { padding-top: 25px; }
+.wiki .info p.intro { color: #c88840; font-size: 12px; }
+.comment-section { margin-top: 110px; }
+
+.char-index li ,
+.char-spotlight li { display: block; float: left; margin: 0 0 25px 25px; position: relative; }
+.char-index a,
+.char-spotlight a { color: #FFB100; display: block; height: 100%; position: absolute; width: 100%; }
+.char-index .icon,
+.char-spotlight .name,
+.char-spotlight .desc,
+.char-spotlight .icon { cursor: pointer; position: absolute; }
+
+/* start backgrounds */
+/* INDEX - Character Spotlight (large card thumbnails) */
+.char-spotlight li { height: 158px; width: 428px; }
+.char-spotlight a { background: url('../../../images/game/lore/characters/card-large.png') -8px -8px no-repeat; }
+.char-spotlight a.horde { background-position: -8px -353px; }
+.char-spotlight a.alliance { background-position: -8px -180px; }
+.char-spotlight .name { bottom: 108px; font: normal 18px Palatino Linotype, Sans-serif; left: 178px; max-width: 230px; }
+.char-spotlight .desc { color: #b79855; font-size: 11px; left: 178px; max-width: 230px; top: 70px; }
+.char-spotlight .icon { border-radius: 5px; height: 121px; left: 19px; top: 18px; width: 122px; }
+.char-spotlight .anduin-wrynn .icon { background:url('../../../images/game/lore/characters/thumbnails/large-anduin-wrynn.jpg') 0 0 no-repeat; }
+.char-spotlight .baine-bloodhoof .icon { background:url('../../../images/game/lore/characters/thumbnails/large-baine-bloodhoof.jpg') 0 0 no-repeat; }
+.char-spotlight .chen-stormstout .icon { background:url('../../../images/game/lore/characters/thumbnails/large-chen-stormstout.jpg') 0 0 no-repeat; }
+.char-spotlight .deathwing .icon { background:url('../../../images/game/lore/characters/thumbnails/large-deathwing.jpg') 0 0 no-repeat; }
+.char-spotlight .garrosh-hellscream .icon { background:url('../../../images/game/lore/characters/thumbnails/large-garrosh-hellscream.jpg') 0 0 no-repeat; }
+.char-spotlight .illidan-stormrage .icon { background:url('../../../images/game/lore/characters/thumbnails/large-illidan-stormrage.jpg') 0 0 no-repeat; }
+.char-spotlight .jaina-proudmoore .icon { background:url('../../../images/game/lore/characters/thumbnails/large-jaina-proudmoore.jpg') 0 0 no-repeat; }
+.char-spotlight .lei-shen .icon { background:url('../../../images/game/lore/characters/thumbnails/large-lei-shen.jpg') 0 0 no-repeat; }
+.char-spotlight .lorthemar-theron .icon { background:url('../../../images/game/lore/characters/thumbnails/large-lorthemar-theron.jpg') 0 0 no-repeat; }
+.char-spotlight .moira-thaurissan .icon { background:url('../../../images/game/lore/characters/thumbnails/large-moira-thaurissan.jpg') 0 0 no-repeat; }
+.char-spotlight .sylvanas-windrunner .icon { background:url('../../../images/game/lore/characters/thumbnails/large-sylvanas-windrunner.jpg') 0 0 no-repeat; }
+.char-spotlight .the-lich-king .icon { background:url('../../../images/game/lore/characters/thumbnails/large-the-lich-king.jpg') 0 0 no-repeat; }
+.char-spotlight .thrall .icon { background:url('../../../images/game/lore/characters/thumbnails/large-thrall.jpg') 0 0 no-repeat; }
+.char-spotlight .varian-wrynn .icon { background:url('../../../images/game/lore/characters/thumbnails/large-varian-wrynn.jpg') 0 0 no-repeat; }
+.char-spotlight .voljin .icon { background:url('../../../images/game/lore/characters/thumbnails/large-voljin.jpg') 0 0 no-repeat; }
+.char-spotlight .wrathion .icon { background:url('../../../images/game/lore/characters/thumbnails/large-wrathion.jpg') 0 0 no-repeat; }
+.char-spotlight .malfurion-stormrage .icon { background:url('../../../images/game/lore/characters/thumbnails/large-malfurion-stormrage.jpg') 0 0 no-repeat; }
+.char-spotlight .lili-stormstout .icon { background:url('../../../images/game/lore/characters/thumbnails/large-lili-stormstout.jpg') 0 0 no-repeat; }
+.char-spotlight .sunwalker-dezco .icon { background:url('../../../images/game/lore/characters/thumbnails/large-sunwalker-dezco.jpg') 0 0 no-repeat; }
+.char-spotlight .tyrande-whisperwind .icon { background:url('../../../images/game/lore/characters/thumbnails/large-tyrande-whisperwind.jpg') 0 0 no-repeat; }
+.char-spotlight .uther-the-lightbringer .icon { background:url('../../../images/game/lore/characters/thumbnails/large-uther-the-lightbringer.jpg') 0 0 no-repeat; }
+.char-spotlight .guldan .icon { background:url('../../../images/game/lore/characters/thumbnails/large-guldan.jpg') 0 0 no-repeat; }
+.char-spotlight .rexxar .icon { background:url('../../../images/game/lore/characters/thumbnails/large-rexxar.jpg') 0 0 no-repeat; }
+.char-spotlight .vereesa-windrunner .icon { background:url('../../../images/game/lore/characters/thumbnails/large-vereesa-windrunner.jpg') 0 0 no-repeat; }
+.char-spotlight .valeera-sanguinar .icon { background:url('../../../images/game/lore/characters/thumbnails/large-valeera-sanguinar.jpg') 0 0 no-repeat; }
+.char-spotlight .taran-zhu .icon { background:url('../../../images/game/lore/characters/thumbnails/large-taran-zhu.jpg') 0 0 no-repeat; }
+.char-spotlight .shaohao .icon { background:url('../../../images/game/lore/characters/thumbnails/large-shaohao.jpg') 0 0 no-repeat; }
+.char-spotlight .kargath-bladefist .icon { background:url('../../../images/game/lore/characters/thumbnails/large-kargath-bladefist.jpg') 0 0 no-repeat; }
+.char-spotlight .grommash-hellscream .icon { background:url('../../../images/game/lore/characters/thumbnails/large-grommash-hellscream.jpg') 0 0 no-repeat; }
+.char-spotlight .durotan .icon { background:url('../../../images/game/lore/characters/thumbnails/large-durotan.jpg') 0 0 no-repeat; }
+.char-spotlight .kilrogg-deadeye .icon { background:url('../../../images/game/lore/characters/thumbnails/large-kilrogg-deadeye.jpg') 0 0 no-repeat; }
+.char-spotlight .maraad .icon { background:url('../../../images/game/lore/characters/thumbnails/large-maraad.jpg') 0 0 no-repeat; }
+.char-spotlight .blackhand .icon { background:url('../../../images/game/lore/characters/thumbnails/large-blackhand.jpg') 0 0 no-repeat; }
+.char-spotlight .velen .icon { background:url('../../../images/game/lore/characters/thumbnails/large-velen.jpg') 0 0 no-repeat; }
+.char-spotlight .khadgar .icon { background:url('../../../images/game/lore/characters/thumbnails/large-khadgar.jpg') 0 0 no-repeat; }
+.char-spotlight .nerzhul .icon { background:url('../../../images/game/lore/characters/thumbnails/large-nerzhul.jpg') 0 0 no-repeat; }
+.char-spotlight .yrel .icon { background:url('../../../images/game/lore/characters/thumbnails/large-yrel.jpg') 0 0 no-repeat; }
+.char-spotlight .fenris .icon { background:url('../../../images/game/lore/characters/thumbnails/large-fenris.jpg') 0 0 no-repeat; }
+
+/* INDEX - Character Index (small card thumbnails) */
+.char-index { margin-left: 3px; }
+.char-index .name,
+.char-index .nickname { cursor: pointer; font-size: 12px; line-height: 14px; padding: 0 10px; }
+.char-index .nickname { color: #98562a; font-size: 11px; }
+.char-index li { height: 75px; margin: 0 0 10px 22px ; width: 204px; }
+.char-index a { background: url('../../../images/game/lore/characters/card-small.png') 0 0 no-repeat; display: table; }
+.char-index .char-info { display: table-cell; vertical-align: middle; padding-left: 69px; }
+.char-index .icon { display: block; height: 56px; width: 56px; top: 7px; left: 9px; border-radius: 5px; }
+.char-index .anduin-wrynn .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-anduin-wrynn.jpg'); }
+.char-index .baine-bloodhoof .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-baine-bloodhoof.jpg'); }
+.char-index .chen-stormstout .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-chen-stormstout.jpg'); }
+.char-index .deathwing .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-deathwing.jpg'); }
+.char-index .garrosh-hellscream .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-garrosh-hellscream.jpg'); }
+.char-index .illidan-stormrage .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-illidan-stormrage.jpg'); }
+.char-index .jaina-proudmoore .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-jaina-proudmoore.jpg'); }
+.char-index .lei-shen .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-lei-shen.jpg'); }
+.char-index .lorthemar-theron .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-lorthemar-theron.jpg'); }
+.char-index .moira-thaurissan .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-moira-thaurissan.jpg'); }
+.char-index .sylvanas-windrunner .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-sylvanas-windrunner.jpg'); }
+.char-index .the-lich-king .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-the-lich-king.jpg'); }
+.char-index .thrall .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-thrall.jpg'); }
+.char-index .varian-wrynn .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-varian-wrynn.jpg'); }
+.char-index .voljin .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-voljin.jpg'); }
+.char-index .wrathion .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-wrathion.jpg'); }
+.char-index .malfurion-stormrage .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-malfurion-stormrage.jpg'); }
+.char-index .lili-stormstout .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-lili-stormstout.jpg'); }
+.char-index .sunwalker-dezco .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-sunwalker-dezco.jpg'); }
+.char-index .tyrande-whisperwind .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-tyrande-whisperwind.jpg'); }
+.char-index .uther-the-lightbringer .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-uther-the-lightbringer.jpg'); }
+.char-index .guldan .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-guldan.jpg'); }
+.char-index .rexxar .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-rexxar.jpg'); }
+.char-index .vereesa-windrunner .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-vereesa-windrunner.jpg'); }
+.char-index .valeera-sanguinar .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-valeera-sanguinar.jpg'); }
+.char-index .taran-zhu .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-taran-zhu.jpg'); }
+.char-index .shaohao .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-shaohao.jpg'); }
+.char-index .kargath-bladefist .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-kargath-bladefist.jpg'); }
+.char-index .grommash-hellscream .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-grommash-hellscream.jpg'); }
+.char-index .durotan .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-durotan.jpg'); }
+.char-index .kilrogg-deadeye .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-kilrogg-deadeye.jpg'); }
+.char-index .maraad .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-maraad.jpg'); }
+.char-index .blackhand .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-blackhand.jpg'); }
+.char-index .velen .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-velen.jpg'); }
+.char-index .khadgar .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-khadgar.jpg'); }
+.char-index .nerzhul .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-nerzhul.jpg'); }
+.char-index .yrel .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-yrel.jpg'); }
+.char-index .fenris .icon { background-image:url('../../../images/game/lore/characters/thumbnails/small-fenris.jpg'); }
+
+/* CHARACTER PAGE - backgrounds */
+.anduin-wrynn #content .content-top { background:url('../../../images/game/lore/characters/bg-anduin-wrynn.jpg') 0 0 no-repeat; }
+.baine-bloodhoof #content .content-top { background:url('../../../images/game/lore/characters/bg-baine-bloodhoof.jpg') 0 0 no-repeat; }
+.chen-stormstout #content .content-top { background:url('../../../images/game/lore/characters/bg-chen-stormstout.jpg') 0 0 no-repeat; }
+.deathwing #content .content-top { background:url('../../../images/game/lore/characters/bg-deathwing.jpg') 0 0 no-repeat; }
+.garrosh-hellscream #content .content-top { background:url('../../../images/game/lore/characters/bg-garrosh-hellscream.jpg') 0 0 no-repeat; }
+.illidan-stormrage #content .content-top { background:url('../../../images/game/lore/characters/bg-illidan-stormrage.jpg') 0 0 no-repeat; }
+.jaina-proudmoore #content .content-top { background:url('../../../images/game/lore/characters/bg-jaina-proudmoore.jpg') 0 0 no-repeat; }
+.lei-shen #content .content-top { background:url('../../../images/game/lore/characters/bg-lei-shen.jpg') 0 0 no-repeat; }
+.lorthemar-theron #content .content-top { background:url('../../../images/game/lore/characters/bg-lorthemar-theron.jpg') 0 0 no-repeat; }
+.moira-thaurissan #content .content-top { background:url('../../../images/game/lore/characters/bg-moira-thaurissan.jpg') 0 0 no-repeat; }
+.sylvanas-windrunner #content .content-top { background:url('../../../images/game/lore/characters/bg-sylvanas-windrunner.jpg') 0 0 no-repeat; }
+.the-lich-king #content .content-top { background:url('../../../images/game/lore/characters/bg-the-lich-king.jpg') 0 0 no-repeat; }
+.thrall #content .content-top { background:url('../../../images/game/lore/characters/bg-thrall.jpg') 0 0 no-repeat; }
+.varian-wrynn #content .content-top { background:url('../../../images/game/lore/characters/bg-varian-wrynn.jpg') 0 0 no-repeat; }
+.voljin #content .content-top { background:url('../../../images/game/lore/characters/bg-voljin.jpg') 0 0 no-repeat; }
+.wrathion #content .content-top { background:url('../../../images/game/lore/characters/bg-wrathion.jpg') 0 0 no-repeat; }
+.malfurion-stormrage #content .content-top { background:url('../../../images/game/lore/characters/bg-malfurion-stormrage.jpg') 0 0 no-repeat; }
+.lili-stormstout #content .content-top { background:url('../../../images/game/lore/characters/bg-lili-stormstout.jpg') 0 0 no-repeat; }
+.sunwalker-dezco #content .content-top { background:url('../../../images/game/lore/characters/bg-sunwalker-dezco.jpg') 0 0 no-repeat; }
+.tyrande-whisperwind #content .content-top { background:url('../../../images/game/lore/characters/bg-tyrande-whisperwind.jpg') 0 0 no-repeat; }
+.uther-the-lightbringer #content .content-top { background:url('../../../images/game/lore/characters/bg-uther-the-lightbringer.jpg') 0 0 no-repeat; }
+.guldan #content .content-top { background:url('../../../images/game/lore/characters/bg-guldan.jpg') 0 0 no-repeat; }
+.rexxar #content .content-top { background:url('../../../images/game/lore/characters/bg-rexxar.jpg') 0 0 no-repeat; }
+.vereesa-windrunner #content .content-top { background:url('../../../images/game/lore/characters/bg-vereesa-windrunner.jpg') 0 0 no-repeat; }
+.valeera-sanguinar #content .content-top { background:url('../../../images/game/lore/characters/bg-valeera-sanguinar.jpg') 0 0 no-repeat; }
+.taran-zhu #content .content-top { background:url('../../../images/game/lore/characters/bg-taran-zhu.jpg') 0 0 no-repeat; }
+.shaohao #content .content-top { background:url('../../../images/game/lore/characters/bg-shaohao.jpg') 0 0 no-repeat; }
+
+/* end backgrounds */
+
+.lore-character #content .content-bot { padding-top: 65px; position: relative; }
+.content-bot .media-frame { float: right; margin: 0 50px 35px 0; }
+.content-bot #content-subheader { margin: 0 0 50px 50px; min-height: 140px; }
+#content-subheader h4 { line-height: 1em; max-width: 515px; padding: .15em 0; }
+.content-bot .story { font-size: 14px; line-height:25px; }
+.content-bot .story-highlight { margin-bottom: 20px; }
+.content-bot .story-extended { background: url("../../../images/game/lore/deco.png") 50% 25px no-repeat; padding-top: 60px; }
+#content-subheader .subtitle { color:#dd6800; font:italic 22px Palatino Linotype, Serif; }
+
+.story-highlight { color:#b79855; font:normal 16px/30px Arial, Sans-serif; }
+
+/* CHARACTER PAGE - Left column */
+.content-bot .left-col { float: left; padding-left: 50px; width: 430px; }
+.related-character .name { float: left; }
+.related-character .subtitle { clear: both; float: left; }
+
+.related-wrapper { background: url("../../../images/game/lore/characters/bg-related-texture.png") -130px 50% no-repeat; margin-top: 60px; padding: 10px 0; position: relative; }
+.related-block { padding: 10px 0; }
+.related-block .list-title { color: #efe3d2; font-size: 16px; padding: 20px 0; }
+.related-block .list-title i { background: url("../../../images/game/race/race-icons-sprite.gif") 0 0 no-repeat; display: inline-block; height: 30px; margin-bottom: -12px; width: 30px; }
+/*.related-list { }*/
+.related-list li { display: inline; width: 210px; }
+.related-list .icon { background-position: 50% 50%; background-repeat: no-repeat; display: block; float:left; height: 76px; width: 76px; }
+/* Commented out to evaluate possible removal */
+.related-list .info-title { display: block; margin: 15px 0 0 0; }
+.related-list .info-subtitle { display: block; font-size: 11px; color: #b17d5b; }
+
+/* RIGHT COL */
+.content-bot .right-col { float: right; padding-right: 40px; position: relative; width: 430px; }
+.quote-wrapper { height: 250px; position: absolute; top: 0; width: 400px; }
+.quote { bottom: 0; color:#dd6800; font:italic 26px Palatino Linotype, Serif; margin-bottom: 40px; margin-top: 10px;text-align: center; position: absolute; text-shadow: 0 0 10px #000; text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 1px 1px #000; width: 100%; }
+/* Character Information */
+.game-scrollbox { margin-top: 258px; }
+.game-scrollbox .scroll-title { padding-right: 50px; padding-left: 45px; text-align: center; }
+.feature-list .feature-item-title { color:#9d5400; font-weight:bold; font: Arial, Helvetica, sans-serif; letter-spacing:-1px; margin-bottom: -5px; margin-top: 10px; }
+.feature-list .feature-item-desc { color:#724010; font-weight:bold; font: italic 24px Palatino Linotype, Serif; letter-spacing:-1px; }
+
+/* Related content decorators */
+.related-wrapper:before, .related-wrapper:after { content: ""; display: block; height: 40px; left: 0; position: absolute; right: 0; }
+.related-wrapper:before { background: url("../../../images/game/lore/characters/related-top.png") 50% 0 no-repeat; top: -40px; }
+.related-wrapper:after  { background: url("../../../images/game/lore/characters/related-bottom.png") 50% 0 no-repeat; bottom: -40px; }
+.related-block + .related-block { background: url("../../../images/game/lore/characters/related-middle.png") 50% 0 no-repeat; }
+/* TODO: */
+/*.related-block  { background: url("../../../images/game/lore/characters/related-top.png") 50% 0 no-repeat; }*/
+/*.related-block + .related-block { background: url("../../../images/game/lore/characters/related-bottom.png") 50% 100% no-repeat; }*/
+
+/* Related characters icons */
+.related-list .anduin-wrynn .icon { background-image: url("../../../images/game/lore/characters/icons/char-anduin-wrynn.png"); }
+.related-list .baine-bloodhoof .icon { background-image: url("../../../images/game/lore/characters/icons/char-baine-bloodhoof.png"); }
+.related-list .chen-stormstout .icon { background-image: url("../../../images/game/lore/characters/icons/char-chen-stormstout.png"); }
+.related-list .deathwing .icon { background-image: url("../../../images/game/lore/characters/icons/char-deathwing.png"); }
+.related-list .durotan .icon { background-image: url("../../../images/game/lore/characters/icons/char-durotan.png"); }
+.related-list .garrosh-hellscream .icon { background-image: url("../../../images/game/lore/characters/icons/char-garrosh-hellscream.png"); }
+.related-list .grommash-hellscream .icon { background-image: url("../../../images/game/lore/characters/icons/char-grommash.png"); }
+.related-list .illidan-stormrage .icon { background-image: url("../../../images/game/lore/characters/icons/char-illidan-stormrage.png"); }
+.related-list .jaina-proudmoore .icon { background-image: url("../../../images/game/lore/characters/icons/char-jaina-proudmoore.png"); }
+.related-list .lei-shen .icon { background-image: url("../../../images/game/lore/characters/icons/char-lei-shen.png"); }
+.related-list .lorthemar-theron .icon { background-image: url("../../../images/game/lore/characters/icons/char-lorthemar-theron.png"); }
+.related-list .moira-thaurissan .icon { background-image: url("../../../images/game/lore/characters/icons/char-moira-thaurissan.png"); }
+.related-list .sylvanas-windrunner .icon { background-image: url("../../../images/game/lore/characters/icons/char-sylvanas-windrunner.png"); }
+.related-list .the-lich-king .icon { background-image: url("../../../images/game/lore/characters/icons/char-the-lich-king.png"); }
+.related-list .thrall .icon { background-image: url("../../../images/game/lore/characters/icons/char-thrall.png"); }
+.related-list .varian-wrynn .icon { background-image: url("../../../images/game/lore/characters/icons/char-varian-wrynn.png"); }
+.related-list .voljin .icon { background-image: url("../../../images/game/lore/characters/icons/char-voljin.png"); }
+.related-list .wrathion .icon { background-image: url("../../../images/game/lore/characters/icons/char-wrathion.png"); }
+.related-list .malfurion-stormrage .icon { background-image: url("../../../images/game/lore/characters/icons/char-malfurion-stormrage.png"); }
+.related-list .lili-stormstout .icon { background-image: url("../../../images/game/lore/characters/icons/char-lili-stormstout.png"); }
+.related-list .sunwalker-dezco .icon { background-image: url("../../../images/game/lore/characters/icons/char-sunwalker-dezco.png"); }
+.related-list .tyrande-whisperwind .icon { background-image: url("../../../images/game/lore/characters/icons/char-tyrande-whisperwind.png"); }
+.related-list .uther-the-lightbringer .icon { background-image: url("../../../images/game/lore/characters/icons/char-uther-the-lightbringer.png"); }
+.related-list .guldan .icon { background-image: url("../../../images/game/lore/characters/icons/char-guldan.png"); }
+.related-list .rexxar .icon { background-image: url("../../../images/game/lore/characters/icons/char-rexxar.png"); }
+.related-list .vereesa-windrunner .icon { background-image: url("../../../images/game/lore/characters/icons/char-vereesa-windrunner.png"); }
+.related-list .valeera-sanguinar .icon { background-image: url("../../../images/game/lore/characters/icons/char-valeera-sanguinar.png"); }
+.related-list .taran-zhu .icon { background-image: url("../../../images/game/lore/characters/icons/char-taran-zhu.png"); }
+.related-list .shaohao .icon { background-image: url("../../../images/game/lore/characters/icons/char-shaohao.png"); }
+
+
+/* Related content icons */
+.related-list .external .icon { background-image: url("../../../images/game/lore/characters/icons/rel-external.png"); }
+.related-list .generic .icon { background-image: url("../../../images/game/lore/characters/icons/rel-generic.png"); }
+.related-list .lore .icon { background-image: url("../../../images/game/lore/characters/icons/rel-lore.png"); }
+.related-list .product .icon { background-image: url("../../../images/game/lore/characters/icons/rel-product.html"); }
+
+.related-list li { float:left; }
+.related-list li:nth-child(odd) { clear: left; }
+.clear-left { clear: left; } /* Only required for IE6. Other browsers use the nth-child rule above */
+
+/*Nav Buttons*/
+#bottom-navigator { color: #5e4227; font-family: Palatino Linotype, Georgia, Times, serif; font-style: italic; left: -20px; margin: 39px 0 40px; position: relative; text-align: center; width: 100%; }
+#bottom-navigator a { background: transparent url('../../../images/game/timeline/timeline-sprites.png') no-repeat; display: block; font: 14px/55px Arial Unicode MS, Arial; height: 65px; letter-spacing: -1px; width: 267px; }
+#bottom-navigator .button-previous { background-position: -134px 0; left: 72px; position: absolute; top: 0; }
+#bottom-navigator .button-previous span { padding-left: 30px; }
+#bottom-navigator .button-next { background-position: -134px -94px; position: absolute; right: 74px; top: 0; }
+#bottom-navigator .button-next span { padding-right: 30px; }
+#bottom-navigator em { color: #5e4227; font-size: 12px; line-height: 14px; }
+#bottom-navigator h6 { color: #954b1b; font-size: 18px; font-weight: normal; line-height: 20px; }
+
+.external .info-title:after { background: url("../../../images/icons/goto-fansite.gif") no-repeat 100% 3px; content:""; display: inline-block; height: 1em; width: 12px; }
+.external a:hover .info-title:after { background-position: 100% -18px; }
+
+/* CHARACTER INFO - Basic icon style */
+.feature-list .icon  { height: 75px; width: 75px; display: block; float: left; }
+/* Faction icons */
+.feature-list .faction .alliance { background-image: url('../../../images/game/lore/characters/icons/faction/alliance.png'); }
+.feature-list .faction .horde { background-image: url('../../../images/game/lore/characters/icons/faction/horde.png'); }
+.feature-list .faction .iron-horde { background-image: url('../../../images/game/lore/characters/icons/faction/iron-horde.png'); }
+.feature-list .faction .scourge { background-image: url('../../../images/game/lore/characters/icons/faction/scourge.png'); }
+.feature-list .faction .earthen-ring { background-image: url('../../../images/game/lore/characters/icons/faction/earthen-ring.png'); }
+.feature-list .faction .the-illidari { background-image: url('../../../images/game/lore/characters/icons/faction/the-illidari.png'); }
+.feature-list .faction .the-first-dynasty { background-image: url('../../../images/game/lore/characters/icons/faction/the-first-dynasty.png'); }
+/* Location icon */
+.feature-list .location .icon { background-image: url('../../../images/game/lore/characters/icons/location.png'); }
+/* Gender icons */
+.feature-list .female { background-image: url('../../../images/game/lore/characters/icons/gender/female.png'); }
+.feature-list .male { background-image: url('../../../images/game/lore/characters/icons/gender/male.png'); }
+/* Race icons - uses both race and gender  */
+.feature-list .blood-elf-female { background-image: url('../../../images/game/lore/characters/icons/race/bloodelf-female.png'); }
+.feature-list .blood-elf-male { background-image: url('../../../images/game/lore/characters/icons/race/bloodelf-male.png'); }
+.feature-list .demon { background-image: url('../../../images/game/lore/characters/icons/race/demon.png'); }
+.feature-list .draenei-female { background-image: url('../../../images/game/lore/characters/icons/race/draenei-female.html'); }
+.feature-list .draenei-male { background-image: url('../../../images/game/lore/characters/icons/race/draenei-male.html'); }
+.feature-list .dwarf-female { background-image: url('../../../images/game/lore/characters/icons/race/dwarf-female.png'); }
+.feature-list .dwarf-male { background-image: url('../../../images/game/lore/characters/icons/race/dwarf-male.png'); }
+.feature-list .forsaken-female { background-image: url('../../../images/game/lore/characters/icons/race/forsaken-female.html'); }
+.feature-list .forsaken-male { background-image: url('../../../images/game/lore/characters/icons/race/forsaken-male.html'); }
+.feature-list .gnome-female { background-image: url('../../../images/game/lore/characters/icons/race/gnome-female.png'); }
+.feature-list .gnome-male { background-image: url('../../../images/game/lore/characters/icons/race/gnome-male.png'); }
+.feature-list .goblin-female { background-image: url('../../../images/game/lore/characters/icons/race/goblin-female.png'); }
+.feature-list .goblin-male { background-image: url('../../../images/game/lore/characters/icons/race/goblin-male.png'); }
+.feature-list .human-female { background-image: url('../../../images/game/lore/characters/icons/race/human-female.png'); }
+.feature-list .human-male { background-image: url('../../../images/game/lore/characters/icons/race/human-male.png'); }
+.feature-list .mogu { background-image: url('../../../images/game/lore/characters/icons/race/mogu.png'); }.feature-list .dragon { background-image: url('../../../images/game/lore/characters/icons/race/dragon.png'); }
+.feature-list .nightelf-female { background-image: url('../../../images/game/lore/characters/icons/race/nightelf-female.png'); }
+.feature-list .nightelf-male { background-image: url('../../../images/game/lore/characters/icons/race/nightelf-male.png'); }
+.feature-list .orc-female { background-image: url('../../../images/game/lore/characters/icons/race/orc-female.png'); }
+.feature-list .orc-male { background-image: url('../../../images/game/lore/characters/icons/race/orc-male.png'); }
+.feature-list .pandaren-female { background-image: url('../../../images/game/lore/characters/icons/race/pandaren-female.png'); }
+.feature-list .pandaren-male { background-image: url('../../../images/game/lore/characters/icons/race/pandaren-male.png'); }
+.feature-list .tauren-female { background-image: url('../../../images/game/lore/characters/icons/race/tauren-female.png'); }
+.feature-list .tauren-male { background-image: url('../../../images/game/lore/characters/icons/race/tauren-male.png'); }
+.feature-list .troll-female { background-image: url('../../../images/game/lore/characters/icons/race/troll-female.png'); }
+.feature-list .troll-male { background-image: url('../../../images/game/lore/characters/icons/race/troll-male.png'); }
+.feature-list .undead-female { background-image: url('../../../images/game/lore/characters/icons/race/undead-female.png'); }
+.feature-list .undead-male { background-image: url('../../../images/game/lore/characters/icons/race/undead-male.png'); }
+.feature-list .worgen-female { background-image: url('../../../images/game/lore/characters/icons/race/worgen-female.png'); }
+.feature-list .worgen-male { background-image: url('../../../images/game/lore/characters/icons/race/worgen-male.png'); }
