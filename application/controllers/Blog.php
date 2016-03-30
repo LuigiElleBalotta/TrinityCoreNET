@@ -21,6 +21,11 @@ class Blog extends CI_Controller {
             $data["amd"] = $tmp_arr_date[0];
         }
 
+        $dataHeader["title"] = $data["title"];
+        $dataHeader["content_trail"] = $this->load->view("content_trail", NULL, TRUE);
+        $dataHeader["slideshow"] = "";
+        $dataHeader["right_sidebar"] = $this->load->view("right_sidebar", NULL, TRUE);
+        $this->load->view("header", $dataHeader);
         $this->load->view('blog', $data);
 
     }
