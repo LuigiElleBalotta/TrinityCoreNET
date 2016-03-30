@@ -26,6 +26,7 @@ class Blog extends CI_Controller {
             $dataHeader["slideshow"] = "";
             $dataHeader["right_sidebar"] = $this->load->view("right_sidebar", NULL, TRUE);
             $dataHeader["bodyClasses"] = "blog-article news";
+            $dataHeader["custom_css"] = "";
             $this->load->view("header", $dataHeader);
             $this->load->view('blog', $data);
             $this->load->view("footer");
@@ -37,6 +38,7 @@ class Blog extends CI_Controller {
             $dataHeader["slideshow"] = "";
             $dataHeader["right_sidebar"] = "";
             $dataHeader["bodyClasses"] = "server-error";
+            $dataHeader["custom_css"] = "";
             $this->load->view("header", $dataHeader);
             $this->load->view('errors/404notfound');
             $this->load->view("footer");

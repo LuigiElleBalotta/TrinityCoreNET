@@ -74,6 +74,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
     <meta property="og:description" content="Join thousands of mighty heroes in an online world of magic and limitless adventure. World of Warcraft is a role-playing game from Blizzard Entertainment for the PC and Mac." />
     <link rel="canonical" href="index.html" />
     <link rel="stylesheet" type="text/css" media="all" href="/static/css/legal/ratingse0ac.css?v=58-103" />
+    <?php echo $custom_css; ?>
 </head>
 <body class="it-it <?php echo $bodyClasses; ?>">
 <script>
@@ -165,7 +166,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                     </a>
                 </li>
                 <li class="menu-game" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="game/index.html">
+                    <a itemprop="url" href="/game/index">
                         <span itemprop="name">Gioco</span>
                     </a>
                 </li>
