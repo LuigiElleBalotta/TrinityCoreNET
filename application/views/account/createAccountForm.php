@@ -32,6 +32,54 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!--[if lt IE 9]>
     <script type="text/javascript" src="//bneteu-a.akamaihd.net/account/static/js/third-party/jquery.placeholder-enhanced.min.2BSUS.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="/static/js/myfunctions.js"></script>
+    <script type="text/javascript">
+        $("document").ready(function()
+        {
+            $("#country-list").change(function(e)
+            {
+                var selectedValue = $(this).val();
+                if(selectedValue != "null")
+                {
+                    document.getElementById("country").value = selectedValue;
+                }
+            });
+
+            $("#creation-submit-button").click(function(e)
+            {
+                e.preventDefault();
+                if(document.getElementById("agreedToPrivacyPolicy").checked) {
+                    if (IsValidEmail($("#emailAddress").val())) {
+                        var form = $("#account-creation");
+                        $.ajax({
+                            url: "<?php echo base_url(); ?>" + 'Account/createAccount',
+                            type: "POST",
+                            data: JSON.stringify(form.serializeObject()),
+                            success: function (result) {
+                                if (result == "true") {
+                                    alert("Account created with success!");
+                                    window.location.replace("/");
+                                }
+                                else
+                                    alert(result);
+                            },
+                            error: function (xhr, resp, text) {
+                                alert(text);
+                            }
+                        });
+                    }
+                    else
+                        alert("Invalid email address!");
+                }
+                else
+                {
+                    alert("Policy not accepted!");
+                    return false;
+                }
+            });
+        });
+    </script>
+
 </head>
 <body class="it-it wow-template eu" data-embedded-state="STATE_ACCOUNT_CREATION" data-analytics-view="/creation/account-creation">
 <script>
@@ -64,14 +112,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <p></p>
             <p>Inizia le tue avventure in <span class="gameTitle">World of Warcraft®</span>
                 con un account Battle.net.</p>
-            <p>Genitori o tutori che vogliono registrare un minore, <a href="/account/it/creation/parent-signup.html?country=ITA&amp;ret=&amp;theme=wow">cliccate qui.</a></p>
         </div>
         <div class="grid-parent" id="form-container">
             <form action="" id="change-country" method="get" name="change-country">
                 <div class="control-group">
                     <div class="country-list row-country">
                         <select class="grid-100" id="country-list" name="country">
-                            <option value="">Scegli un paese</option>
+                            <option value="null">Scegli un paese</option>
                             <option value="GBR">Regno Unito</option>
                             <option value="FRA">Francia</option>
                             <option value="DEU">Germania</option>
@@ -346,6 +393,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="control-group row-emailAddress">
                         <input type="email" id="emailAddress" name="emailAddress" value="" placeholder="Indirizzo di posta elettronica" maxlength="320" autocapitalize="off" autocomplete="off" autocorrect="off" class="grid-100" required="required" spellcheck="false" /> <span id="emailAddress-error-inline" class="help-block"></span>
                     </div>
+                    <div class="control-group row-emailAddress">
+                        <input type="text" id="username" name="username" value="" placeholder="Username" maxlength="320" autocapitalize="off" autocomplete="off" autocorrect="off" class="grid-100" required="required" spellcheck="false" />
+                    </div>
                     <div class="control-group row-password">
                         <input type="password" id="password" name="password" value="" maxlength="16" placeholder="Password" class="password-input showGuidelines" data-email_field="#emailAddress" autocapitalize="off" autocomplete="off" autocorrect="off" required="required" spellcheck="false" /><input type="password" id="rePassword" name="rePassword" value="" maxlength="16" placeholder="Conferma Password" class="password-input" />
                         <div class="password-rating"></div>
@@ -360,25 +410,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li class="similar text-success"><i class="icon icon-green icon-ok-symbol"></i>Non somigliante al nome del tuo account</li>
                             <li class="repeat text-success"><i class="icon icon-green icon-ok-symbol"></i>Non puoi riperere lo stesso carattere più di 4 volte.</li>
                         </ul>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <div class="control-group">
-                        <div class="row-secret-question">
-                            <select class="grid-100" id="question1" name="question1" required="required">
-                                <option value="">Scegli una domanda</option>
-                                <option value="19">Qual era la marca e il modello della tua prima auto?</option>
-                                <option value="20">In quale strada vivevi quando andavi al liceo?</option>
-                                <option value="21">Qual è stata la destinazione del tuo primo viaggio in aereo?</option>
-                                <option value="22">Qual è stato il primo videogioco che hai terminato?</option>
-                                <option value="23">Qual era il nome del tuo secondo animale domestico?</option>
-                                <option value="24">Qual è il nome della tua squadra o del tuo atleta sportivo preferito?</option>
-                            </select>
-                            <span id="question1-error-inline" class="help-block"></span>
-                        </div>
-                    </div>
-                    <div class="control-group row-answer1">
-                        <input type="text" id="answer1" name="answer1" value="" placeholder="Risposta segreta" maxlength="99" autocapitalize="off" autocomplete="off" autocorrect="off" class="grid-100" required="required" spellcheck="false" /> <span id="answer1-error-inline" class="help-block"></span>
                     </div>
                 </fieldset>
                 <fieldset>
