@@ -58,6 +58,9 @@ class CI_Controller {
 	 */
 	private static $instance;
 
+	private static $AuthDB;
+	private static $CharDB;
+
 	/**
 	 * Class constructor
 	 *
@@ -76,6 +79,10 @@ class CI_Controller {
 		}
 
 		$this->load =& load_class('Loader', 'core');
+
+		$this->AuthDB = $this->load->database('AuthDB', TRUE);
+		$this->CharDB = $this->load->database('CharDB', TRUE);
+
 		$this->load->initialize();
 		log_message('info', 'Controller Class Initialized');
 	}
