@@ -44,6 +44,25 @@ class Welcome extends CI_Controller {
 		$dataHeader["right_sidebar"] = $this->load->view("right_sidebar", NULL, TRUE);
         $dataHeader["bodyClasses"] = "homepage news";
         $dataHeader["custom_css"] = "";
+
+		if($this->session->userdata("bnetid"))
+		{
+			$sql = "SELECT name, race, class, gender, level FROM characters WHERE account = ?;";
+			$charQuery = $this->CharDB->query($sql, array($this->session->userdata("websiteid")));
+			$arrayChar = array();
+			$counter = 0;
+			foreach($charQuery->result() as $row)
+			{
+				$arrayChar[$counter]["name"] = $row->name;
+				$arrayChar[$counter]["race"] = $row->race;
+				$arrayChar[$counter]["class"] = $row->class;
+				$arrayChar[$counter]["gender"] = $row->gender;
+				$arrayChar[$counter]["level"] = $row->level;
+				$counter++;
+			}
+			$dataHeader["characterlist"] = json_encode($arrayChar);
+		}
+
 		$this->load->view("header", $dataHeader);
 		$this->load->view('start_page', $data);
 		$this->load->view("footer");

@@ -192,11 +192,118 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                 </li>
             </ul>
             <div class="user-plate">
-                <a href="/Login" class="card-character plate-logged-out" onclick="return Login.open('/Login');">
-                    <span class="card-portrait"></span>
-                    <span class="wow-login-key"></span>
-                    <span class="login-msg"><strong>Connettiti</strong> per personalizzare il tuo sito!</span>
-                </a>
+                <?php
+                if(!$this->session->userdata("bnetid")) {
+                    ?>
+                    <a href="/Login" class="card-character plate-logged-out" onclick="return Login.open('/Login');">
+                        <span class="card-portrait"></span>
+                        <span class="wow-login-key"></span>
+                        <span class="login-msg"><strong>Connettiti</strong> per personalizzare il tuo sito!</span>
+                    </a>
+                    <?php
+                }
+                else
+                {
+                    ?>
+                    <a id="user-plate" class="card-character plate-horde ajax-update" rel="np" href="/wow/it/character/pozzo-delleternita/Ellezip/"></a>
+                    <div class="meta-wrapper meta-horde ajax-update">
+                        <div class="character-card card-game-char ajax-update">
+                            <div class="message">
+                                <span class="player-name">
+                                    <?php echo $this->session->userdata("firstname"); ?>
+                                </span>
+                                <div class="character">
+                                    <a class="character-name context-link serif " href="/wow/it/character/pozzo-delleternita/Ellezip/" rel="np">
+                                        Ellezip <!-- Pinned Char -->
+                                    </a>
+                                    <span class="avatar-frame">
+                                        <img src="http://render-api-eu.worldofwarcraft.com/static-render/eu/pozzo-delleternita/248/134139384-avatar.jpg?alt=wow/static/images/2d/avatar/10-0.jpg" class="avatar avatar-wow" />
+                                        <span class="border"></span>
+                                        <span class="icon icon-wow"></span>
+                                    </span>
+                                    <div id="context-1" class="ui-context character-select">
+                                        <div class="context">
+                                            <a href="javascript:;" class="close" onclick="return CharSelect.close(this);"></a>
+                                            <div class="context-user">
+                                                <strong>Ellezip</strong>
+                                            </div>
+                                            <div class="context-links">
+                                                <a href="/wow/it/character/pozzo-delleternita/Ellezip/" title="Profilo" rel="np" class="icon-profile link-first">
+                                                    <span class="context-icon"></span>Profilo
+                                                </a>
+                                                <a href="/wow/it/search?f=post&amp;a=Ellezip%40Pozzo%20dell'Eternit%C3%A0&amp;sort=time" title="Visualizza i miei post" rel="np" class="icon-posts">
+                                                    <span class="context-icon"></span>
+                                                </a>
+                                                <a href="/wow/it/vault/character/auction/" title="Visualizza le aste" rel="np" class="icon-auctions">
+                                                    <span class="context-icon"></span>
+                                                </a>
+                                                <a href="/wow/it/vault/character/event" title="Visualizza gli eventi" rel="np" class="icon-events link-last">
+                                                    <span class="context-icon"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="character-list">
+                                            <div class="primary chars-pane">
+                                                <div class="char-wrapper">
+                                                    <a href="/wow/it/character/pozzo-delleternita/Ellezip/"
+                                                       class="char pinned" rel="np">
+                                                        <span class="pin"></span>
+                                                        <span class="name">Ellezip</span>
+                                                        <span class="class wow-class-2">Paladino Elfo del Sangue 90</span>
+                                                        <span class="realm up">Pozzo dell'Eternità</span>
+                                                    </a>
+                                                    <?php
+                                                    $arrayChar = json_decode($characterlist, true);
+                                                    for($i = 0; $i < count($arrayChar); $i++)
+                                                    {
+                                                        echo "<a href='#' class='char' rel='np'>"; //if(!pinned) onclick="CharSelect.pin($i+1, this); return false;"
+                                                        echo "<span class='pin'></span>";
+                                                        echo "<span class='name'>".$arrayChar[$i]["name"]."</span>";
+                                                        echo "<span class='class wow-class-".$arrayChar[$i]["class"]."'>Classname Racename ".$arrayChar[$i]["level"]."</span>";
+                                                        echo "<span class='realm up'>Realm Name</span>";
+                                                    }
+                                                    ?>
+                                                </div>
+                                                <a href="javascript:;" class="manage-chars" onclick="CharSelect.swipe('in', this); return false;">
+                                                    <span class="plus"></span>
+                                                    Gestisci i personaggi<br />
+                                                    <span>Gestisci i personaggi che appaiono in questo menu.</span>
+                                                </a>
+                                            </div>
+                                            <div class="secondary chars-pane" style="display: none">
+                                                <div class="char-wrapper scrollbar-wrapper" id="scroll">
+                                                    <div class="scrollbar">
+                                                        <div class="track"><div class="thumb"></div></div>
+                                                    </div>
+                                                    <div class="viewport">
+                                                        <div class="overview">
+                                                            <a href="/wow/it/character/pozzo-delleternita/Ellezip/" class="wow-class-2 pinned" rel="np" data-tooltip="Elfo del Sangue Paladino (Pozzo dell'Eternità)">
+                                                                <span class="icon icon-race">
+                                                                    <img src="http://media.blizzard.com/wow/icons/18/race_10_0.jpg" alt="" width="14" height="14" />
+                                                                </span>
+                                                                <span class="icon icon-class">
+                                                                    <img src="http://media.blizzard.com/wow/icons/18/class_2.jpg" alt="" width="14" height="14" />
+                                                                </span>
+                                                                90 Ellezip
+                                                            </a>
+                                                            <div class="no-results hide">Nessun personaggio trovato</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="filter">
+                                                    <input type="input" class="input character-filter" value="Filtra i personaggi" alt="Filtra i personaggi" /><br />
+                                                    <a href="javascript:;" onclick="CharSelect.swipe('out', this); return false;">Torna ai personaggi</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
             </div>
         </div>
     </div>
