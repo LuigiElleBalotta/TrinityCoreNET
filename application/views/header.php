@@ -254,12 +254,13 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                                                     </a>
                                                     <?php
                                                     $arrayChar = json_decode($characterlist, true);
+                                                    $UM = $this->utilitymanager;
                                                     for($i = 0; $i < count($arrayChar); $i++)
                                                     {
                                                         echo "<a href='#' class='char' rel='np'>"; //if(!pinned) onclick="CharSelect.pin($i+1, this); return false;"
                                                         echo "<span class='pin'></span>";
                                                         echo "<span class='name'>".$arrayChar[$i]["name"]."</span>";
-                                                        echo "<span class='class wow-class-".$arrayChar[$i]["class"]."'>Classname Racename ".$arrayChar[$i]["level"]."</span>";
+                                                        echo "<span class='class wow-class-".$arrayChar[$i]["class"]."'>".$UM->GetClassNameByID($arrayChar[$i]["class"])." ".$UM->GetRaceNameByID($arrayChar[$i]["race"])." ".$arrayChar[$i]["level"]."</span>";
                                                         echo "<span class='realm up'>Realm Name</span>";
                                                     }
                                                     ?>
