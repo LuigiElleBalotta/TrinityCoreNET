@@ -287,6 +287,22 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                                                                 </span>
                                                                 90 Ellezip
                                                             </a>
+                                                            <?php
+                                                            for($i = 0; $i < count($arrayChar); $i++)
+                                                            {
+                                                                ?>
+                                                                <a href="#" class="wow-class-<?php echo $arrayChar[$i]["class"]; ?>" rel="np" data-tooltip="<?php echo $UM->GetRaceNameByID($arrayChar[$i]["race"])." ".$UM->GetClassNameByID($arrayChar[$i]["class"]) ?> (Realm Name)">
+                                                                <span class="icon icon-race">
+                                                                    <img src="http://media.blizzard.com/wow/icons/18/race_<?php echo $arrayChar[$i]["race"]; ?>_<?php echo $arrayChar[$i]["gender"]; ?>.jpg" alt="" width="14" height="14" />
+                                                                </span>
+                                                                <span class="icon icon-class">
+                                                                    <img src="http://media.blizzard.com/wow/icons/18/class_<?php echo$arrayChar[$i]["class"] ?>.jpg" alt="" width="14" height="14" />
+                                                                </span>
+                                                                    <?php echo $arrayChar[$i]["level"]." ".$arrayChar[$i]["name"]; ?>
+                                                                </a>
+                                                                <?php
+                                                            }
+                                                            ?>
                                                             <div class="no-results hide">Nessun personaggio trovato</div>
                                                         </div>
                                                     </div>
