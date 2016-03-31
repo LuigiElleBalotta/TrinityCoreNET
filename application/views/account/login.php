@@ -41,6 +41,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         Login.embeddedUrl = 'https://eu.battle.net/login/login.frag';
         //]]>
     </script>
+    <script type="text/javascript" src="/static/js/myfunctions.js"></script>
+    <script type="text/javascript">
+        $("document").ready(function()
+        {
+            $("#submit").click(function(e)
+            {
+                e.preventDefault();
+                var email = $("#accountName").val();
+                var password = $("#password").val();
+                if (IsValidEmail(email)) {
+                    var form = $("#password-form");
+                    $.ajax({
+                        url: "<?php echo base_url(); ?>" + 'Login/DoLogin',
+                        type: "POST",
+                        data: JSON.stringify(form.serializeObject()),
+                        success: function (result) {
+                            if (result == "true") {
+                                alert("Logged In!");
+                                window.location.replace("/");
+                            }
+                            else
+                                alert(result);
+                        },
+                        error: function (xhr, resp, text) {
+                            alert(text);
+                        }
+                    });
+                }
+                else
+                    alert("Invalid email address!");
+            });
+        });
+    </script>
 </head>
 <body class="it-it login-template web wow" data-embedded-state="STATE_LOGIN">
 <script>
@@ -69,13 +102,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <button class="btn btn-block hide visible-phone" id="info-phone-close">Close</button>
     </div>
     <div class="input" id="login-wrapper">
-        <form
-            action=""
-            method="post"
-            id="password-form"
-            class="
-username-required
-input-focus">
+        <form action="" method="post" id="password-form" class="username-required input-focus">
             <div id="login-input-container" class="">
                 <div id="js-errors" class="alert alert-error alert-icon hide">
                     <p id="cookie-check" class="hide">I cookie sono disabilitati sul tuo browser. Ti preghiamo di riabilitare i cookie per continuare.</p>
@@ -91,7 +118,6 @@ input-focus">
                         <input
                             aria-labelledby="accountName-label"
                             id="accountName"
-                            value = "luigihack32@gmail.com"
                             name="accountName"
                             title="E-mail"
                             maxlength="320"

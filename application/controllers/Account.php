@@ -36,7 +36,7 @@ class Account extends CI_Controller {
         if($password == $rePassword)
         {
             //BNET Password:
-            $bnet_password = strtoupper(bin2hex(strrev(hex2bin(strtoupper(hash("sha256",strtoupper(hash("sha256", strtoupper($emailAddress)).":".strtoupper($password))))))));;
+            $bnet_password = strtoupper(bin2hex(strrev(hex2bin(strtoupper(hash("sha256",strtoupper(hash("sha256", strtoupper($emailAddress)).":".strtoupper($password))))))));
 
             //Site Password:
             $sha_pass_hash = strtoupper(sha1($username.":".$password));
