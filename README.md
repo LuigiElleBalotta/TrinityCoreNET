@@ -5,7 +5,7 @@
 
 - [ ] Game Page and all subpages
 - [x] Registration System for Bnet and Website
-- [ ] Login System
+- [x] Login System
 - [ ] Character list and choose a character from the list after the login
 - [ ] Forum
 - [ ] Some server utilities (is online, player online etc..) in the sidebar
