@@ -4,7 +4,7 @@
 ## TO DO LIST
 
 - [ ] Game Page and all subpages
-- [v] Registration System for Bnet and Website
+- [x] Registration System for Bnet and Website
 - [ ] Login System
 - [ ] Character list and choose a character from the list after the login
 - [ ] Forum
