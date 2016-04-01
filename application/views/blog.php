@@ -5,9 +5,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="blog" class="article-wrapper" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
         <h2 class="header-2" > <span itemprop="headline"><?php echo $title; ?></span></h2>
         <div class="article-meta">
-            <a class="article-author" href="../../searchdd2f?a=Kaivax&amp;f=article">
+            <a class="article-author" href="../../searchdd2f?a=<?php echo $this->utilitymanager->GetAccountUsernameByBNetID($authorID); ?>&amp;f=article">
                 <span class="author-icon"></span>
-                <span itemprop="author">Kaivax</span>
+                <span itemprop="author"><?php echo $this->utilitymanager->GetAccountUsernameByBNetID($authorID); ?></span>
             </a>
             <span class="publish-date" title="<?php echo $date; ?>">
                 <?php echo str_replace("-", "/", $amd); ?>
@@ -62,15 +62,72 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
     <!-- comments -->
     <div id="comments" class="bnet-comments ">
-        <h2 class="subheader-2" >Carico i commenti…</h2>
-        <h2 class="hide" >Si è verificato un errore nel caricare i commenti.</h2>
+        <div class="hide" id="divBlogID"><?php echo $id; ?></div>
+        <h2 class="subheader-2" id="comments_number">Carico i commenti…</h2>
+        <h2 class="hide" id="noCommentBlog">Si è verificato un errore nel caricare i commenti.</h2>
         <div class="comments-loading"></div>
+        <div id="comments-pages-wrapper">
+            <div class="comments-pages">
+                <div id="comments-list-wrapper">
+                    <ul id="comments_list" class="comments-list">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
         <script type="text/javascript">
-            //<![CDATA[
-            $(function() {
-                Comments.initialize('eu.it_it.blog.<?php echo $id; ?>', '7476590b05777e6983daad8f78e90674', '0');
+            $("document").ready(function()
+            {
+                var blogid = $("#divBlogID").html();
+                $.ajax({
+                    url: "<?php echo base_url(); ?>" + 'Blog/loadComments',
+                    type: "POST",
+                    data: "blogid="+blogid,
+                    success: function (result) {
+                        var obj = JSON.parse(result);
+                        if (obj.length > 0) {
+                            $(".comments-loading").hide();
+                            $("#comments_number").html("Commenti (<span id='comments-total'>"+obj.length+"</span>)");
+                            for(var i = 0; i < obj.length; i++)
+                            {
+                                $("#comments_list").append("<li id='post-" + obj[i].ID + "' class=''>" +
+                                    "<div class='comment-tile'>" +
+                                    "<div class='bnet-avatar'>" +
+                                    "<div class='avatar-outer'>" +
+                                    "<a href='#'>" +
+                                    "<img src='http://render-api-eu.worldofwarcraft.com/static-render/eu/emeriss/106/75983722-avatar.jpg?alt=wow/static/images/2d/avatar/8-0.jpg' height='64' width='64'>" +
+                                    "<span class='avatar-inner'></span>" +
+                                    "</a></div></div>" +
+                                    "<div class='comment-head'>" +
+                                    "<div class='bnet-username' itemtype='http://schema.org/Person' itemprop='author' itemscope='itemscope'>" +
+                                    "<div id='context-" + i + "' class='ui-context' style='display: none'>" +
+                                    "<div class='context'>" +
+                                    "<a class='close' onclick='return CharSelect.close(this);' href='javscript:;'></a>" +
+                                    "<div class='context-user'>" +
+                                    "<strong>" + obj[i].author + "</strong>" +
+                                    "</div>" +
+                                    "<div class='context-links'>" +
+                                    "<a class='icon-profile link-first' rel='np' title='profilo' href='#'><span class='context-icon'>Profilo</span>Profilo </a>" +
+                                    "<a class='icon-posts' rel='np' title='Visualizza post' href='#'><span class='context-icon'></span></a>" +
+                                    "<a class='icon-ignore link-last' onclick='ReportPost.ignoreUser(this, " + obj[i].authorID + ", false); return false;' rel='np' title='ignora' href='javacript:;'><span class='context-icon'></span></a>" +
+                                    "</div></div></div>" +
+                                    "<a class='context-link wow-class-6' itemprop='url' href='#'>" +
+                                    "<span class='poster-name'>" + obj[i].author + "</span></a>" +
+                                    "<span class='timestamp'>" + obj[i].date + "</span>" +
+                                    "</div></div>" +
+                                    "<div class='comment-body'>" + obj[i].comment + "</div>" +
+                                    "<div class='comment-foot'>" +
+                                    "<span class='clear'></span></div><span class='clear'></span></div></li>");
+                            }
+                        }
+                        else
+                            $("#noCommentBlog").removeClass("hide");
+                    },
+                    error: function (xhr, resp, text) {
+                        alert(text);
+                    }
+                });
             });
-            //]]>
         </script>
     </div>
 </div>

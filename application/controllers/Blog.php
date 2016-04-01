@@ -5,7 +5,7 @@ class Blog extends CI_Controller {
 
     public function index($id, $linkrewrite)
     {
-        $query = $this->db->query("SELECT id, title, description, summary, content, date, last_modify, link_rewrite, isPinned FROM blog WHERE id = ? AND link_rewrite = ?;", array($id, $linkrewrite));
+        $query = $this->db->query("SELECT id, title, description, summary, content, date, last_modify, link_rewrite, isPinned, authorID FROM blog WHERE id = ? AND link_rewrite = ?;", array($id, $linkrewrite));
         if($query->num_rows() > 0) {
             foreach ($query->result() as $row) {
                 $data["id"] = $row->id;
@@ -19,6 +19,7 @@ class Blog extends CI_Controller {
                 $data["isPinned"] = $row->isPinned;
                 $tmp_arr_date = explode(" ", $row->date);
                 $data["amd"] = $tmp_arr_date[0];
+                $data["authorID"] = $row->authorID;
             }
 
             $dataHeader["title"] = $data["title"];
@@ -44,5 +45,24 @@ class Blog extends CI_Controller {
             $this->load->view("footer");
         }
 
+    }
+
+    public function loadComments()
+    {
+        $BlogID = $this->input->post("blogid");
+        $query = $this->db->query("SELECT ID, authorID, comment, date FROM blog_comments WHERE blogID = ?;", array($BlogID));
+        $arrayComments = array();
+        $i = 0;
+        foreach($query->result() as $row)
+        {
+            $arrayComments[$i]["ID"] = $row->ID;
+            $author = $this->utilitymanager->GetAccountUsernameByBNetID($row->authorID);
+            $arrayComments[$i]["authorID"] = $row->authorID;
+            $arrayComments[$i]["author"] = $author;
+            $arrayComments[$i]["comment"] = $row->comment;
+            $arrayComments[$i]["date"] = $row->date;
+            $i++;
+        }
+        echo json_encode($arrayComments);
     }
 }
