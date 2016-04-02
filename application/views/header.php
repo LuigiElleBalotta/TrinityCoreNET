@@ -261,7 +261,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                                                         echo "<span class='pin'></span>";
                                                         echo "<span class='name'>".$arrayChar[$i]["name"]."</span>";
                                                         echo "<span class='class wow-class-".$arrayChar[$i]["class"]."'>".$UM->GetClassNameByID($arrayChar[$i]["class"])." ".$UM->GetRaceNameByID($arrayChar[$i]["race"])." ".$arrayChar[$i]["level"]."</span>";
-                                                        echo "<span class='realm up'>Realm Name</span>";
+                                                        echo "<span class='realm up'>".$UM->GetRealmName()."</span>";
                                                     }
                                                     ?>
                                                 </div>
@@ -291,7 +291,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                                                             for($i = 0; $i < count($arrayChar); $i++)
                                                             {
                                                                 ?>
-                                                                <a href="#" class="wow-class-<?php echo $arrayChar[$i]["class"]; ?>" rel="np" data-tooltip="<?php echo $UM->GetRaceNameByID($arrayChar[$i]["race"])." ".$UM->GetClassNameByID($arrayChar[$i]["class"]) ?> (Realm Name)">
+                                                                <a href="#" class="wow-class-<?php echo $arrayChar[$i]["class"]; ?>" rel="np" data-tooltip="<?php echo $UM->GetRaceNameByID($arrayChar[$i]["race"])." ".$UM->GetClassNameByID($arrayChar[$i]["class"])."(".$UM->GetRealmName().")" ?>">
                                                                 <span class="icon icon-race">
                                                                     <img src="http://media.blizzard.com/wow/icons/18/race_<?php echo $arrayChar[$i]["race"]; ?>_<?php echo $arrayChar[$i]["gender"]; ?>.jpg" alt="" width="14" height="14" />
                                                                 </span>

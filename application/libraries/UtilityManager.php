@@ -32,4 +32,11 @@ class UtilityManager extends CI_Controller
         $row = $query->row();
         return $row->username;
     }
+
+    public function GetRealmName()
+    {
+        $query = $this->AuthDB->query("SELECT name FROM realmlist LIMIT 1;");
+        $row = $query->row();
+        return $row->name;
+    }
 }
