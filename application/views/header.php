@@ -181,7 +181,7 @@ try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}
                     </a>
                 </li>
                 <li class="menu-forums" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-                    <a itemprop="url" href="forum/index.html">
+                    <a itemprop="url" href="/Forum">
                         <span itemprop="name">Forum</span>
                     </a>
                 </li>

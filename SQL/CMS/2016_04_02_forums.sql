@@ -1,0 +1,23 @@
+CREATE TABLE `forums` (
+	`ID` INT NULL,
+	`name` VARCHAR(50) NULL,
+	`description` VARCHAR(200) NULL,
+	`logo` VARCHAR(50) NULL
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+;
+ALTER TABLE `forums`
+	CHANGE COLUMN `logo` `icon` VARCHAR(50) NULL DEFAULT NULL AFTER `description`;
+ALTER TABLE `forums`
+	CHANGE COLUMN `ID` `ID` INT(11) NOT NULL AUTO_INCREMENT FIRST,
+	ADD COLUMN `forum_type` INT NULL DEFAULT NULL AFTER `icon`,
+	ADD PRIMARY KEY (`ID`);
+CREATE TABLE `forum_types` (
+	`ID` INT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(50) NULL,
+	PRIMARY KEY (`ID`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+;

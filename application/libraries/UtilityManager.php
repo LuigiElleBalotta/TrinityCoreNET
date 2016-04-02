@@ -39,4 +39,29 @@ class UtilityManager extends CI_Controller
         $row = $query->row();
         return $row->name;
     }
+
+    public function GetForumTypeName($ID)
+    {
+        $query = $this->db->query("SELECT name FROM forum_types WHERE ID = ?", array($ID));
+        $forumname = "ERR_NO_NAME";
+        $row = $query->row();
+        $forumname = $row->name;
+        return $forumname;
+    }
+
+    public function GetForumsChild($ForumTypeID)
+    {
+        $query = $this->db->query("SELECT ID, name, description, icon FROM forums WHERE forum_type = ?;", array($ForumTypeID));
+        $array = array();
+        $c = 0;
+        foreach($query->result() as $row)
+        {
+            $array[$c]["ID"] = $row->ID;
+            $array[$c]["name"] = $row->name;
+            $array[$c]["description"] = $row->description;
+            $array[$c]["icon"] = $row->icon;
+            $c++;
+        }
+        return json_encode($array);
+    }
 }
